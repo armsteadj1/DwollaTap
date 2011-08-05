@@ -8,9 +8,12 @@
 
 #import "TapViewController.h"
 #import "BumpAPI.h"
-#import "SFHFKeychainUtils.h"
-#import "RestKit.h"
-#import "SFHFKeychainUtils.h"
+
+static NSString *const kOAuthConsumerKey     = @"NP/pLwL+kF/ExdurVKSiFHNnc5jgtSkGDE3QabUGJoDtPA1VVT";
+static NSString *const kOAuthConsumerSecret  = @"i3cM+0ytZwRSV4e+WHl2O6hlId9blYa/e2QRxfyv8AwLAHjBEq";
+static NSString *const dwollaProviderStore = @"Dwolla";
+static NSString *const dwollaPrefixStore = @"Demo";
+
 @implementation TapViewController
 
 @synthesize delegate, email, dwollaId, name, requesterName, requestedAmount, requesterDwollaId, sentSuccessful;
@@ -40,7 +43,13 @@
 #pragma mark - View lifecycle
 
 - (void)viewWillAppear:(BOOL)animated{
-    [[BumpConnector instance] startBump];
+    
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    [self startLogin];
+    //[[BumpConnector instance] startBump];
 }
 
 - (void)viewDidLoad
@@ -50,6 +59,8 @@
     _send.backgroundColor = [UIColor clearColor];
     _request.backgroundColor = [UIColor clearColor];
     _requestWaiting.backgroundColor = [UIColor clearColor];
+    BumpConnector *bc = [BumpConnector instance];
+    bc.tapView = self;
 }
 
 - (void)viewDidUnload
@@ -309,44 +320,11 @@
 - (IBAction)approveButtonPressed:(id)sender {
     [_pin resignFirstResponder];
     [_spinner startAnimating];
-    NSError *error = nil;
-    NSString *password = [SFHFKeychainUtils getPasswordForUsername:self.email andServiceName:@"dwolla-tap" error:&error];
     
-    NSURL *URL = [NSURL URLWithString:@"https://www.dwolla.com/rest/mobile.svc/send"];
-    NSString *JSON = [NSString stringWithFormat:@"{\"APIUsername\": \"Lgq3P3v1lmt8TkG7k8nZmaq7r\", \"APIPassword\": \"FwCg3flyFZHGXUCcQ46o3zUgd\", \"EmailAddress\": \"%@\", \"Password\": \"%@\", \"PIN\": \"%@\", \"DestinationID\": \"%@\", \"Amount\": %@, \"Notes\": \"TAP TAP!\", \"FundsSource\": \"Balance\"}", self.email, password, _pin.text, self.requesterDwollaId, self.requestedAmount]; 
+    [dwollaEngine sendMoneyWithPin:[_pin text] withDestinationId:[self requesterDwollaId] withAmount:[self requestedAmount] withNotes:@"TAP TAP!" withDestinationType:@"dwolla" withAssumeCost:false withFundsSource:@"balance"];
     
-    RKRequest* request = [[RKRequest alloc] initWithURL:URL delegate:self]; 
-    request.method = RKRequestMethodPOST; 
-    request.additionalHTTPHeaders = [NSDictionary dictionaryWithObjectsAndKeys:
-                                     @"application/json",@"Content-Type", 
-                                     nil];
-    [request.URLRequest setHTTPBody:[JSON dataUsingEncoding: 
-                                     NSASCIIStringEncoding]]; 
-    [request send]; 
-    password = nil;
     _pin.text = @"";
     _approveButton.enabled = false;
-}
-
-- (void)request:(RKRequest*)request didLoadResponse:(RKResponse*)response { 
-    _approveButton.enabled = true;
-    [_spinner stopAnimating];
-    if ([[[response bodyAsJSON] valueForKeyPath:@"SendResult"] intValue] == 0)
-    {
-        _pin.text = @"";
-        if([[NSString stringWithFormat:@"%@", [[response bodyAsJSON] valueForKeyPath:@"Detail"]] isEqualToString: @"INSUFFICIENT_FUNDS"]) {
-            [_errorLabel setText:@"Insufficient Funds!"];
-        } else if([[NSString stringWithFormat:@"%@", [[response bodyAsJSON] valueForKeyPath:@"Detail"]] isEqualToString: @"INVALID_ACCOUNT_PIN"]){
-            [_errorLabel setText:@"Invalid PIN, please try again!"];   
-        } else {
-            [_errorLabel setText:@"Amount should be higher than $.99"];
-        }
-    } else {
-        [self sendSuccess];
-        sentSuccessful = true;
-        //Start a new session
-        [[BumpConnector instance] stopBump];  
-    }
 }
 
 - (IBAction) amountTextChanged:(id)sender;
@@ -372,11 +350,12 @@
 }
 
 - (IBAction)logoutButtonPressed:(id)sender {
-    NSError *error = nil;
-    [SFHFKeychainUtils storeUsername:self.email andPassword:@"" forServiceName:@"dwolla-tap" updateExisting:YES error:&error];
-    [[BumpConnector instance] cleanup];
-    [self dismissModalViewControllerAnimated:YES];
-    }
+    dwollaEngine = nil;
+    [dwollaEngine release];
+    [DwollaToken removeFromUserDefaultsWithServiceProviderName:dwollaProviderStore prefix:dwollaPrefixStore];
+    
+    [self startLogin];
+}
 
 
 - (void) changeView:(int)viewId {
@@ -384,4 +363,92 @@
     _request.hidden = (viewId != 2);
     _requestWaiting.hidden = (viewId != 3);
 }
+
+
+
+#pragma mark -
+#pragma mark DwollaEngineDelegate
+
+- (void)dwollaEngineAccessToken:(DwollaOAuthEngine *)engine setAccessToken:(DwollaToken *)token {
+	[token storeInUserDefaultsWithServiceProviderName:dwollaProviderStore prefix:dwollaPrefixStore];
+}
+
+- (OAToken *)dwollaEngineAccessToken:(DwollaOAuthEngine *)engine {
+    return [[[DwollaToken alloc] initWithUserDefaultsUsingServiceProviderName:dwollaProviderStore prefix:dwollaPrefixStore] autorelease];
+}
+
+- (void)dwollaEngine:(DwollaOAuthEngine *)engine requestSucceeded:(DwollaConnectionID *)identifier withResults:(id)results {
+    if ([[results objectForKey:@"Name"] length] > 0) {
+        [self setName:[results objectForKey:@"Name"]];
+        [self setDwollaId:[results objectForKey:@"Id"]];
+    } else {
+        _approveButton.enabled = true;
+        [_spinner stopAnimating];
+        [self sendSuccess];
+        sentSuccessful = true;
+        //Start a new session
+        [[BumpConnector instance] stopBump]; 
+    }
+}
+
+- (void)dwollaEngine:(DwollaOAuthEngine *)engine requestFailed:(DwollaConnectionID *)identifier withError:(NSError *)error {
+    _approveButton.enabled = true;
+    [_spinner stopAnimating];
+
+    _pin.text = @"";
+    if([[error domain] isEqualToString: @"INSUFFICIENT_FUNDS"]) {
+        [_errorLabel setText:@"Insufficient Funds!"];
+    } else if([[error domain] isEqualToString:@"INVALID_ACCOUNT_PIN"]){
+        [_errorLabel setText:@"Invalid PIN, please try again!"];   
+    } else {
+        [_errorLabel setText:@"Amount should be higher than $.99"];
+    }
+}
+
+#pragma mark -
+#pragma mark DwollaAuthorizationControllerDelegate
+
+- (void)dwollaAuthorizationControllerSucceeded:(DwollaAuthorizationController *)controller {
+    NSLog(@"Authentication succeeded.");
+}
+
+- (void)dwollaAuthorizationControllerFailed:(DwollaAuthorizationController *)controller {
+    NSLog(@"Authentication failed!");
+}
+
+- (void)dwollaAuthorizationControllerCanceled:(DwollaAuthorizationController *)controller {
+    NSLog(@"Authentication was cancelled.");
+}
+
+-(void) createEngine
+{
+    if (dwollaEngine == nil) {
+        dwollaEngine = [[DwollaOAuthEngine 
+                         engineWithConsumerKey:kOAuthConsumerKey 
+                         consumerSecret:kOAuthConsumerSecret 
+                         scope: @"AccountAPI:AccountInfoFull|AccountAPI:Send|AccountAPI:Contacts|AccountAPI:Transactions|AccountAPI:Balance"
+                         callback: @"http://www.google.com/" //Needs 'http://' and also trailing '/'
+                         delegate:self] retain];   
+    }
+}
+
+
+-(void) openLoginView
+{
+    controller = [DwollaAuthorizationController authorizationControllerWithEngine:dwollaEngine delegate:self];
+    if( controller ) {
+        [self presentModalViewController:controller animated:YES];
+    }
+}
+
+-(void) startLogin 
+{
+    [self createEngine];
+    if ([dwollaEngine isAuthorized] == false) {
+        [self openLoginView];
+    } else {
+        [dwollaEngine accountInformationCurrentUser];
+    }
+}
+
 @end

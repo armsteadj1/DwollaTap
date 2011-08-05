@@ -1,0 +1,3 @@
+[submodule "src/Dwolla Tap/DwollaOAuth"]
+	path = src/Dwolla Tap/DwollaOAuth
+	url = git@github.com:armsteadj1/DwollaOAuth.git

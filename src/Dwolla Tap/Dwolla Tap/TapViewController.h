@@ -10,6 +10,8 @@
 #import "BumpAPI.h"
 #import "BumpAPICustomUI.h"
 #import "BumpConnector.h"
+#import "DwollaOAuthEngine.h"
+#import "DwollaAuthorizationController.h"
 
 @class TabViewController;
 
@@ -18,8 +20,11 @@
 @end
 
 
-@interface TapViewController : UIViewController<UINavigationControllerDelegate, BumpAPICustomUI, BumpAPIDelegate> {    
+@interface TapViewController : UIViewController<BumpAPICustomUI, BumpAPIDelegate,DwollaOAuthEngineDelegate, DwollaAuthorizationControllerDelegate> {    
     IBOutlet UIActivityIndicatorView *_spinner;
+    
+    DwollaOAuthEngine* dwollaEngine;
+    UIViewController* controller;
     
     IBOutlet UILabel *_bumpLabel;
     IBOutlet UILabel *_nameLabel;
@@ -69,4 +74,7 @@
 @property (nonatomic, retain) NSDecimalNumber *requestedAmount;
 @property (nonatomic) bool sentSuccessful;
 
+-(void) createEngine;
+-(void) openLoginView;
+-(void) startLogin;
 @end
