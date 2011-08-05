@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support
+END
+RKParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/RKParser.h
+END
+NSString+InflectionSupport.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/NSString+InflectionSupport.h
+END
+Errors.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/Errors.h
+END
+Support.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/Support.h
+END
+NSDictionary+RKAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/NSDictionary+RKAdditions.h
+END
+RKSearchEngine.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/RKSearchEngine.m
+END
+NSString+InflectionSupport.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/NSString+InflectionSupport.m
+END
+Errors.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/Errors.m
+END
+NSDictionary+RKAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/NSDictionary+RKAdditions.m
+END
+RestKit_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/RestKit_Prefix.pch
+END
+NSObject+RKJSONSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/NSObject+RKJSONSerialization.h
+END
+RKSearchEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/RKSearchEngine.h
+END

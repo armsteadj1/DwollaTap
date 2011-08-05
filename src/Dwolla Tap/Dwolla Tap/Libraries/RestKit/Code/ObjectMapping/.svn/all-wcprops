@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping
+END
+RKObjectLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObjectLoader.h
+END
+RKObjectManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObjectManager.h
+END
+RKObjectPropertyInspector.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.h
+END
+RKObjectLoader.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObjectLoader.m
+END
+RKObjectManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObjectManager.m
+END
+RKObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObject.h
+END
+RKObjectPropertyInspector.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObjectPropertyInspector.m
+END
+RKObjectMappable.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObjectMappable.h
+END
+RKRailsRouter.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKRailsRouter.h
+END
+RKObjectMapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObjectMapper.h
+END
+RKObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObject.m
+END
+RKObjectMappable.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObjectMappable.m
+END
+RKObjectMapper.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKObjectMapper.m
+END
+RKRailsRouter.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKRailsRouter.m
+END
+RKRouter.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKRouter.h
+END
+RKDynamicRouter.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKDynamicRouter.h
+END
+ObjectMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/ObjectMapping.h
+END
+RKDynamicRouter.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/ObjectMapping/RKDynamicRouter.m
+END

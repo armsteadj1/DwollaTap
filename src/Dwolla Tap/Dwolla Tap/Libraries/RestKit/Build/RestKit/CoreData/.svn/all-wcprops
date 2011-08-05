@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/CoreData
+END
+RKManagedObjectStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/CoreData/RKManagedObjectStore.h
+END
+RKManagedObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/CoreData/RKManagedObject.h
+END
+CoreData.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/CoreData/CoreData.h
+END
+RKManagedObjectCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/CoreData/RKManagedObjectCache.h
+END
+RKManagedObjectSeeder.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/CoreData/RKManagedObjectSeeder.h
+END

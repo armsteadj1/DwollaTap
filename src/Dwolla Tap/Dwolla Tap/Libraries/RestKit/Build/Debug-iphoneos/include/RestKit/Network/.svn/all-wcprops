@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network
+END
+Network.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/Network.h
+END
+RKParamsAttachment.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKParamsAttachment.h
+END
+RKRequestQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKRequestQueue.h
+END
+RKClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKClient.h
+END
+RKResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKResponse.h
+END
+RKRequestSerializable.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKRequestSerializable.h
+END
+RKParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKParams.h
+END
+RKJSONSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKJSONSerialization.h
+END
+NSDictionary+RKRequestSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/NSDictionary+RKRequestSerialization.h
+END
+RKReachabilityObserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKReachabilityObserver.h
+END
+RKRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKRequest.h
+END
+RKNetwork.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKNetwork.h
+END
+RKNotifications.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKNotifications.h
+END

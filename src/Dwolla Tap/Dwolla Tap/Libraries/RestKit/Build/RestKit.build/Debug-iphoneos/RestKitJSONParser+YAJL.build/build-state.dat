@@ -1,0 +1,1871 @@
+TRestKitJSONParser+YAJL
+v3
+r1
+cCheck dependencies
+cCpHeader Vendor/YAJL/NSBundle+YAJL.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h
+cCpHeader Vendor/YAJL/NSObject+YAJL.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_common.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_gen.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parse.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_alloc.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_buf.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_encode.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_lex.h
+cCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parser.h
+cCpHeader Vendor/YAJL/YAJL.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJL.h
+cCpHeader Vendor/YAJL/YAJLDocument.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLDocument.h
+cCpHeader Vendor/YAJL/YAJLGen.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLGen.h
+cCpHeader Vendor/YAJL/YAJLIOS.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLIOS.h
+cCpHeader Vendor/YAJL/YAJLParser.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLParser.h
+cCpHeader Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h
+cCpHeader Vendor/YAJL/Libraries/GTM/GTMBase64.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GTMBase64.h
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSBundle+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSBundle+YAJL.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSObject+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSObject+YAJL.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_alloc.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_buf.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_encode.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_gen.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_lex.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_parser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c" normal armv6 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLDocument.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLDocument.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLGen.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLGen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLParser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GHNSBundle+Utils.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GTMBase64.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RKJSONParser+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSBundle+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSBundle+YAJL.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a" normal armv6
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSObject+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSObject+YAJL.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_alloc.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_buf.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_encode.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_gen.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_lex.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_parser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c" normal armv7 c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLDocument.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLDocument.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLGen.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLGen.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLParser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GHNSBundle+Utils.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GTMBase64.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RKJSONParser+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a" normal armv7
+cCreateUniversalBinary "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a" normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004DAD5B3D0000000000000110
+t1303206717
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/assert.h
+c000000004D4F6E900000000000000F6E
+t1297051280
+s3950
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/ctype.h
+c000000004D4F6E910000000000002C18
+t1297051281
+s11288
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/errno.h
+c000000004D4F6E9000000000000003EB
+t1297051280
+s1003
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/math.h
+c000000004D4F6E4300000000000004F1
+t1297051203
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdio.h
+c000000004D4F6E910000000000004763
+t1297051281
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/string.h
+c000000004D4F6E910000000000001A3A
+t1297051281
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/float.h
+c000000004D09AC6C0000000000001538
+t1292479596
+s5432
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c000000004D09AC6C0000000000000C7E
+t1292479596
+s3198
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GTMBase64.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJL.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLDocument.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLGen.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLIOS.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLParser.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_alloc.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_buf.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_common.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_encode.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_gen.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_lex.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parse.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parser.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GHNSBundle+Utils.o
+t1303409648
+s12160
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GTMBase64.o
+t1303409649
+s25036
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSBundle+YAJL.o
+t1303409648
+s8472
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSObject+YAJL.o
+t1303409648
+s13548
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RKJSONParser+YAJL.o
+t1303409649
+s7464
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RestKitJSONParserYAJL.LinkFileList
+c000000004DB0776A0000000000000958
+t1303410538
+s2392
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLDocument.o
+t1303409648
+s26140
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLGen.o
+t1303409648
+s21644
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLParser.o
+t1303409648
+s29784
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a
+t1303409649
+s239480
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl.o
+t1303409648
+s9364
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_alloc.o
+t1303409648
+s4124
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_buf.o
+t1303409648
+s7820
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_encode.o
+t1303409648
+s9516
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_gen.o
+t1303409648
+s20736
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_lex.o
+t1303409648
+s21696
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_parser.o
+t1303409648
+s17596
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GHNSBundle+Utils.o
+t1303409649
+s11976
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GTMBase64.o
+t1303409649
+s23792
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSBundle+YAJL.o
+t1303409649
+s8404
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSObject+YAJL.o
+t1303409649
+s13392
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RKJSONParser+YAJL.o
+t1303409649
+s7444
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RestKitJSONParserYAJL.LinkFileList
+c000000004DB0776A0000000000000958
+t1303410538
+s2392
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLDocument.o
+t1303409649
+s25720
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLGen.o
+t1303409649
+s21400
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLParser.o
+t1303409649
+s29032
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a
+t1303409650
+s225984
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl.o
+t1303409649
+s8964
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_alloc.o
+t1303409649
+s4076
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_buf.o
+t1303409649
+s7568
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_encode.o
+t1303409649
+s7700
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_gen.o
+t1303409649
+s18176
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_lex.o
+t1303409649
+s18300
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_parser.o
+t1303409649
+s15672
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m
+c000000004D9A371E000000000000018D
+t1301952286
+s397
+i"RKJSONParser.h"
+i"YAJL.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/RKJSONParser.h
+c000000004D9A371E00000000000000E2
+t1301952286
+s226
+i"RKParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/RKParser.h
+c000000004D9A371E000000000000024A
+t1301952286
+s586
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004D9A371E00000000000000BC
+t1301952286
+s188
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h
+c000000004D9A371E0000000000000275
+t1301952286
+s629
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m
+c000000004D9A371E00000000000004FF
+t1301952286
+s1279
+i"GHNSBundle+Utils.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.h
+c000000004D9A371E0000000000001700
+t1301952286
+s5888
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m
+c000000004D9A371E000000000000628D
+t1301952286
+s25229
+i"GTMBase64.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSBundle+YAJL.h
+c000000004D9A371E0000000000000715
+t1301952286
+s1813
+i"YAJLParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSBundle+YAJL.m
+c000000004D9A371E0000000000000756
+t1301952286
+s1878
+i"NSBundle+YAJL.h"
+i"GHNSBundle+Utils.h"
+i"NSObject+YAJL.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSObject+YAJL.h
+c000000004D9A371E0000000000000F28
+t1301952286
+s3880
+i"YAJLGen.h"
+i"YAJLParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSObject+YAJL.m
+c000000004D9A371E0000000000000AD6
+t1301952286
+s2774
+i"NSObject+YAJL.h"
+i"YAJLGen.h"
+i"YAJLDocument.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJL.h
+c000000004D9A371E0000000000000539
+t1301952286
+s1337
+i"YAJLParser.h"
+i"YAJLDocument.h"
+i"YAJLGen.h"
+i"NSObject+YAJL.h"
+i"NSBundle+YAJL.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLDocument.h
+c000000004D9A371E0000000000000CA5
+t1301952286
+s3237
+i"YAJLParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLDocument.m
+c000000004D9A371E00000000000014A8
+t1301952286
+s5288
+i"YAJLDocument.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLGen.h
+c000000004D9A371E0000000000000AD7
+t1301952286
+s2775
+i"yajl_gen.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLGen.m
+c000000004D9A371E000000000000123B
+t1301952286
+s4667
+i"YAJLGen.h"
+i"GTMBase64.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLIOS.h
+c000000004D9A371E0000000000000539
+t1301952286
+s1337
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLParser.h
+c000000004D9A371E0000000000000EB6
+t1301952286
+s3766
+i"yajl_parse.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLParser.m
+c000000004D9A371E00000000000022C4
+t1301952286
+s8900
+i"YAJLParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h
+c000000004D9A371E0000000000000C3B
+t1301952286
+s3131
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h
+c000000004D9A371E0000000000001C28
+t1301952286
+s7208
+i"yajl_common.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h
+c000000004D9A371E0000000000002132
+t1301952286
+s8498
+i"yajl_common.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c
+c000000004D9A371E0000000000001331
+t1301952286
+s4913
+i"api/yajl_parse.h"
+i"yajl_lex.h"
+i"yajl_parser.h"
+i"yajl_alloc.h"
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c
+c000000004D9A371E000000000000089F
+t1301952286
+s2207
+i"yajl_alloc.h"
+i<stdlib.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h
+c000000004D9A371E00000000000007B9
+t1301952286
+s1977
+i"api/yajl_common.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c
+c000000004D9A371E0000000000000CDC
+t1301952286
+s3292
+i"yajl_buf.h"
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h
+c000000004D9A371E0000000000000A2D
+t1301952286
+s2605
+i"api/yajl_common.h"
+i"yajl_alloc.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h
+c000000004D9A371E0000000000000C47
+t1301952286
+s3143
+i"api/yajl_common.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c
+c000000004D9A371E0000000000001A23
+t1301952286
+s6691
+i"yajl_encode.h"
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<stdio.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h
+c000000004D9A371E00000000000007FF
+t1301952286
+s2047
+i"yajl_buf.h"
+i"api/yajl_gen.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c
+c000000004D9A371E00000000000026A9
+t1301952286
+s9897
+i"api/yajl_gen.h"
+i"yajl_buf.h"
+i"yajl_encode.h"
+i<stdlib.h>
+i<string.h>
+i<stdio.h>
+i<math.h>
+i<float.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c
+c000000004D9A371E00000000000064D5
+t1301952286
+s25813
+i"yajl_lex.h"
+i"yajl_buf.h"
+i<stdlib.h>
+i<stdio.h>
+i<assert.h>
+i<string.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h
+c000000004D9A371E0000000000001383
+t1301952286
+s4995
+i"api/yajl_common.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c
+c000000004D9A371E0000000000004E22
+t1301952286
+s20002
+i"yajl_lex.h"
+i"yajl_parser.h"
+i"yajl_encode.h"
+i"yajl_bytestack.h"
+i<stdlib.h>
+i<limits.h>
+i<errno.h>
+i<stdio.h>
+i<string.h>
+i<ctype.h>
+i<assert.h>
+i<math.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h
+c000000004D9A371E0000000000000B5E
+t1301952286
+s2910
+i"api/yajl_parse.h"
+i"yajl_bytestack.h"
+i"yajl_buf.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GTMBase64.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJL.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLDocument.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLGen.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLIOS.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLParser.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_alloc.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_buf.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_common.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_encode.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_gen.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_lex.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parse.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parser.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GHNSBundle+Utils.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GTMBase64.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSBundle+YAJL.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSObject+YAJL.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RKJSONParser+YAJL.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RestKitJSONParserYAJL.LinkFileList
+c000000004DB073EA00000000000008C2
+t1303409642
+s2242
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLDocument.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLGen.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLParser.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_alloc.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_buf.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_encode.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_gen.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_lex.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_parser.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GHNSBundle+Utils.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GTMBase64.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSBundle+YAJL.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSObject+YAJL.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RKJSONParser+YAJL.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RestKitJSONParserYAJL.LinkFileList
+c000000004DB073EA00000000000008C2
+t1303409642
+s2242
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLDocument.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLGen.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLParser.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_alloc.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_buf.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_encode.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_gen.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_lex.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_parser.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m
+c000000004D9A371E000000000000018D
+t1301952286
+s397
+i"RKJSONParser.h"
+i"YAJL.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/RKJSONParser.h
+c000000004D9A371E00000000000000E2
+t1301952286
+s226
+i"RKParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKParser.h
+c000000004D9A371E000000000000024A
+t1301952286
+s586
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch
+c000000004D9A371E00000000000000BC
+t1301952286
+s188
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h
+c000000004D9A371E0000000000000275
+t1301952286
+s629
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m
+c000000004D9A371E00000000000004FF
+t1301952286
+s1279
+i"GHNSBundle+Utils.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.h
+c000000004D9A371E0000000000001700
+t1301952286
+s5888
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m
+c000000004D9A371E000000000000628D
+t1301952286
+s25229
+i"GTMBase64.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.h
+c000000004D9A371E0000000000000715
+t1301952286
+s1813
+i"YAJLParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m
+c000000004D9A371E0000000000000756
+t1301952286
+s1878
+i"NSBundle+YAJL.h"
+i"GHNSBundle+Utils.h"
+i"NSObject+YAJL.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.h
+c000000004D9A371E0000000000000F28
+t1301952286
+s3880
+i"YAJLGen.h"
+i"YAJLParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.m
+c000000004D9A371E0000000000000AD6
+t1301952286
+s2774
+i"NSObject+YAJL.h"
+i"YAJLGen.h"
+i"YAJLDocument.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJL.h
+c000000004D9A371E0000000000000539
+t1301952286
+s1337
+i"YAJLParser.h"
+i"YAJLDocument.h"
+i"YAJLGen.h"
+i"NSObject+YAJL.h"
+i"NSBundle+YAJL.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.h
+c000000004D9A371E0000000000000CA5
+t1301952286
+s3237
+i"YAJLParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m
+c000000004D9A371E00000000000014A8
+t1301952286
+s5288
+i"YAJLDocument.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.h
+c000000004D9A371E0000000000000AD7
+t1301952286
+s2775
+i"yajl_gen.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m
+c000000004D9A371E000000000000123B
+t1301952286
+s4667
+i"YAJLGen.h"
+i"GTMBase64.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLIOS.h
+c000000004D9A371E0000000000000539
+t1301952286
+s1337
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.h
+c000000004D9A371E0000000000000EB6
+t1301952286
+s3766
+i"yajl_parse.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m
+c000000004D9A371E00000000000022C4
+t1301952286
+s8900
+i"YAJLParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h
+c000000004D9A371E0000000000000C3B
+t1301952286
+s3131
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h
+c000000004D9A371E0000000000001C28
+t1301952286
+s7208
+i"yajl_common.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h
+c000000004D9A371E0000000000002132
+t1301952286
+s8498
+i"yajl_common.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c
+c000000004D9A371E0000000000001331
+t1301952286
+s4913
+i"api/yajl_parse.h"
+i"yajl_lex.h"
+i"yajl_parser.h"
+i"yajl_alloc.h"
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c
+c000000004D9A371E000000000000089F
+t1301952286
+s2207
+i"yajl_alloc.h"
+i<stdlib.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h
+c000000004D9A371E00000000000007B9
+t1301952286
+s1977
+i"api/yajl_common.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c
+c000000004D9A371E0000000000000CDC
+t1301952286
+s3292
+i"yajl_buf.h"
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h
+c000000004D9A371E0000000000000A2D
+t1301952286
+s2605
+i"api/yajl_common.h"
+i"yajl_alloc.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h
+c000000004D9A371E0000000000000C47
+t1301952286
+s3143
+i"api/yajl_common.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c
+c000000004D9A371E0000000000001A23
+t1301952286
+s6691
+i"yajl_encode.h"
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<stdio.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h
+c000000004D9A371E00000000000007FF
+t1301952286
+s2047
+i"yajl_buf.h"
+i"api/yajl_gen.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c
+c000000004D9A371E00000000000026A9
+t1301952286
+s9897
+i"api/yajl_gen.h"
+i"yajl_buf.h"
+i"yajl_encode.h"
+i<stdlib.h>
+i<string.h>
+i<stdio.h>
+i<math.h>
+i<float.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c
+c000000004D9A371E00000000000064D5
+t1301952286
+s25813
+i"yajl_lex.h"
+i"yajl_buf.h"
+i<stdlib.h>
+i<stdio.h>
+i<assert.h>
+i<string.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h
+c000000004D9A371E0000000000001383
+t1301952286
+s4995
+i"api/yajl_common.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c
+c000000004D9A371E0000000000004E22
+t1301952286
+s20002
+i"yajl_lex.h"
+i"yajl_parser.h"
+i"yajl_encode.h"
+i"yajl_bytestack.h"
+i<stdlib.h>
+i<limits.h>
+i<errno.h>
+i<stdio.h>
+i<string.h>
+i<ctype.h>
+i<assert.h>
+i<math.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h
+c000000004D9A371E0000000000000B5E
+t1301952286
+s2910
+i"api/yajl_parse.h"
+i"yajl_bytestack.h"
+i"yajl_buf.h"
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSBundle+YAJL.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSObject+YAJL.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLDocument.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLGen.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLParser.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c"
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa3b1d6e9ae60b341^8d5ef9eaae60b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GHNSBundle+Utils.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GHNSBundle+Utils.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102448.705336
+e325102448.901528
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GHNSBundle+Utils.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.md5b3b470ab60b341^5fd4e670ab60b341^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m0000000000000000^2291"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GHNSBundle+Utils.o Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GHNSBundle+Utils.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GTMBase64.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GTMBase64.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102448.803121
+e325102449.077798
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GTMBase64.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.ma9c0cd70ab60b341^98f81371ab60b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m0000000000000000^2259"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GTMBase64.o Vendor/YAJL/Libraries/GTM/GTMBase64.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/GTMBase64.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSBundle+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSBundle+YAJL.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSBundle+YAJL.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102448.253839
+e325102448.444553
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSBundle+YAJL.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m79214170ab60b341^f7cd7170ab60b341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m0000000000000000^2247"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSBundle+YAJL.o Vendor/YAJL/NSBundle+YAJL.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSBundle+YAJL.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSObject+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSObject+YAJL.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSObject+YAJL.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102448.356867
+e325102448.530213
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSObject+YAJL.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.mce8b5b70ab60b341^4dc08770ab60b341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.m0000000000000000^2247"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSObject+YAJL.o Vendor/YAJL/NSObject+YAJL.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/NSObject+YAJL.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RKJSONParser+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RKJSONParser+YAJL.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102448.901964
+e325102449.110212
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RKJSONParser+YAJL.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.mbe13e770ab60b341^59351c71ab60b341^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m0000000000000000^2291"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RKJSONParser+YAJL.o Code/Support/Parsers/JSON/RKJSONParser+YAJL.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RKJSONParser+YAJL.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLDocument.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLDocument.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLDocument.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102448.578588
+e325102448.802449
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLDocument.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m74429470ab60b341^1077cd70ab60b341^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m0000000000000000^2243"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLDocument.o Vendor/YAJL/YAJLDocument.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLDocument.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLGen.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLGen.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLGen.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102448.692504
+e325102448.922820
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLGen.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.ma46cb170ab60b341^0249ec70ab60b341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m0000000000000000^2223"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLGen.o Vendor/YAJL/YAJLGen.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLGen.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLParser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLParser.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102448.694159
+e325102448.961929
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLParser.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m0514b270ab60b341^463ff670ab60b341^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m0000000000000000^2235"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLParser.o Vendor/YAJL/YAJLParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/YAJLParser.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c" normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c normal armv6 c com.apple.compilers.gcc.4_2
+s325102448.376307
+e325102448.501142
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.cb0766070ab60b341^734a8070ab60b341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c0000000000000000^2221"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl.o Vendor/YAJL/yajl-1.0.9/src/yajl.c normal armv6 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_alloc.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c" normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_alloc.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c normal armv6 c com.apple.compilers.gcc.4_2
+s325102448.409180
+e325102448.481547
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_alloc.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.cbad86870ab60b341^59517b70ab60b341^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c0000000000000000^2245"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_alloc.o Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c normal armv6 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_alloc.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_buf.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c" normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_buf.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c normal armv6 c com.apple.compilers.gcc.4_2
+s325102448.471609
+e325102448.548873
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_buf.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c20ec7870ab60b341^3b898c70ab60b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c0000000000000000^2237"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_buf.o Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c normal armv6 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_buf.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_encode.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c" normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_encode.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c normal armv6 c com.apple.compilers.gcc.4_2
+s325102448.501338
+e325102448.578327
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_encode.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c57778070ab60b341^520c9470ab60b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c0000000000000000^2249"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_encode.o Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c normal armv6 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_encode.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_gen.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c" normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_gen.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c normal armv6 c com.apple.compilers.gcc.4_2
+s325102448.530419
+e325102448.692214
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_gen.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.cd1eb8770ab60b341^b43eb170ab60b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c0000000000000000^2237"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_gen.o Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c normal armv6 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_gen.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_lex.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c" normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_lex.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c normal armv6 c com.apple.compilers.gcc.4_2
+s325102448.539526
+e325102448.693795
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_lex.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c78438a70ab60b341^2fa2b170ab60b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c0000000000000000^2237"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_lex.o Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c normal armv6 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_lex.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_parser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c" normal armv6 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_parser.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c normal armv6 c com.apple.compilers.gcc.4_2
+s325102448.549120
+e325102448.705111
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_parser.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c
+xnormal
+xarmv6
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.cd7c28c70ab60b341^4d81b470ab60b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c0000000000000000^2249"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_parser.o Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c normal armv6 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/yajl_parser.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GHNSBundle+Utils.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GHNSBundle+Utils.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102449.381393
+e325102449.582286
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GHNSBundle+Utils.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m35cf6171ab60b341^cf159571ab60b341^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m0000000000000000^2291"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GHNSBundle+Utils.o Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GHNSBundle+Utils.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GTMBase64.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GTMBase64.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102449.504511
+e325102449.720168
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GTMBase64.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m98508171ab60b341^255cb871ab60b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m0000000000000000^2259"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GTMBase64.o Vendor/YAJL/Libraries/GTM/GTMBase64.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/Libraries/GTM/GTMBase64.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/GTMBase64.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSBundle+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSBundle+YAJL.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSBundle+YAJL.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102448.923293
+e325102449.136165
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSBundle+YAJL.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m0b9bed70ab60b341^45da2271ab60b341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m0000000000000000^2247"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSBundle+YAJL.o Vendor/YAJL/NSBundle+YAJL.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSBundle+YAJL.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSBundle+YAJL.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSObject+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSObject+YAJL.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSObject+YAJL.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102448.962135
+e325102449.186445
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSObject+YAJL.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.mc972f670ab60b341^34ba2f71ab60b341^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.m0000000000000000^2247"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSObject+YAJL.o Vendor/YAJL/NSObject+YAJL.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/NSObject+YAJL.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/NSObject+YAJL.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RKJSONParser+YAJL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RKJSONParser+YAJL.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102449.535778
+e325102449.691942
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RKJSONParser+YAJL.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m2a528971ab60b341^e61fb171ab60b341^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m0000000000000000^2291"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RKJSONParser+YAJL.o Code/Support/Parsers/JSON/RKJSONParser+YAJL.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RKJSONParser+YAJL.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLDocument.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLDocument.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLDocument.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102449.240363
+e325102449.504247
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLDocument.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m5caf3d71ab60b341^d3148171ab60b341^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m0000000000000000^2243"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLDocument.o Vendor/YAJL/YAJLDocument.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLDocument.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLDocument.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLGen.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLGen.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLGen.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102449.315870
+e325102449.535531
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLGen.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m97035171ab60b341^72178971ab60b341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m0000000000000000^2223"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLGen.o Vendor/YAJL/YAJLGen.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLGen.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLGen.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLParser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLParser.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102449.337358
+e325102449.578165
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLParser.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.mbe845671ab60b341^0c019471ab60b341^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m0000000000000000^2235"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLParser.o Vendor/YAJL/YAJLParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/YAJLParser.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/YAJLParser.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl.c" normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c normal armv7 c com.apple.compilers.gcc.4_2
+s325102449.078013
+e325102449.155665
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c96231471ab60b341^a7e92771ab60b341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c0000000000000000^2221"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl.o Vendor/YAJL/yajl-1.0.9/src/yajl.c normal armv7 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_alloc.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c" normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_alloc.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c normal armv7 c com.apple.compilers.gcc.4_2
+s325102449.110438
+e325102449.162101
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_alloc.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c276b1c71ab60b341^dc7e2971ab60b341^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c0000000000000000^2245"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_alloc.o Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c normal armv7 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_alloc.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_buf.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c" normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_buf.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c normal armv7 c com.apple.compilers.gcc.4_2
+s325102449.156135
+e325102449.240115
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_buf.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c541b2871ab60b341^7cd23d71ab60b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c0000000000000000^2237"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_buf.o Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c normal armv7 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_buf.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_encode.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c" normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_encode.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c normal armv7 c com.apple.compilers.gcc.4_2
+s325102449.162502
+e325102449.238291
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_encode.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c45bc2971ab60b341^9d113d71ab60b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c0000000000000000^2249"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_encode.o Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c normal armv7 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_encode.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_gen.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c" normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_gen.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c normal armv7 c com.apple.compilers.gcc.4_2
+s325102449.174464
+e325102449.315446
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_gen.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c5bd32c71ab60b341^36cc5071ab60b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c0000000000000000^2237"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_gen.o Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c normal armv7 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_gen.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_gen.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_lex.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c" normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_lex.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c normal armv7 c com.apple.compilers.gcc.4_2
+s325102449.195027
+e325102449.337097
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_lex.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c4c1b3271ab60b341^919a5671ab60b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c0000000000000000^2237"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_lex.o Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c normal armv7 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_lex.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_parser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c" normal armv7 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_parser.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c normal armv7 c com.apple.compilers.gcc.4_2
+s325102449.238551
+e325102449.380705
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_parser.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c50363d71ab60b341^f1816171ab60b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c0000000000000000^2249"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_parser.o Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c normal armv7 c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/RestKitJSONParserYAJL-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -IVendor/YAJL/yajl-1.0.9/src/api -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -Wdiv-by-zero -Wbad-function-cast -Wnested-externs -Wold-style-definition -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.c -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/yajl_parser.o
+
+CCpHeader Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h
+s325103339.590776
+e325103339.593501
+r1
+xCpHeader
+xVendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h2e5397ebae60b341^48fb97ebae60b341^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h000020442305f041^651"CpHeader Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GHKit/GHNSBundle+Utils.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/Libraries/GTM/GTMBase64.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GTMBase64.h
+s325103339.593851
+e325103339.596121
+r1
+xCpHeader
+xVendor/YAJL/Libraries/GTM/GTMBase64.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GTMBase64.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GTMBase64.h2a1d98ebae60b341^309b98ebae60b341^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GTMBase64.h000020442305f041^626"CpHeader Vendor/YAJL/Libraries/GTM/GTMBase64.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GTMBase64.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/Libraries/GTM/GTMBase64.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/NSBundle+YAJL.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h
+s325103339.538816
+e325103339.541159
+r1
+xCpHeader
+xVendor/YAJL/NSBundle+YAJL.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.hb8028aebae60b341^2d958febae60b341^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h000020442305f041^610"CpHeader Vendor/YAJL/NSBundle+YAJL.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSBundle+YAJL.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/NSObject+YAJL.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h
+s325103339.554882
+e325103339.557365
+r1
+xCpHeader
+xVendor/YAJL/NSObject+YAJL.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.hde1c8eebae60b341^179e8febae60b341^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h000020442305f041^610"CpHeader Vendor/YAJL/NSObject+YAJL.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/NSObject+YAJL.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/YAJL.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJL.h
+s325103339.580068
+e325103339.582183
+r1
+xCpHeader
+xVendor/YAJL/YAJL.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJL.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJL.hbc9294ebae60b341^d00995ebae60b341^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJL.h000020442305f041^583"CpHeader Vendor/YAJL/YAJL.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJL.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJL.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/YAJLDocument.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLDocument.h
+s325103339.582300
+e325103339.584454
+r1
+xCpHeader
+xVendor/YAJL/YAJLDocument.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLDocument.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLDocument.h4f2395ebae60b341^2c9f95ebae60b341^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLDocument.h000020442305f041^607"CpHeader Vendor/YAJL/YAJLDocument.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLDocument.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLDocument.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/YAJLGen.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLGen.h
+s325103339.584565
+e325103339.586545
+r1
+xCpHeader
+xVendor/YAJL/YAJLGen.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLGen.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLGen.hd5b295ebae60b341^e12796ebae60b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLGen.h000020442305f041^592"CpHeader Vendor/YAJL/YAJLGen.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLGen.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLGen.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/YAJLIOS.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLIOS.h
+s325103339.586661
+e325103339.588765
+r1
+xCpHeader
+xVendor/YAJL/YAJLIOS.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLIOS.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLIOS.hc84096ebae60b341^4eb996ebae60b341^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLIOS.h000020442305f041^592"CpHeader Vendor/YAJL/YAJLIOS.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLIOS.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLIOS.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/YAJLParser.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLParser.h
+s325103339.588168
+e325103339.590322
+r1
+xCpHeader
+xVendor/YAJL/YAJLParser.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLParser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLParser.h26a796ebae60b341^bc1f97ebae60b341^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLParser.h000020442305f041^601"CpHeader Vendor/YAJL/YAJLParser.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLParser.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/YAJLParser.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_common.h
+s325103339.557494
+e325103339.559912
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/api/yajl_common.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_common.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_common.h9bc68eebae60b341^30a08febae60b341^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_common.h000020442305f041^642"CpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_common.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_common.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_gen.h
+s325103339.560081
+e325103339.562263
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_gen.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_gen.hac748febae60b341^02f08febae60b341^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_gen.h000020442305f041^633"CpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_gen.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_gen.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parse.h
+s325103339.562362
+e325103339.564886
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parse.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parse.h6c0a90ebae60b341^a29c90ebae60b341^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parse.h000020442305f041^639"CpHeader Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parse.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/api/yajl_parse.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_alloc.h
+s325103339.565001
+e325103339.567443
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_alloc.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_alloc.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_alloc.hd9b290ebae60b341^d04391ebae60b341^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_alloc.h000020442305f041^631"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_alloc.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_alloc.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_buf.h
+s325103339.567628
+e325103339.570088
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_buf.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_buf.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_buf.h8d5e91ebae60b341^4af191ebae60b341^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_buf.h000020442305f041^625"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_buf.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_buf.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h
+s325103339.570271
+e325103339.572852
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_bytestack.hd40f92ebae60b341^09a692ebae60b341^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h000020442305f041^643"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_bytestack.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_encode.h
+s325103339.572949
+e325103339.575359
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_encode.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_encode.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_encode.h84bc92ebae60b341^1f4b93ebae60b341^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_encode.h000020442305f041^634"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_encode.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_encode.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_lex.h
+s325103339.575477
+e325103339.577890
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_lex.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_lex.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_lex.h306293ebae60b341^20f193ebae60b341^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_lex.h000020442305f041^625"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_lex.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_lex.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parser.h
+s325103339.578005
+e325103339.579950
+r1
+xCpHeader
+xVendor/YAJL/yajl-1.0.9/src/yajl_parser.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parser.hf20694ebae60b341^ab7794ebae60b341^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parser.h000020442305f041^634"CpHeader Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parser.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/src/yajl_parser.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL"
+
+CCreateUniversalBinary "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a" normal "armv6 armv7"
+s325103340.089566
+e325103340.199365
+r1
+xCreateUniversalBinary
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Create universal binary /Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a8a0017ecae60b341^530933ecae60b341^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a000020442305f041^826"CreateUniversalBinary Build/Debug-iphoneos/libRestKitJSONParserYAJL.a normal "armv6 armv7"    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a" -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a"
+
+CCreateUniversalBinary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a normal "armv6 armv7"
+s325102450.202084
+e325102450.297024
+r1
+xCreateUniversalBinary
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Create universal binary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserYAJL.ac0cc3372ab60b341^670b4c72ab60b341^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a000020442305f041^778"CreateUniversalBinary Build/Debug-iphoneos/libRestKitJSONParserYAJL.a normal "armv6 armv7"    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserYAJL.a
+
+CLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a" normal armv6
+s325103339.968609
+e325103340.040428
+r1
+xLibtool
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified, -all_load invalid
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a normal armv68d0ef8ebae60b341^b4580aecae60b341^-237"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified, -all_load invalid/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1018"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a normal armv6    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -filelist "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RestKitJSONParserYAJL.LinkFileList" -all_load -ObjC -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a"
+
+CLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a" normal armv7
+s325103340.013289
+e325103340.089338
+r1
+xLibtool
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified, -all_load invalid
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a normal armv7568003ecae60b341^4ce016ecae60b341^-237"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified, -all_load invalid/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1018"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a normal armv7    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -filelist "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RestKitJSONParserYAJL.LinkFileList" -all_load -ObjC -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a"
+
+CLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a normal armv6
+s325102449.140990
+e325102449.174100
+r1
+xLibtool
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified, -all_load invalid
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a normal armv63f522471ab60b341^19912c71ab60b341^-237"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified, -all_load invalid/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--970"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a normal armv6    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -filelist /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/RestKitJSONParserYAJL.LinkFileList -all_load -ObjC -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6/libRestKitJSONParserYAJL.a
+
+CLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a normal armv7
+s325102449.720413
+e325102450.201859
+r1
+xLibtool
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified, -all_load invalid
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a normal armv7c285b871ab60b341^f7ac3372ab60b341^-237"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified, -all_load invalid/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--970"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a normal armv7    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -filelist /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/RestKitJSONParserYAJL.LinkFileList -all_load -ObjC -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7/libRestKitJSONParserYAJL.a
+

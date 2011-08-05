@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping
+END
+RKObjectLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectLoader.h
+END
+RKRouter.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRouter.h
+END
+RKObjectManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectManager.h
+END
+RKObjectPropertyInspector.h
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectPropertyInspector.h
+END
+ObjectMapping.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/ObjectMapping.h
+END
+RKDynamicRouter.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKDynamicRouter.h
+END
+RKObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObject.h
+END
+RKObjectMappable.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMappable.h
+END
+RKObjectMapper.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKObjectMapper.h
+END
+RKRailsRouter.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/ObjectMapping/RKRailsRouter.h
+END

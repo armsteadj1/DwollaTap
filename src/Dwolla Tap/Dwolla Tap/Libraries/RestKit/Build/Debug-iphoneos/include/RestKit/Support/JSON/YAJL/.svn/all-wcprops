@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL
+END
+YAJLGen.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLGen.h
+END
+yajl_parse.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parse.h
+END
+yajl_buf.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_buf.h
+END
+GTMBase64.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GTMBase64.h
+END
+YAJLDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLDocument.h
+END
+YAJL.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJL.h
+END
+NSObject+YAJL.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSObject+YAJL.h
+END
+NSBundle+YAJL.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/NSBundle+YAJL.h
+END
+yajl_lex.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_lex.h
+END
+yajl_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_common.h
+END
+yajl_bytestack.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_bytestack.h
+END
+yajl_alloc.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_alloc.h
+END
+YAJLIOS.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLIOS.h
+END
+yajl_parser.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_parser.h
+END
+yajl_encode.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_encode.h
+END
+YAJLParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/YAJLParser.h
+END
+GHNSBundle+Utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/GHNSBundle+Utils.h
+END
+yajl_gen.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/YAJL/yajl_gen.h
+END

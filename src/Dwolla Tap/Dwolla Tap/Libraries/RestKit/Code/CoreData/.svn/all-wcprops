@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData
+END
+RKManagedObjectLoader.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData/RKManagedObjectLoader.m
+END
+RKManagedObjectSeeder.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData/RKManagedObjectSeeder.m
+END
+RKManagedObjectStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData/RKManagedObjectStore.h
+END
+RKManagedObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData/RKManagedObject.h
+END
+CoreData.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData/CoreData.h
+END
+RKManagedObjectStore.m
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData/RKManagedObjectStore.m
+END
+RKManagedObjectCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData/RKManagedObjectCache.h
+END
+RKManagedObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData/RKManagedObject.m
+END
+RKManagedObjectLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData/RKManagedObjectLoader.h
+END
+RKManagedObjectSeeder.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/CoreData/RKManagedObjectSeeder.h
+END

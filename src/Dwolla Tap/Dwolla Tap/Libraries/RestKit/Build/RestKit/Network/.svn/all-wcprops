@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network
+END
+Network.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/Network.h
+END
+RKParamsAttachment.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKParamsAttachment.h
+END
+RKRequestQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKRequestQueue.h
+END
+RKClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKClient.h
+END
+RKResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKResponse.h
+END
+RKRequestSerializable.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKRequestSerializable.h
+END
+RKParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKParams.h
+END
+RKJSONSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKJSONSerialization.h
+END
+NSDictionary+RKRequestSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/NSDictionary+RKRequestSerialization.h
+END
+RKReachabilityObserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKReachabilityObserver.h
+END
+RKRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKRequest.h
+END
+RKNetwork.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKNetwork.h
+END
+RKNotifications.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/RestKit/Network/RKNotifications.h
+END

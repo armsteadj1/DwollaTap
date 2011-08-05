@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/Parsers/JSON
+END
+RKJSONParser+SBJSON.m
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m
+END
+RKJSONParser+YAJL.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+YAJL.m
+END
+RKJSONParser+JSONKit.m
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+JSONKit.m
+END

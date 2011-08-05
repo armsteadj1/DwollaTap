@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/verify
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/verify/CMakeLists.txt
+END
+json_verify.c
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Vendor/YAJL/yajl-1.0.9/verify/json_verify.c
+END

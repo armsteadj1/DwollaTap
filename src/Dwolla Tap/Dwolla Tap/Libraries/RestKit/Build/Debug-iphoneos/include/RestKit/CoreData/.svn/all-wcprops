@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/CoreData
+END
+RKManagedObjectStore.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/CoreData/RKManagedObjectStore.h
+END
+RKManagedObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/CoreData/RKManagedObject.h
+END
+CoreData.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/CoreData/CoreData.h
+END
+RKManagedObjectCache.h
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/CoreData/RKManagedObjectCache.h
+END
+RKManagedObjectSeeder.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/CoreData/RKManagedObjectSeeder.h
+END

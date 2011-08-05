@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A280ACD13619ED100A05315 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A280ACC13619ED100A05315 /* SFHFKeychainUtils.m */; };
+		1A280ACF1361A28100A05315 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A280ACE1361A28100A05315 /* Security.framework */; };
+		1A446D811364BA59001F90E7 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A446D7F1364BA59001F90E7 /* MainWindow-iPad.xib */; };
+		1A5F08741360E20900FB7218 /* libRestKitCoreData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F08721360E20900FB7218 /* libRestKitCoreData.a */; };
+		1A5F087A1360E21C00FB7218 /* libRestKitJSONParserYAJL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F08761360E21C00FB7218 /* libRestKitJSONParserYAJL.a */; };
+		1A5F087B1360E21C00FB7218 /* libRestKitNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F08771360E21C00FB7218 /* libRestKitNetwork.a */; };
+		1A5F087C1360E21C00FB7218 /* libRestKitObjectMapping.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F08781360E21C00FB7218 /* libRestKitObjectMapping.a */; };
+		1A5F087D1360E21C00FB7218 /* libRestKitSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F08791360E21C00FB7218 /* libRestKitSupport.a */; };
+		1A5F08861360E26F00FB7218 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F087E1360E26F00FB7218 /* AudioToolbox.framework */; };
+		1A5F08871360E26F00FB7218 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F087F1360E26F00FB7218 /* CFNetwork.framework */; };
+		1A5F08881360E26F00FB7218 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F08801360E26F00FB7218 /* CoreData.framework */; };
+		1A5F08891360E26F00FB7218 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F08821360E26F00FB7218 /* MobileCoreServices.framework */; };
+		1A5F088A1360E26F00FB7218 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F08831360E26F00FB7218 /* QuartzCore.framework */; };
+		1A5F088B1360E26F00FB7218 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F08841360E26F00FB7218 /* SystemConfiguration.framework */; };
+		1A5F088D1360E2AE00FB7218 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F088C1360E2AD00FB7218 /* libsqlite3.dylib */; };
+		1A5F088F1360E2D400FB7218 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5F088E1360E2D400FB7218 /* CoreLocation.framework */; };
+		1A5F08911360E55200FB7218 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F08901360E55200FB7218 /* background.jpg */; };
+		1A5F08931361424700FB7218 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A5F08921361424700FB7218 /* logo.png */; };
+		1A63AE2113614C71005204A8 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A63AE1F13614C71005204A8 /* TapViewController.m */; };
+		1A63AE2213614C71005204A8 /* TapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A63AE2013614C71005204A8 /* TapViewController.xib */; };
+		1A73640F1367171600A58B6D /* BumpConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A73640E1367171600A58B6D /* BumpConnector.m */; };
+		1A736412136739DF00A58B6D /* bumplogoblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A736410136739DF00A58B6D /* bumplogoblack.png */; };
+		1A7A5CE41365FF0800F78287 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7A5CE31365FF0800F78287 /* CoreGraphics.framework */; };
+		1A9A468F1374703300A5CEC2 /* dwollalogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A468E1374703300A5CEC2 /* dwollalogo.png */; };
+		1A9BA5C41360DF11003F05BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9BA5C31360DF11003F05BA /* UIKit.framework */; };
+		1A9BA5C61360DF11003F05BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9BA5C51360DF11003F05BA /* Foundation.framework */; };
+		1A9BA5CE1360DF11003F05BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A9BA5CC1360DF11003F05BA /* InfoPlist.strings */; };
+		1A9BA5D11360DF11003F05BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BA5D01360DF11003F05BA /* main.m */; };
+		1A9BA5D41360DF11003F05BA /* Dwolla_TapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BA5D31360DF11003F05BA /* Dwolla_TapAppDelegate.m */; };
+		1A9BA5D71360DF11003F05BA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9BA5D51360DF11003F05BA /* MainWindow.xib */; };
+		1A9BA5DA1360DF11003F05BA /* Dwolla_TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9BA5D91360DF11003F05BA /* Dwolla_TapViewController.m */; };
+		1A9BA5DD1360DF11003F05BA /* Dwolla_TapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A9BA5DB1360DF11003F05BA /* Dwolla_TapViewController.xib */; };
+		1A9BA61E1360DF8B003F05BA /* BumpAPIAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A9BA6051360DF8B003F05BA /* BumpAPIAssets.bundle */; };
+		1A9BA61F1360DF8B003F05BA /* libBumpAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9BA6081360DF8B003F05BA /* libBumpAPI.a */; };
+		1A9BA6201360DF8C003F05BA /* BumpApiLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A9BA60A1360DF8B003F05BA /* BumpApiLocalizable.strings */; };
+		1A9BA6211360DF8C003F05BA /* Localization-ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1A9BA6151360DF8B003F05BA /* Localization-ReadMe.txt */; };
+		1AA00DF413686FB00043AFA0 /* icon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AA00DF313686FB00043AFA0 /* icon72.png */; };
+		1AA00DF813686FD00043AFA0 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AA00DF713686FD00043AFA0 /* Default-Portrait~ipad.png */; };
+		1AD4D33213673F44002449FA /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD4D33113673F44002449FA /* icon57.png */; };
+		1AD4D33413673FCF002449FA /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD4D33313673FCF002449FA /* icon114.png */; };
+		1AD4D33613674084002449FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD4D33513674084002449FA /* Default.png */; };
+		1AD4D33813674168002449FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD4D33713674168002449FA /* Default@2x.png */; };
+		1AD4D340136762B4002449FA /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD4D33F136762B4002449FA /* Entitlements.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A5F082F1360E1E100FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A07FC1255161B00976E89;
+			remoteInfo = RestKitNetwork;
+		};
+		1A5F08311360E1E100FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A08031255162C00976E89;
+			remoteInfo = RestKitObjectMapping;
+		};
+		1A5F08331360E1E100FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A080C12551D3000976E89;
+			remoteInfo = RestKitSupport;
+		};
+		1A5F08351360E1E100FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E64F125231F600531FA8;
+			remoteInfo = "RestKitJSONParser+YAJL";
+		};
+		1A5F08371360E1E100FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2590E66B1252353700531FA8;
+			remoteInfo = "RestKitJSONParser+SBJSON";
+		};
+		1A5F08391360E1E100FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73057FD11331AD2E001908EE;
+			remoteInfo = "RestKitJSONParser+JSONKit";
+		};
+		1A5F083B1360E1E100FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25BD43BD1340315800DBACDD;
+			remoteInfo = "RestKitXMLParser+Libxml";
+		};
+		1A5F083D1360E1E100FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 253A081412551D5300976E89;
+			remoteInfo = RestKitCoreData;
+		};
+		1A5F083F1360E1E100FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2523360511E79F090048F9B4;
+			remoteInfo = RestKitThree20;
+		};
+		1A5F08411360E1E100FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3F6C39A510FE5C95008F47C5;
+			remoteInfo = UISpec;
+		};
+		1A5F08441360E1E800FB7218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 255B7588133BABBF00ED76AD;
+			remoteInfo = RestKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A280ACB13619ED100A05315 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		1A280ACC13619ED100A05315 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		1A280ACE1361A28100A05315 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1A446D801364BA59001F90E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = "Dwolla Tap/Libraries/RestKit/RestKit.xcodeproj"; sourceTree = "<group>"; };
+		1A5F08721360E20900FB7218 /* libRestKitCoreData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitCoreData.a; sourceTree = SOURCE_ROOT; };
+		1A5F08731360E20900FB7218 /* libRestKitJSONParserSBJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitJSONParserSBJSON.a; sourceTree = SOURCE_ROOT; };
+		1A5F08761360E21C00FB7218 /* libRestKitJSONParserYAJL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitJSONParserYAJL.a; sourceTree = SOURCE_ROOT; };
+		1A5F08771360E21C00FB7218 /* libRestKitNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitNetwork.a; sourceTree = SOURCE_ROOT; };
+		1A5F08781360E21C00FB7218 /* libRestKitObjectMapping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitObjectMapping.a; sourceTree = SOURCE_ROOT; };
+		1A5F08791360E21C00FB7218 /* libRestKitSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRestKitSupport.a; sourceTree = SOURCE_ROOT; };
+		1A5F087E1360E26F00FB7218 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1A5F087F1360E26F00FB7218 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1A5F08801360E26F00FB7218 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A5F08811360E26F00FB7218 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A5F08821360E26F00FB7218 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1A5F08831360E26F00FB7218 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1A5F08841360E26F00FB7218 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1A5F08851360E26F00FB7218 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A5F088C1360E2AD00FB7218 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1A5F088E1360E2D400FB7218 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1A5F08901360E55200FB7218 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = "Dwolla Tap/background.jpg"; sourceTree = "<group>"; };
+		1A5F08921361424700FB7218 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "Dwolla Tap/logo.png"; sourceTree = "<group>"; };
+		1A63AE1E13614C71005204A8 /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		1A63AE1F13614C71005204A8 /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		1A63AE2013614C71005204A8 /* TapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TapViewController.xib; path = "Dwolla Tap/TapViewController.xib"; sourceTree = "<group>"; };
+		1A73640D1367171600A58B6D /* BumpConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BumpConnector.h; sourceTree = "<group>"; };
+		1A73640E1367171600A58B6D /* BumpConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BumpConnector.m; sourceTree = "<group>"; };
+		1A736410136739DF00A58B6D /* bumplogoblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bumplogoblack.png; path = "Dwolla Tap/bumplogoblack.png"; sourceTree = "<group>"; };
+		1A7A5CE31365FF0800F78287 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A9A468E1374703300A5CEC2 /* dwollalogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dwollalogo.png; path = "../Dwolla Tap Android/res/drawable-hdpi/dwollalogo.png"; sourceTree = "<group>"; };
+		1A9BA5BF1360DF11003F05BA /* Dwolla Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dwolla Tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9BA5C31360DF11003F05BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A9BA5C51360DF11003F05BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A9BA5C71360DF11003F05BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A9BA5CB1360DF11003F05BA /* Dwolla Tap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dwolla Tap-Info.plist"; sourceTree = "<group>"; };
+		1A9BA5CD1360DF11003F05BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A9BA5CF1360DF11003F05BA /* Dwolla Tap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dwolla Tap-Prefix.pch"; sourceTree = "<group>"; };
+		1A9BA5D01360DF11003F05BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A9BA5D21360DF11003F05BA /* Dwolla_TapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dwolla_TapAppDelegate.h; sourceTree = "<group>"; };
+		1A9BA5D31360DF11003F05BA /* Dwolla_TapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dwolla_TapAppDelegate.m; sourceTree = "<group>"; };
+		1A9BA5D61360DF11003F05BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1A9BA5D81360DF11003F05BA /* Dwolla_TapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dwolla_TapViewController.h; sourceTree = "<group>"; };
+		1A9BA5D91360DF11003F05BA /* Dwolla_TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dwolla_TapViewController.m; sourceTree = "<group>"; };
+		1A9BA5DC1360DF11003F05BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Dwolla_TapViewController.xib; sourceTree = "<group>"; };
+		1A9BA6041360DF8B003F05BA /* BumpAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BumpAPI.h; sourceTree = "<group>"; };
+		1A9BA6051360DF8B003F05BA /* BumpAPIAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BumpAPIAssets.bundle; sourceTree = "<group>"; };
+		1A9BA6061360DF8B003F05BA /* BumpAPICustomUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BumpAPICustomUI.h; sourceTree = "<group>"; };
+		1A9BA6071360DF8B003F05BA /* Bumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bumper.h; sourceTree = "<group>"; };
+		1A9BA6081360DF8B003F05BA /* libBumpAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBumpAPI.a; sourceTree = "<group>"; };
+		1A9BA60B1360DF8B003F05BA /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA60C1360DF8B003F05BA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA60D1360DF8B003F05BA /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA60E1360DF8B003F05BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA60F1360DF8B003F05BA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA6101360DF8B003F05BA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA6111360DF8B003F05BA /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA6121360DF8B003F05BA /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA6131360DF8B003F05BA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA6141360DF8B003F05BA /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA6151360DF8B003F05BA /* Localization-ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Localization-ReadMe.txt"; sourceTree = "<group>"; };
+		1A9BA6161360DF8B003F05BA /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA6171360DF8B003F05BA /* no */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = no; path = no.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA6181360DF8B003F05BA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA6191360DF8B003F05BA /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA61A1360DF8B003F05BA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA61B1360DF8B003F05BA /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/BumpApiLocalizable.strings; sourceTree = "<group>"; };
+		1A9BA61C1360DF8B003F05BA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/BumpApiLocalizable.strings"; sourceTree = "<group>"; };
+		1A9BA61D1360DF8B003F05BA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/BumpApiLocalizable.strings"; sourceTree = "<group>"; };
+		1AA00DF313686FB00043AFA0 /* icon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72.png; sourceTree = "<group>"; };
+		1AA00DF713686FD00043AFA0 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		1AD4D33113673F44002449FA /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		1AD4D33313673FCF002449FA /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		1AD4D33513674084002449FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1AD4D33713674168002449FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1AD4D33F136762B4002449FA /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		1AD4D4D913676A66002449FA /* RestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestKit.h; path = "Dwolla Tap/Libraries/RestKit/Code/RestKit.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A9BA5BC1360DF11003F05BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7A5CE41365FF0800F78287 /* CoreGraphics.framework in Frameworks */,
+				1A280ACF1361A28100A05315 /* Security.framework in Frameworks */,
+				1A5F088F1360E2D400FB7218 /* CoreLocation.framework in Frameworks */,
+				1A5F088D1360E2AE00FB7218 /* libsqlite3.dylib in Frameworks */,
+				1A5F08861360E26F00FB7218 /* AudioToolbox.framework in Frameworks */,
+				1A5F08871360E26F00FB7218 /* CFNetwork.framework in Frameworks */,
+				1A5F08881360E26F00FB7218 /* CoreData.framework in Frameworks */,
+				1A9BA5C61360DF11003F05BA /* Foundation.framework in Frameworks */,
+				1A5F08891360E26F00FB7218 /* MobileCoreServices.framework in Frameworks */,
+				1A5F088A1360E26F00FB7218 /* QuartzCore.framework in Frameworks */,
+				1A5F088B1360E26F00FB7218 /* SystemConfiguration.framework in Frameworks */,
+				1A9BA5C41360DF11003F05BA /* UIKit.framework in Frameworks */,
+				1A5F087A1360E21C00FB7218 /* libRestKitJSONParserYAJL.a in Frameworks */,
+				1A5F087B1360E21C00FB7218 /* libRestKitNetwork.a in Frameworks */,
+				1A5F087C1360E21C00FB7218 /* libRestKitObjectMapping.a in Frameworks */,
+				1A5F087D1360E21C00FB7218 /* libRestKitSupport.a in Frameworks */,
+				1A5F08741360E20900FB7218 /* libRestKitCoreData.a in Frameworks */,
+				1A9BA61F1360DF8B003F05BA /* libBumpAPI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A446D7E1364BA56001F90E7 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				1A446D7F1364BA59001F90E7 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		1A5F081C1360E1E100FB7218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F08301360E1E100FB7218 /* libRestKitNetwork.a */,
+				1A5F08321360E1E100FB7218 /* libRestKitObjectMapping.a */,
+				1A5F08341360E1E100FB7218 /* libRestKitSupport.a */,
+				1A5F08361360E1E100FB7218 /* libRestKitJSONParserYAJL.a */,
+				1A5F08381360E1E100FB7218 /* libRestKitJSONParserSBJSON.a */,
+				1A5F083A1360E1E100FB7218 /* libRestKitJSONParserJSONKit.a */,
+				1A5F083C1360E1E100FB7218 /* libRestKitXMLParserLibxml.a */,
+				1A5F083E1360E1E100FB7218 /* libRestKitCoreData.a */,
+				1A5F08401360E1E100FB7218 /* libRestKitThree20.a */,
+				1A5F08421360E1E100FB7218 /* UISpec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9BA5B41360DF11003F05BA = {
+			isa = PBXGroup;
+			children = (
+				1AA00DF713686FD00043AFA0 /* Default-Portrait~ipad.png */,
+				1AD4D4D913676A66002449FA /* RestKit.h */,
+				1AD4D33F136762B4002449FA /* Entitlements.plist */,
+				1A7A5CE31365FF0800F78287 /* CoreGraphics.framework */,
+				1A9BA6221360DF90003F05BA /* Libraries */,
+				1A9BA5E31360DF1E003F05BA /* Resources */,
+				1A9BA5C91360DF11003F05BA /* Dwolla Tap */,
+				1A9BA5C21360DF11003F05BA /* Frameworks */,
+				1A9BA5C01360DF11003F05BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A9BA5C01360DF11003F05BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BA5BF1360DF11003F05BA /* Dwolla Tap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9BA5C21360DF11003F05BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A280ACE1361A28100A05315 /* Security.framework */,
+				1A5F088E1360E2D400FB7218 /* CoreLocation.framework */,
+				1A5F088C1360E2AD00FB7218 /* libsqlite3.dylib */,
+				1A5F087E1360E26F00FB7218 /* AudioToolbox.framework */,
+				1A5F087F1360E26F00FB7218 /* CFNetwork.framework */,
+				1A5F08801360E26F00FB7218 /* CoreData.framework */,
+				1A5F08811360E26F00FB7218 /* Foundation.framework */,
+				1A5F08821360E26F00FB7218 /* MobileCoreServices.framework */,
+				1A5F08831360E26F00FB7218 /* QuartzCore.framework */,
+				1A5F08841360E26F00FB7218 /* SystemConfiguration.framework */,
+				1A5F08851360E26F00FB7218 /* UIKit.framework */,
+				1A5F08761360E21C00FB7218 /* libRestKitJSONParserYAJL.a */,
+				1A5F08771360E21C00FB7218 /* libRestKitNetwork.a */,
+				1A5F08781360E21C00FB7218 /* libRestKitObjectMapping.a */,
+				1A5F08791360E21C00FB7218 /* libRestKitSupport.a */,
+				1A5F08721360E20900FB7218 /* libRestKitCoreData.a */,
+				1A5F08731360E20900FB7218 /* libRestKitJSONParserSBJSON.a */,
+				1A9BA5C31360DF11003F05BA /* UIKit.framework */,
+				1A9BA5C51360DF11003F05BA /* Foundation.framework */,
+				1A9BA5C71360DF11003F05BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A9BA5C91360DF11003F05BA /* Dwolla Tap */ = {
+			isa = PBXGroup;
+			children = (
+				1A446D7E1364BA56001F90E7 /* iPad */,
+				1A63AE1E13614C71005204A8 /* TapViewController.h */,
+				1A63AE1F13614C71005204A8 /* TapViewController.m */,
+				1A9BA5D21360DF11003F05BA /* Dwolla_TapAppDelegate.h */,
+				1A9BA5D31360DF11003F05BA /* Dwolla_TapAppDelegate.m */,
+				1A9BA5D81360DF11003F05BA /* Dwolla_TapViewController.h */,
+				1A9BA5D91360DF11003F05BA /* Dwolla_TapViewController.m */,
+				1A9BA5CA1360DF11003F05BA /* Supporting Files */,
+			);
+			path = "Dwolla Tap";
+			sourceTree = "<group>";
+		};
+		1A9BA5CA1360DF11003F05BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BA5CB1360DF11003F05BA /* Dwolla Tap-Info.plist */,
+				1A9BA5CC1360DF11003F05BA /* InfoPlist.strings */,
+				1A9BA5CF1360DF11003F05BA /* Dwolla Tap-Prefix.pch */,
+				1A9BA5D01360DF11003F05BA /* main.m */,
+				1A280ACB13619ED100A05315 /* SFHFKeychainUtils.h */,
+				1A280ACC13619ED100A05315 /* SFHFKeychainUtils.m */,
+				1A73640D1367171600A58B6D /* BumpConnector.h */,
+				1A73640E1367171600A58B6D /* BumpConnector.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A9BA5E31360DF1E003F05BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A9A468E1374703300A5CEC2 /* dwollalogo.png */,
+				1A736410136739DF00A58B6D /* bumplogoblack.png */,
+				1A5F08901360E55200FB7218 /* background.jpg */,
+				1A9BA5D51360DF11003F05BA /* MainWindow.xib */,
+				1A5F08921361424700FB7218 /* logo.png */,
+				1AD4D33713674168002449FA /* Default@2x.png */,
+				1AD4D33513674084002449FA /* Default.png */,
+				1AA00DF313686FB00043AFA0 /* icon72.png */,
+				1AD4D33313673FCF002449FA /* icon114.png */,
+				1AD4D33113673F44002449FA /* icon57.png */,
+				1A63AE2013614C71005204A8 /* TapViewController.xib */,
+				1A9BA5DB1360DF11003F05BA /* Dwolla_TapViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1A9BA6031360DF8B003F05BA /* API_build */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BA6041360DF8B003F05BA /* BumpAPI.h */,
+				1A9BA6051360DF8B003F05BA /* BumpAPIAssets.bundle */,
+				1A9BA6061360DF8B003F05BA /* BumpAPICustomUI.h */,
+				1A9BA6071360DF8B003F05BA /* Bumper.h */,
+				1A9BA6081360DF8B003F05BA /* libBumpAPI.a */,
+				1A9BA6091360DF8B003F05BA /* Localizations */,
+			);
+			name = API_build;
+			path = "Dwolla Tap/API_build";
+			sourceTree = "<group>";
+		};
+		1A9BA6091360DF8B003F05BA /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				1A9BA60A1360DF8B003F05BA /* BumpApiLocalizable.strings */,
+				1A9BA6151360DF8B003F05BA /* Localization-ReadMe.txt */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		1A9BA6221360DF90003F05BA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */,
+				1A9BA6031360DF8B003F05BA /* API_build */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A9BA5BE1360DF11003F05BA /* Dwolla Tap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9BA5E01360DF11003F05BA /* Build configuration list for PBXNativeTarget "Dwolla Tap" */;
+			buildPhases = (
+				1A9BA5BB1360DF11003F05BA /* Sources */,
+				1A9BA5BC1360DF11003F05BA /* Frameworks */,
+				1A9BA5BD1360DF11003F05BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A5F08451360E1E800FB7218 /* PBXTargetDependency */,
+			);
+			name = "Dwolla Tap";
+			productName = "Dwolla Tap";
+			productReference = 1A9BA5BF1360DF11003F05BA /* Dwolla Tap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A9BA5B61360DF11003F05BA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1A9BA5B91360DF11003F05BA /* Build configuration list for PBXProject "Dwolla Tap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				da,
+				de,
+				el,
+				es,
+				fr,
+				he,
+				it,
+				ja,
+				ko,
+				nl,
+				no,
+				pl,
+				pt,
+				ru,
+				sv,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 1A9BA5B41360DF11003F05BA;
+			productRefGroup = 1A9BA5C01360DF11003F05BA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1A5F081C1360E1E100FB7218 /* Products */;
+					ProjectRef = 1A5F081B1360E1E100FB7218 /* RestKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1A9BA5BE1360DF11003F05BA /* Dwolla Tap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1A5F08301360E1E100FB7218 /* libRestKitNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitNetwork.a;
+			remoteRef = 1A5F082F1360E1E100FB7218 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A5F08321360E1E100FB7218 /* libRestKitObjectMapping.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitObjectMapping.a;
+			remoteRef = 1A5F08311360E1E100FB7218 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A5F08341360E1E100FB7218 /* libRestKitSupport.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitSupport.a;
+			remoteRef = 1A5F08331360E1E100FB7218 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A5F08361360E1E100FB7218 /* libRestKitJSONParserYAJL.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserYAJL.a;
+			remoteRef = 1A5F08351360E1E100FB7218 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A5F08381360E1E100FB7218 /* libRestKitJSONParserSBJSON.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserSBJSON.a;
+			remoteRef = 1A5F08371360E1E100FB7218 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A5F083A1360E1E100FB7218 /* libRestKitJSONParserJSONKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitJSONParserJSONKit.a;
+			remoteRef = 1A5F08391360E1E100FB7218 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A5F083C1360E1E100FB7218 /* libRestKitXMLParserLibxml.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitXMLParserLibxml.a;
+			remoteRef = 1A5F083B1360E1E100FB7218 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A5F083E1360E1E100FB7218 /* libRestKitCoreData.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitCoreData.a;
+			remoteRef = 1A5F083D1360E1E100FB7218 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A5F08401360E1E100FB7218 /* libRestKitThree20.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKitThree20.a;
+			remoteRef = 1A5F083F1360E1E100FB7218 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1A5F08421360E1E100FB7218 /* UISpec.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = UISpec.app;
+			remoteRef = 1A5F08411360E1E100FB7218 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A9BA5BD1360DF11003F05BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9BA5CE1360DF11003F05BA /* InfoPlist.strings in Resources */,
+				1A9BA5D71360DF11003F05BA /* MainWindow.xib in Resources */,
+				1A9BA5DD1360DF11003F05BA /* Dwolla_TapViewController.xib in Resources */,
+				1A9BA61E1360DF8B003F05BA /* BumpAPIAssets.bundle in Resources */,
+				1A9BA6201360DF8C003F05BA /* BumpApiLocalizable.strings in Resources */,
+				1A9BA6211360DF8C003F05BA /* Localization-ReadMe.txt in Resources */,
+				1A5F08911360E55200FB7218 /* background.jpg in Resources */,
+				1A5F08931361424700FB7218 /* logo.png in Resources */,
+				1A63AE2213614C71005204A8 /* TapViewController.xib in Resources */,
+				1A446D811364BA59001F90E7 /* MainWindow-iPad.xib in Resources */,
+				1A736412136739DF00A58B6D /* bumplogoblack.png in Resources */,
+				1AD4D33213673F44002449FA /* icon57.png in Resources */,
+				1AD4D33413673FCF002449FA /* icon114.png in Resources */,
+				1AD4D33613674084002449FA /* Default.png in Resources */,
+				1AD4D33813674168002449FA /* Default@2x.png in Resources */,
+				1AD4D340136762B4002449FA /* Entitlements.plist in Resources */,
+				1AA00DF413686FB00043AFA0 /* icon72.png in Resources */,
+				1AA00DF813686FD00043AFA0 /* Default-Portrait~ipad.png in Resources */,
+				1A9A468F1374703300A5CEC2 /* dwollalogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A9BA5BB1360DF11003F05BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9BA5D11360DF11003F05BA /* main.m in Sources */,
+				1A9BA5D41360DF11003F05BA /* Dwolla_TapAppDelegate.m in Sources */,
+				1A9BA5DA1360DF11003F05BA /* Dwolla_TapViewController.m in Sources */,
+				1A63AE2113614C71005204A8 /* TapViewController.m in Sources */,
+				1A280ACD13619ED100A05315 /* SFHFKeychainUtils.m in Sources */,
+				1A73640F1367171600A58B6D /* BumpConnector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A5F08451360E1E800FB7218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = 1A5F08441360E1E800FB7218 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A446D7F1364BA59001F90E7 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A446D801364BA59001F90E7 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+		1A9BA5CC1360DF11003F05BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9BA5CD1360DF11003F05BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A9BA5D51360DF11003F05BA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9BA5D61360DF11003F05BA /* en */,
+			);
+			name = MainWindow.xib;
+			path = "Dwolla Tap";
+			sourceTree = "<group>";
+		};
+		1A9BA5DB1360DF11003F05BA /* Dwolla_TapViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9BA5DC1360DF11003F05BA /* en */,
+			);
+			name = Dwolla_TapViewController.xib;
+			path = "Dwolla Tap";
+			sourceTree = "<group>";
+		};
+		1A9BA60A1360DF8B003F05BA /* BumpApiLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9BA60B1360DF8B003F05BA /* da */,
+				1A9BA60C1360DF8B003F05BA /* de */,
+				1A9BA60D1360DF8B003F05BA /* el */,
+				1A9BA60E1360DF8B003F05BA /* en */,
+				1A9BA60F1360DF8B003F05BA /* es */,
+				1A9BA6101360DF8B003F05BA /* fr */,
+				1A9BA6111360DF8B003F05BA /* he */,
+				1A9BA6121360DF8B003F05BA /* it */,
+				1A9BA6131360DF8B003F05BA /* ja */,
+				1A9BA6141360DF8B003F05BA /* ko */,
+				1A9BA6161360DF8B003F05BA /* nl */,
+				1A9BA6171360DF8B003F05BA /* no */,
+				1A9BA6181360DF8B003F05BA /* pl */,
+				1A9BA6191360DF8B003F05BA /* pt */,
+				1A9BA61A1360DF8B003F05BA /* ru */,
+				1A9BA61B1360DF8B003F05BA /* sv */,
+				1A9BA61C1360DF8B003F05BA /* zh-Hans */,
+				1A9BA61D1360DF8B003F05BA /* zh-Hant */,
+			);
+			name = BumpApiLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A9BA5DE1360DF11003F05BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = Libaries/RestKit/Build;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A9BA5DF1360DF11003F05BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: James Armstead";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: James Armstead";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = Libaries/RestKit/Build;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PROVISIONING_PROFILE = "0A8B9C68-8078-4983-91DB-8B252153CC04";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0A8B9C68-8078-4983-91DB-8B252153CC04";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1A9BA5E11360DF11003F05BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dwolla Tap/Dwolla Tap-Prefix.pch";
+				INFOPLIST_FILE = "Dwolla Tap/Dwolla Tap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/API_build\"",
+					"\"$(SRCROOT)/Dwolla Tap/API_build\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitCoreData.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitCoreData.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A9BA5E21360DF11003F05BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: James Armstead";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: James Armstead";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dwolla Tap/Dwolla Tap-Prefix.pch";
+				INFOPLIST_FILE = "Dwolla Tap/Dwolla Tap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/API_build\"",
+					"\"$(SRCROOT)/Dwolla Tap/API_build\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitCoreData.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitCoreData.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)\"",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/API_build\"",
+					"\"$(SRCROOT)/Dwolla Tap/API_build\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitCoreData.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitCoreData.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0A8B9C68-8078-4983-91DB-8B252153CC04";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0A8B9C68-8078-4983-91DB-8B252153CC04";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1AD4D33D136761D9002449FA /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = Libaries/RestKit/Build;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = "Ad Hoc";
+		};
+		1AD4D33E136761D9002449FA /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Entitlements.plist;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dwolla Tap/Dwolla Tap-Prefix.pch";
+				INFOPLIST_FILE = "Dwolla Tap/Dwolla Tap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/API_build\"",
+					"\"$(SRCROOT)/Dwolla Tap/API_build\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitCoreData.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitCoreData.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+JSONKit.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+YAJL.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitObjectMapping.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6\"",
+					"\"$(SRCROOT)/../Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7\"",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A9BA5B91360DF11003F05BA /* Build configuration list for PBXProject "Dwolla Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9BA5DE1360DF11003F05BA /* Debug */,
+				1A9BA5DF1360DF11003F05BA /* Release */,
+				1AD4D33D136761D9002449FA /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A9BA5E01360DF11003F05BA /* Build configuration list for PBXNativeTarget "Dwolla Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9BA5E11360DF11003F05BA /* Debug */,
+				1A9BA5E21360DF11003F05BA /* Release */,
+				1AD4D33E136761D9002449FA /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A9BA5B61360DF11003F05BA /* Project object */;
+}

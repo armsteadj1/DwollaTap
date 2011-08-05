@@ -1,0 +1,348 @@
+TRestKitXMLParser+Libxml
+v3
+r1
+cCheck dependencies
+cProcessPCH /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-ebdwgmqvnrgimxevnkjovvgcjfow/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-gtgwoowcagghbiaxjnpxxyevzmrv/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a" normal armv6
+cLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a" normal armv7
+cCreateUniversalBinary "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a" normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004DAD5B3D0000000000000110
+t1303206717
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2/libxml/parser.h
+c000000004D54D0BA00000000000098A9
+t1297404090
+s39081
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o
+t1303409643
+s24480
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RestKitXMLParserLibxml.LinkFileList
+c000000004DB0776A00000000000000A8
+t1303410538
+s168
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a
+t1303409643
+s24816
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o
+t1303409643
+s24688
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RestKitXMLParserLibxml.LinkFileList
+c000000004DB0776A00000000000000A8
+t1303410538
+s168
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a
+t1303409643
+s25024
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/RKXMLParser.h
+c000000004D9A371E0000000000000263
+t1301952286
+s611
+i<Foundation/Foundation.h>
+i"RKParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+c000000004D9A371E00000000000010AD
+t1301952286
+s4269
+i"RKXMLParser.h"
+i<libxml2/libxml/parser.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/RKParser.h
+c000000004D9A371E000000000000024A
+t1301952286
+s586
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004D9A371E00000000000000BC
+t1301952286
+s188
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RestKitXMLParserLibxml.LinkFileList
+c000000004DB073EA000000000000009E
+t1303409642
+s158
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RestKitXMLParserLibxml.LinkFileList
+c000000004DB073EA000000000000009E
+t1303409642
+s158
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/RKXMLParser.h
+c000000004D9A371E0000000000000263
+t1301952286
+s611
+i<Foundation/Foundation.h>
+i"RKParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+c000000004D9A371E00000000000010AD
+t1301952286
+s4269
+i"RKXMLParser.h"
+i<libxml2/libxml/parser.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKParser.h
+c000000004D9A371E000000000000024A
+t1301952286
+s586
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch
+c000000004D9A371E00000000000000BC
+t1301952286
+s188
+i<Foundation/Foundation.h>
+
+N/var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-aqcjrqzyirvpvidjshucppzcgcdn/RestKit_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-bdwmjwwyudetlthihqalpajekshb/RestKit_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-ebdwgmqvnrgimxevnkjovvgcjfow/RestKit_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-gtgwoowcagghbiaxjnpxxyevzmrv/RestKit_Prefix.pch.gch
+t2
+s0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m"
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesab5cd8e9ae60b341^2b5077eaae60b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m" normal armv6 objective-c com.apple.compilers.llvmgcc42
+s325103340.190451
+e325103340.294997
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m65e030ecae60b341^88844becae60b341^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m0000000000000000^2523"CompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap" -iquote "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv6" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources" "-F/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -include /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-ebdwgmqvnrgimxevnkjovvgcjfow/RestKit_Prefix.pch -c "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m" -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o"
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s325102443.463867
+e325102443.837766
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.mfce2766bab60b341^9277d66bab60b341^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m0000000000000000^2391"CompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-aqcjrqzyirvpvidjshucppzcgcdn/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RKXMLParser+libXML.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m" normal armv7 objective-c com.apple.compilers.llvmgcc42
+s325103340.198716
+e325103340.330873
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m11fd32ecae60b341^fbb254ecae60b341^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m0000000000000000^2523"CompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap" -iquote "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv7" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources" "-F/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -include /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-gtgwoowcagghbiaxjnpxxyevzmrv/RestKit_Prefix.pch -c "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/XML/RKXMLParser+libXML.m" -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o"
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s325102443.508430
+e325102443.839160
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m454b826bab60b341^67d2d66bab60b341^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m0000000000000000^2391"CompileC Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o Code/Support/Parsers/XML/RKXMLParser+libXML.m normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-bdwmjwwyudetlthihqalpajekshb/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/XML/RKXMLParser+libXML.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RKXMLParser+libXML.o
+
+CCreateUniversalBinary "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a" normal "armv6 armv7"
+s325103340.339745
+e325103340.351307
+r1
+xCreateUniversalBinary
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Create universal binary /Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a2d0a57ecae60b341^24ee59ecae60b341^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a000020442305f041^832"CreateUniversalBinary Build/Debug-iphoneos/libRestKitXMLParserLibxml.a normal "armv6 armv7"    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a" -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a"
+
+CCreateUniversalBinary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a normal "armv6 armv7"
+s325102443.955694
+e325102444.029386
+r1
+xCreateUniversalBinary
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Create universal binary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a2ecaf46bab60b341^048f076cab60b341^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a000020442305f041^784"CreateUniversalBinary Build/Debug-iphoneos/libRestKitXMLParserLibxml.a normal "armv6 armv7"    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitXMLParserLibxml.a
+
+CLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a" normal armv6
+s325103340.295756
+e325103340.331921
+r1
+xLibtool
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a normal armv679cd4becae60b341^d7f854ecae60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1036"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a normal armv6    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -filelist "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RestKitXMLParserLibxml.LinkFileList" -ObjC -framework Foundation -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a"
+
+CLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a" normal armv7
+s325103340.331095
+e325103340.339546
+r1
+xLibtool
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a normal armv70ad654ecae60b341^c0ec56ecae60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1036"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a normal armv7    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -filelist "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RestKitXMLParserLibxml.LinkFileList" -ObjC -framework Foundation -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a"
+
+CLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a normal armv6
+s325102443.839399
+e325102443.858882
+r1
+xLibtool
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a normal armv67808d76bab60b341^d9eddb6bab60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--988"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a normal armv6    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -filelist /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/RestKitXMLParserLibxml.LinkFileList -ObjC -framework Foundation -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv6/libRestKitXMLParserLibxml.a
+
+CLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a normal armv7
+s325102443.859096
+e325102443.871507
+r1
+xLibtool
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a normal armv7fa08dc6bab60b341^431cdf6bab60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--988"Libtool Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a normal armv7    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -filelist /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/RestKitXMLParserLibxml.LinkFileList -ObjC -framework Foundation -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/Objects-normal/armv7/libRestKitXMLParserLibxml.a
+
+CProcessPCH /Users/james/Library/Developer/Xcode/DerivedData/RestKit-ejtmvcgboqfxxiejrdykrumiojwd/Index/PrecompiledHeaders/RestKit_Prefix-ebphnqltpfgmkxbrrtuekxwairrd_ast/RestKit_Prefix.pch.pth Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/james/Library/Developer/Xcode/DerivedData/RestKit-ejtmvcgboqfxxiejrdykrumiojwd/Index/PrecompiledHeaders/RestKit_Prefix-gxxfgdiofdniimcyvvjsgwxtvuiq_ast/RestKit_Prefix.pch.pth Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/james/Library/Developer/Xcode/DerivedData/RestKit-ficczunlncaxlifmenunkubroirl/Index/PrecompiledHeaders/RestKit_Prefix-fdxxdfaateropfgyfavucnzoiutq_ast/RestKit_Prefix.pch.pth Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/james/Library/Developer/Xcode/DerivedData/RestKit-ficczunlncaxlifmenunkubroirl/Index/PrecompiledHeaders/RestKit_Prefix-guzoxfnymvvhwidrxnkuasjxicbc_ast/RestKit_Prefix.pch.pth Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-aqcjrqzyirvpvidjshucppzcgcdn/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s325102442.715385
+e325102443.460714
+r1
+xProcessPCH
+x/var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-aqcjrqzyirvpvidjshucppzcgcdn/RestKit_Prefix.pch.gch
+xCode/Support/RestKit_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Code/Support/RestKit_Prefix.pchcc42b76aab60b341^5ff0756bab60b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch0000000000000000^2273"ProcessPCH /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-aqcjrqzyirvpvidjshucppzcgcdn/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -o /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-aqcjrqzyirvpvidjshucppzcgcdn/RestKit_Prefix.pch.gch
+
+CProcessPCH /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-bdwmjwwyudetlthihqalpajekshb/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s325102442.719454
+e325102443.505916
+r1
+xProcessPCH
+x/var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-bdwmjwwyudetlthihqalpajekshb/RestKit_Prefix.pch.gch
+xCode/Support/RestKit_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Code/Support/RestKit_Prefix.pcha04fb86aab60b341^8483816bab60b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch0000000000000000^2273"ProcessPCH /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-bdwmjwwyudetlthihqalpajekshb/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -o /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-bdwmjwwyudetlthihqalpajekshb/RestKit_Prefix.pch.gch
+
+CProcessPCH /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-ebdwgmqvnrgimxevnkjovvgcjfow/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s325103338.519780
+e325103340.188787
+r1
+xProcessPCH
+x/var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-ebdwgmqvnrgimxevnkjovvgcjfow/RestKit_Prefix.pch.gch
+xCode/Support/RestKit_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Code/Support/RestKit_Prefix.pch074385eaae60b341^8f5330ecae60b341^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Code/Support/RestKit_Prefix.pch0000000000000000^2393"ProcessPCH /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-ebdwgmqvnrgimxevnkjovvgcjfow/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap" -iquote "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv6" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources" "-F/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -c "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/RestKit_Prefix.pch" -o /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-ebdwgmqvnrgimxevnkjovvgcjfow/RestKit_Prefix.pch.gch
+
+CProcessPCH /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-gtgwoowcagghbiaxjnpxxyevzmrv/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s325103338.520281
+e325103340.198488
+r1
+xProcessPCH
+x/var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-gtgwoowcagghbiaxjnpxxyevzmrv/RestKit_Prefix.pch.gch
+xCode/Support/RestKit_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Code/Support/RestKit_Prefix.pch207f85eaae60b341^a7cf32ecae60b341^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Code/Support/RestKit_Prefix.pch0000000000000000^2393"ProcessPCH /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-gtgwoowcagghbiaxjnpxxyevzmrv/RestKit_Prefix.pch.gch Code/Support/RestKit_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-generated-files.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-own-target-headers.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-all-target-headers.hmap" -iquote "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/RestKitXMLParserLibxml-project-headers.hmap" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include" -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/libxml2 "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources/armv7" "-I/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitXMLParser+Libxml.build/DerivedSources" "-F/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -c "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/RestKit_Prefix.pch" -o /var/folders/9a/9aE-1NS6E8CmlbI9PHRDBGtY+Eo/-Caches-/com.apple.Xcode.778305805/SharedPrecompiledHeaders/RestKit_Prefix-gtgwoowcagghbiaxjnpxxyevzmrv/RestKit_Prefix.pch.gch
+

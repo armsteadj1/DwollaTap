@@ -1,0 +1,435 @@
+TRestKitSupport
+v3
+r1
+cCheck dependencies
+cCpHeader Code/Support/Errors.h Build/Debug-iphoneos/include/RestKit/Support/Errors.h
+cCpHeader Code/Support/NSDictionary+RKAdditions.h Build/Debug-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h
+cCpHeader Code/Support/NSString+InflectionSupport.h Build/Debug-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h
+cCpHeader Code/Support/NSObject+RKJSONSerialization.h Build/Debug-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h
+cCpHeader Code/Support/RKSearchEngine.h Build/Debug-iphoneos/include/RestKit/Support/RKSearchEngine.h
+cCpHeader Code/Support/RKParser.h Build/Debug-iphoneos/include/RestKit/Support/RKParser.h
+cCpHeader Code/Support/Parsers/RKJSONParser.h Build/Debug-iphoneos/include/RestKit/Support/RKJSONParser.h
+cCpHeader Code/Support/Parsers/RKXMLParser.h Build/Debug-iphoneos/include/RestKit/Support/RKXMLParser.h
+cCpHeader Code/Support/Support.h Build/Debug-iphoneos/include/RestKit/Support/Support.h
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a normal armv6
+cLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a normal armv7
+cCreateUniversalBinary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitSupport.a normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004DAD5B3D0000000000000110
+t1303206717
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/Errors.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/RKJSONParser.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/RKParser.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/RKSearchEngine.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/RKXMLParser.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/Support.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitSupport.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/RestKitSupport.LinkFileList
+c000000004DB073E90000000000000252
+t1303409641
+s594
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/RestKitSupport.LinkFileList
+c000000004DB073E90000000000000252
+t1303409641
+s594
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.h
+c000000004D9A371E0000000000000146
+t1301952286
+s326
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m
+c000000004D9A371E00000000000000E5
+t1301952286
+s229
+i"Errors.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.h
+c000000004D9A371E0000000000000234
+t1301952286
+s564
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m
+c000000004D9A371E00000000000002AA
+t1301952286
+s682
+i"NSDictionary+RKAdditions.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSObject+RKJSONSerialization.h
+c000000004D9A371E00000000000001AD
+t1301952286
+s429
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.h
+c000000004D9A371E0000000000000378
+t1301952286
+s888
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m
+c000000004D9A371E00000000000009E5
+t1301952286
+s2533
+i"NSString+InflectionSupport.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/RKJSONParser.h
+c000000004D9A371E00000000000000E2
+t1301952286
+s226
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/RKXMLParser.h
+c000000004D9A371E0000000000000263
+t1301952286
+s611
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKParser.h
+c000000004D9A371E000000000000024A
+t1301952286
+s586
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.h
+c000000004D9A371E0000000000000775
+t1301952286
+s1909
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m
+c000000004D9A371E0000000000000C30
+t1301952286
+s3120
+i"RKSearchEngine.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch
+c000000004D9A371E00000000000000BC
+t1301952286
+s188
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Support.h
+c000000004D9A371E00000000000000BB
+t1301952286
+s187
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescf85cd67ab60b341^a4e4e169ab60b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102443.772539
+e325102443.946046
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.mc1e5c56bab60b341^cb30f26bab60b341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m0000000000000000^2022"CompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o Code/Support/Errors.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/Errors.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102443.833667
+e325102444.012967
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.mce89d56bab60b341^1651036cab60b341^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m0000000000000000^2094"CompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o Code/Support/NSDictionary+RKAdditions.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSDictionary+RKAdditions.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102443.838020
+e325102444.030184
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m3baad66bab60b341^1fbf076cab60b341^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m0000000000000000^2102"CompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o Code/Support/NSString+InflectionSupport.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/NSString+InflectionSupport.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102443.871853
+e325102444.080859
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.mf354df6bab60b341^e0bc146cab60b341^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m0000000000000000^2054"CompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o Code/Support/RKSearchEngine.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/RKSearchEngine.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102444.013211
+e325102444.186299
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m9984036cab60b341^0ebb2f6cab60b341^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m0000000000000000^2022"CompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o Code/Support/Errors.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/Errors.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102444.029811
+e325102444.207525
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.me7c3076cab60b341^9127356cab60b341^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m0000000000000000^2094"CompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o Code/Support/NSDictionary+RKAdditions.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSDictionary+RKAdditions.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102444.030701
+e325102444.245325
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.maaf0076cab60b341^16a63f6cab60b341^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m0000000000000000^2102"CompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o Code/Support/NSString+InflectionSupport.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/NSString+InflectionSupport.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102444.081700
+e325102444.339505
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m950f156cab60b341^2a03576cab60b341^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m0000000000000000^2054"CompileC Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o Code/Support/RKSearchEngine.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/RestKitSupport-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/RKSearchEngine.o
+
+CCpHeader Code/Support/Errors.h Build/Debug-iphoneos/include/RestKit/Support/Errors.h
+s325102442.645342
+e325102442.648318
+r1
+xCpHeader
+xCode/Support/Errors.h
+xBuild/Debug-iphoneos/include/RestKit/Support/Errors.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy Build/Debug-iphoneos/include/RestKit/Support/Errors.h2653a56aab60b341^2effa56aab60b341^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/Errors.h000020442305f041^535"CpHeader Code/Support/Errors.h Build/Debug-iphoneos/include/RestKit/Support/Errors.h    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.h /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/NSDictionary+RKAdditions.h Build/Debug-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h
+s325102442.645794
+e325102442.648318
+r1
+xCpHeader
+xCode/Support/NSDictionary+RKAdditions.h
+xBuild/Debug-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy Build/Debug-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h2463a56aab60b341^22faa56aab60b341^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h000020442305f041^589"CpHeader Code/Support/NSDictionary+RKAdditions.h Build/Debug-iphoneos/include/RestKit/Support/NSDictionary+RKAdditions.h    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.h /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/NSObject+RKJSONSerialization.h Build/Debug-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h
+s325102442.648783
+e325102442.651031
+r1
+xCpHeader
+xCode/Support/NSObject+RKJSONSerialization.h
+xBuild/Debug-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy Build/Debug-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h842da66aab60b341^19aaa66aab60b341^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h000020442305f041^601"CpHeader Code/Support/NSObject+RKJSONSerialization.h Build/Debug-iphoneos/include/RestKit/Support/NSObject+RKJSONSerialization.h    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSObject+RKJSONSerialization.h /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/NSString+InflectionSupport.h Build/Debug-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h
+s325102442.648720
+e325102442.651361
+r1
+xCpHeader
+xCode/Support/NSString+InflectionSupport.h
+xBuild/Debug-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/Debug-iphoneos/include/RestKit/Support/NSString+InflectionSupport.ha435a66aab60b341^b5c4a66aab60b341^---0#0#0#-19%DVTDocumentLocation2@140"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h000020442305f041^595"CpHeader Code/Support/NSString+InflectionSupport.h Build/Debug-iphoneos/include/RestKit/Support/NSString+InflectionSupport.h    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSString+InflectionSupport.h /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/Parsers/RKJSONParser.h Build/Debug-iphoneos/include/RestKit/Support/RKJSONParser.h
+s325102442.662501
+e325102442.667697
+r1
+xCpHeader
+xCode/Support/Parsers/RKJSONParser.h
+xBuild/Debug-iphoneos/include/RestKit/Support/RKJSONParser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Debug-iphoneos/include/RestKit/Support/RKJSONParser.h8eafa96aab60b341^0af3aa6aab60b341^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/RKJSONParser.h000020442305f041^569"CpHeader Code/Support/Parsers/RKJSONParser.h Build/Debug-iphoneos/include/RestKit/Support/RKJSONParser.h    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/RKJSONParser.h /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/Parsers/RKXMLParser.h Build/Debug-iphoneos/include/RestKit/Support/RKXMLParser.h
+s325102442.662524
+e325102442.666626
+r1
+xCpHeader
+xCode/Support/Parsers/RKXMLParser.h
+xBuild/Debug-iphoneos/include/RestKit/Support/RKXMLParser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Debug-iphoneos/include/RestKit/Support/RKXMLParser.hc8b1a96aab60b341^9bafaa6aab60b341^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/RKXMLParser.h000020442305f041^566"CpHeader Code/Support/Parsers/RKXMLParser.h Build/Debug-iphoneos/include/RestKit/Support/RKXMLParser.h    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/RKXMLParser.h /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/RKParser.h Build/Debug-iphoneos/include/RestKit/Support/RKParser.h
+s325102442.651625
+e325102442.662333
+r1
+xCpHeader
+xCode/Support/RKParser.h
+xBuild/Debug-iphoneos/include/RestKit/Support/RKParser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Debug-iphoneos/include/RestKit/Support/RKParser.h22e2a66aab60b341^de8da96aab60b341^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/RKParser.h000020442305f041^541"CpHeader Code/Support/RKParser.h Build/Debug-iphoneos/include/RestKit/Support/RKParser.h    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKParser.h /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/RKSearchEngine.h Build/Debug-iphoneos/include/RestKit/Support/RKSearchEngine.h
+s325102442.651142
+e325102442.662200
+r1
+xCpHeader
+xCode/Support/RKSearchEngine.h
+xBuild/Debug-iphoneos/include/RestKit/Support/RKSearchEngine.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Debug-iphoneos/include/RestKit/Support/RKSearchEngine.h3bc5a66aab60b341^c284a96aab60b341^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/RKSearchEngine.h000020442305f041^559"CpHeader Code/Support/RKSearchEngine.h Build/Debug-iphoneos/include/RestKit/Support/RKSearchEngine.h    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKSearchEngine.h /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support
+
+CCpHeader Code/Support/Support.h Build/Debug-iphoneos/include/RestKit/Support/Support.h
+s325102442.667004
+e325102442.680131
+r1
+xCpHeader
+xCode/Support/Support.h
+xBuild/Debug-iphoneos/include/RestKit/Support/Support.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Build/Debug-iphoneos/include/RestKit/Support/Support.h8dd5aa6aab60b341^2121ae6aab60b341^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/Support.h000020442305f041^538"CpHeader Code/Support/Support.h Build/Debug-iphoneos/include/RestKit/Support/Support.h    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Support.h /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support
+
+CCreateUniversalBinary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitSupport.a normal "armv6 armv7"
+s325102444.815434
+e325102444.857753
+r1
+xCreateUniversalBinary
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitSupport.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Create universal binary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitSupport.af9d9d06cab60b341^6fd3db6cab60b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitSupport.a000020442305f041^734"CreateUniversalBinary Build/Debug-iphoneos/libRestKitSupport.a normal "armv6 armv7"    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitSupport.a
+
+CLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a normal armv6
+s325102444.189439
+e325102444.204174
+r1
+xLibtool
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a normal armv6999e306cab60b341^7d20356cab60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--915"Libtool Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a normal armv6    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -filelist /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/RestKitSupport.LinkFileList -ObjC -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv6/libRestKitSupport.a
+
+CLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a normal armv7
+s325102444.569367
+e325102444.594308
+r1
+xLibtool
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a normal armv78fe1916cab60b341^0b24986cab60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--915"Libtool Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a normal armv7    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -filelist /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/RestKitSupport.LinkFileList -ObjC -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitSupport.build/Objects-normal/armv7/libRestKitSupport.a
+

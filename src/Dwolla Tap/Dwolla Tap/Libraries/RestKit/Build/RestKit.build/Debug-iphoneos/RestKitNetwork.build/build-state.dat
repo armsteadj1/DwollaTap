@@ -1,0 +1,1637 @@
+TRestKitNetwork
+v3
+r1
+cCheck dependencies
+cCpHeader Code/Network/Network.h Build/Debug-iphoneos/include/RestKit/Network/Network.h
+cCpHeader Code/Network/NSDictionary+RKRequestSerialization.h Build/Debug-iphoneos/include/RestKit/Network/NSDictionary+RKRequestSerialization.h
+cCpHeader Code/Network/RKClient.h Build/Debug-iphoneos/include/RestKit/Network/RKClient.h
+cCpHeader Code/Network/RKJSONSerialization.h Build/Debug-iphoneos/include/RestKit/Network/RKJSONSerialization.h
+cCpHeader Code/Network/RKNotifications.h Build/Debug-iphoneos/include/RestKit/Network/RKNotifications.h
+cCpHeader Code/Network/RKParams.h Build/Debug-iphoneos/include/RestKit/Network/RKParams.h
+cCpHeader Code/Network/RKParamsAttachment.h Build/Debug-iphoneos/include/RestKit/Network/RKParamsAttachment.h
+cCpHeader Code/Network/RKRequest.h Build/Debug-iphoneos/include/RestKit/Network/RKRequest.h
+cCpHeader Code/Network/RKRequestSerializable.h Build/Debug-iphoneos/include/RestKit/Network/RKRequestSerializable.h
+cCpHeader Code/Network/RKResponse.h Build/Debug-iphoneos/include/RestKit/Network/RKResponse.h
+cCpHeader Code/Network/RKRequestQueue.h Build/Debug-iphoneos/include/RestKit/Network/RKRequestQueue.h
+cCpHeader Code/Network/RKReachabilityObserver.h Build/Debug-iphoneos/include/RestKit/Network/RKReachabilityObserver.h
+cCpHeader Code/Network/RKNetwork.h Build/Debug-iphoneos/include/RestKit/Network/RKNetwork.h
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSDictionary+RKRequestSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSDictionary+RKRequestSerialization.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSObject+RKJSONSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSObject+RKJSONSerialization.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKClient.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKClient.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKJSONSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKJSONSerialization.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNotifications.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNotifications.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParams.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParams.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParamsAttachment.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParamsAttachment.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequest.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequest.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKResponse.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKResponse.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKURL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKURL.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKReachabilityObserver.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKReachabilityObserver.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequestQueue.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequestQueue.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNetwork.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNetwork.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSDictionary+RKRequestSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSDictionary+RKRequestSerialization.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a" normal armv6
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSObject+RKJSONSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSObject+RKJSONSerialization.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKClient.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKClient.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKJSONSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKJSONSerialization.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNotifications.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNotifications.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParams.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParams.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParamsAttachment.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParamsAttachment.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequest.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequest.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKResponse.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKResponse.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKURL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKURL.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKReachabilityObserver.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKReachabilityObserver.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequestQueue.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequestQueue.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNetwork.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNetwork.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a" normal armv7
+cCreateUniversalBinary "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitNetwork.a" normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004DAD5B3D0000000000000110
+t1303206717
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D54D243000000000000046B
+t1297404483
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers/UTType.h
+c000000004D54D32C0000000000004B1A
+t1297404716
+s19226
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+c000000004D54D0D4000000000000353E
+t1297404116
+s13630
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D54D0D40000000000001A58
+t1297404116
+s6744
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/arpa/inet.h
+c000000004D54C5330000000000001533
+t1297401139
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/netdb.h
+c000000004D54C533000000000000307F
+t1297401139
+s12415
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/NSDictionary+RKRequestSerialization.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/Network.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKClient.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKJSONSerialization.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKNetwork.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKNotifications.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKParams.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKParamsAttachment.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKReachabilityObserver.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKRequest.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKRequestQueue.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKRequestSerializable.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKResponse.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitNetwork.a
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSDictionary+RKRequestSerialization.o
+t1303409645
+s13072
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSObject+RKJSONSerialization.o
+t1303409645
+s6648
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKClient.o
+t1303409645
+s35592
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKJSONSerialization.o
+t1303409645
+s13360
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNetwork.o
+t1303409645
+s5480
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNotifications.o
+t1303409645
+s5776
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParams.o
+t1303409645
+s26860
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParamsAttachment.o
+t1303409645
+s26612
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKReachabilityObserver.o
+t1303409645
+s19444
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequest.o
+t1303409645
+s79168
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequestQueue.o
+t1303409645
+s25208
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKResponse.o
+t1303409645
+s36720
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKURL.o
+t1303409645
+s10580
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RestKitNetwork.LinkFileList
+c000000004DB0776A00000000000007F1
+t1303410538
+s2033
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a
+t1303409645
+s309792
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSDictionary+RKRequestSerialization.o
+t1303409645
+s13048
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSObject+RKJSONSerialization.o
+t1303409645
+s6636
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKClient.o
+t1303409646
+s34932
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKJSONSerialization.o
+t1303409646
+s13276
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNetwork.o
+t1303409646
+s5476
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNotifications.o
+t1303409646
+s5776
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParams.o
+t1303409646
+s26424
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParamsAttachment.o
+t1303409646
+s26048
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKReachabilityObserver.o
+t1303409646
+s19204
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequest.o
+t1303409646
+s78252
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequestQueue.o
+t1303409646
+s25040
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKResponse.o
+t1303409646
+s36180
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKURL.o
+t1303409646
+s10476
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RestKitNetwork.LinkFileList
+c000000004DB0776A00000000000007F1
+t1303410538
+s2033
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a
+t1303409646
+s306056
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSDictionary+RKRequestSerialization.h
+c000000004D9A371E00000000000001A0
+t1301952286
+s416
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSDictionary+RKRequestSerialization.m
+c000000004D9A371E0000000000000663
+t1301952286
+s1635
+i"NSDictionary+RKRequestSerialization.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSObject+RKJSONSerialization.m
+c000000004D9A371E0000000000000165
+t1301952286
+s357
+i"NSObject+RKJSONSerialization.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/Network.h
+c000000004D9A371E0000000000000125
+t1301952286
+s293
+i"RKClient.h"
+i"RKRequest.h"
+i"RKResponse.h"
+i"RKRequestSerializable.h"
+i"RKReachabilityObserver.h"
+i"RKRequestQueue.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKClient.h
+c000000004D9A371E0000000000001BD3
+t1301952286
+s7123
+i"RKRequest.h"
+i"RKParams.h"
+i"RKResponse.h"
+i"NSDictionary+RKRequestSerialization.h"
+i"RKReachabilityObserver.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKClient.m
+c000000004D9A371E0000000000001E44
+t1301952286
+s7748
+i<SystemConfiguration/SCNetworkReachability.h>
+i"RKClient.h"
+i"RKObjectLoader.h"
+i"RKURL.h"
+i"RKNotifications.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKJSONSerialization.h
+c000000004D9A371E0000000000000267
+t1301952286
+s615
+i"RKRequestSerializable.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKJSONSerialization.m
+c000000004D9A371E000000000000049A
+t1301952286
+s1178
+i"RKJSONSerialization.h"
+i"NSObject+RKJSONSerialization.h"
+i"RKJSONParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNetwork.h
+c000000004D9A371E0000000000000222
+t1301952286
+s546
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNetwork.m
+c000000004D9A371E0000000000000214
+t1301952286
+s532
+i"RKNetwork.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNotifications.h
+c000000004D9A371E00000000000002B6
+t1301952286
+s694
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNotifications.m
+c000000004D9A371E0000000000000205
+t1301952286
+s517
+i"RKNotifications.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParams.h
+c000000004D9A371E000000000000095A
+t1301952286
+s2394
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+i"RKParamsAttachment.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParams.m
+c000000004D9A371E000000000000168D
+t1301952286
+s5773
+i"RKParams.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParamsAttachment.h
+c000000004D9A371E0000000000000879
+t1301952286
+s2169
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParamsAttachment.m
+c000000004D9A371E00000000000015CA
+t1301952286
+s5578
+i<MobileCoreServices/UTType.h>
+i"RKParamsAttachment.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKReachabilityObserver.h
+c000000004D9A371E0000000000000580
+t1301952286
+s1408
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKReachabilityObserver.m
+c000000004D9A371E000000000000156D
+t1301952286
+s5485
+i"RKReachabilityObserver.h"
+i<UIKit/UIKit.h>
+i<netdb.h>
+i<arpa/inet.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequest.h
+c000000004D9A371E00000000000012E5
+t1301952286
+s4837
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"RKRequestSerializable.h"
+i"RKJSONSerialization.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequest.m
+c000000004D9A371E00000000000022D7
+t1301952286
+s8919
+i"RKRequest.h"
+i"RKRequestQueue.h"
+i"RKResponse.h"
+i"NSDictionary+RKRequestSerialization.h"
+i"RKNotifications.h"
+i"RKClient.h"
+i"../Support/Support.h"
+i"RKURL.h"
+i<UIKit/UIKit.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequestQueue.h
+c000000004D9A371E000000000000057A
+t1301952286
+s1402
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequestQueue.m
+c000000004D9A371E0000000000001242
+t1301952286
+s4674
+i"RKRequestQueue.h"
+i"RKResponse.h"
+i"RKNotifications.h"
+i"RKClient.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequestSerializable.h
+c000000004D9A371E00000000000005FC
+t1301952286
+s1532
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKResponse.h
+c000000004D9A371E0000000000001030
+t1301952286
+s4144
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKResponse.m
+c000000004D9A371E0000000000001C22
+t1301952286
+s7202
+i"RKResponse.h"
+i"RKNotifications.h"
+i"RKJSONParser.h"
+i"RKNetwork.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKURL.h
+c000000004D9A371E0000000000000204
+t1301952286
+s516
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKURL.m
+c000000004D9A371E000000000000037B
+t1301952286
+s891
+i"RKURL.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/ObjectMapping/RKObjectLoader.h
+c000000004D9A371E0000000000000CB8
+t1301952286
+s3256
+i"../Network/Network.h"
+i"RKObjectMappable.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/ObjectMapping/RKObjectMappable.h
+c000000004D9A371E0000000000000B08
+t1301952286
+s2824
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Errors.h
+c000000004D9A371E0000000000000146
+t1301952286
+s326
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/NSDictionary+RKAdditions.h
+c000000004D9A371E0000000000000234
+t1301952286
+s564
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/NSObject+RKJSONSerialization.h
+c000000004D9A371E00000000000001AD
+t1301952286
+s429
+i"RKJSONSerialization.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/RKJSONParser.h
+c000000004D9A371E00000000000000E2
+t1301952286
+s226
+i"RKParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/RKParser.h
+c000000004D9A371E000000000000024A
+t1301952286
+s586
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004D9A371E00000000000000BC
+t1301952286
+s188
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Support.h
+c000000004D9A371E00000000000000BB
+t1301952286
+s187
+i"Errors.h"
+i"NSDictionary+RKAdditions.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/NSDictionary+RKRequestSerialization.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/Network.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKClient.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKJSONSerialization.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKNetwork.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKNotifications.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKParams.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKParamsAttachment.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKReachabilityObserver.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKRequest.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKRequestQueue.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKRequestSerializable.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Network/RKResponse.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitNetwork.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSDictionary+RKRequestSerialization.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSObject+RKJSONSerialization.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKClient.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKJSONSerialization.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNetwork.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNotifications.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParams.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParamsAttachment.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKReachabilityObserver.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequest.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequestQueue.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKResponse.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKURL.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RestKitNetwork.LinkFileList
+c000000004DB073E9000000000000076F
+t1303409641
+s1903
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSDictionary+RKRequestSerialization.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSObject+RKJSONSerialization.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKClient.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKJSONSerialization.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNetwork.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNotifications.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParams.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParamsAttachment.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKReachabilityObserver.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequest.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequestQueue.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKResponse.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKURL.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RestKitNetwork.LinkFileList
+c000000004DB073E9000000000000076F
+t1303409641
+s1903
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.h
+c000000004D9A371E00000000000001A0
+t1301952286
+s416
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m
+c000000004D9A371E0000000000000663
+t1301952286
+s1635
+i"NSDictionary+RKRequestSerialization.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m
+c000000004D9A371E0000000000000165
+t1301952286
+s357
+i"NSObject+RKJSONSerialization.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/Network.h
+c000000004D9A371E0000000000000125
+t1301952286
+s293
+i"RKClient.h"
+i"RKRequest.h"
+i"RKResponse.h"
+i"RKRequestSerializable.h"
+i"RKReachabilityObserver.h"
+i"RKRequestQueue.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.h
+c000000004D9A371E0000000000001BD3
+t1301952286
+s7123
+i"RKRequest.h"
+i"RKParams.h"
+i"RKResponse.h"
+i"NSDictionary+RKRequestSerialization.h"
+i"RKReachabilityObserver.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.m
+c000000004D9A371E0000000000001E44
+t1301952286
+s7748
+i<SystemConfiguration/SCNetworkReachability.h>
+i"RKClient.h"
+i"RKObjectLoader.h"
+i"RKURL.h"
+i"RKNotifications.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.h
+c000000004D9A371E0000000000000267
+t1301952286
+s615
+i"RKRequestSerializable.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m
+c000000004D9A371E000000000000049A
+t1301952286
+s1178
+i"RKJSONSerialization.h"
+i"NSObject+RKJSONSerialization.h"
+i"RKJSONParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.h
+c000000004D9A371E0000000000000222
+t1301952286
+s546
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m
+c000000004D9A371E0000000000000214
+t1301952286
+s532
+i"RKNetwork.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.h
+c000000004D9A371E00000000000002B6
+t1301952286
+s694
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m
+c000000004D9A371E0000000000000205
+t1301952286
+s517
+i"RKNotifications.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.h
+c000000004D9A371E000000000000095A
+t1301952286
+s2394
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+i"RKParamsAttachment.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m
+c000000004D9A371E000000000000168D
+t1301952286
+s5773
+i"RKParams.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.h
+c000000004D9A371E0000000000000879
+t1301952286
+s2169
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m
+c000000004D9A371E00000000000015CA
+t1301952286
+s5578
+i<MobileCoreServices/UTType.h>
+i"RKParamsAttachment.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.h
+c000000004D9A371E0000000000000580
+t1301952286
+s1408
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m
+c000000004D9A371E000000000000156D
+t1301952286
+s5485
+i"RKReachabilityObserver.h"
+i<UIKit/UIKit.h>
+i<netdb.h>
+i<arpa/inet.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.h
+c000000004D9A371E00000000000012E5
+t1301952286
+s4837
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"RKRequestSerializable.h"
+i"RKJSONSerialization.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m
+c000000004D9A371E00000000000022D7
+t1301952286
+s8919
+i"RKRequest.h"
+i"RKRequestQueue.h"
+i"RKResponse.h"
+i"NSDictionary+RKRequestSerialization.h"
+i"RKNotifications.h"
+i"RKClient.h"
+i"../Support/Support.h"
+i"RKURL.h"
+i<UIKit/UIKit.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.h
+c000000004D9A371E000000000000057A
+t1301952286
+s1402
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m
+c000000004D9A371E0000000000001242
+t1301952286
+s4674
+i"RKRequestQueue.h"
+i"RKResponse.h"
+i"RKNotifications.h"
+i"RKClient.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestSerializable.h
+c000000004D9A371E00000000000005FC
+t1301952286
+s1532
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.h
+c000000004D9A371E0000000000001030
+t1301952286
+s4144
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m
+c000000004D9A371E0000000000001C22
+t1301952286
+s7202
+i"RKResponse.h"
+i"RKNotifications.h"
+i"RKJSONParser.h"
+i"RKNetwork.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.h
+c000000004D9A371E0000000000000204
+t1301952286
+s516
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m
+c000000004D9A371E000000000000037B
+t1301952286
+s891
+i"RKURL.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/ObjectMapping/RKObjectLoader.h
+c000000004D9A371E0000000000000CB8
+t1301952286
+s3256
+i"../Network/Network.h"
+i"RKObjectMappable.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/ObjectMapping/RKObjectMappable.h
+c000000004D9A371E0000000000000B08
+t1301952286
+s2824
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Errors.h
+c000000004D9A371E0000000000000146
+t1301952286
+s326
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSDictionary+RKAdditions.h
+c000000004D9A371E0000000000000234
+t1301952286
+s564
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/NSObject+RKJSONSerialization.h
+c000000004D9A371E00000000000001AD
+t1301952286
+s429
+i"RKJSONSerialization.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/RKJSONParser.h
+c000000004D9A371E00000000000000E2
+t1301952286
+s226
+i"RKParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKParser.h
+c000000004D9A371E000000000000024A
+t1301952286
+s586
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch
+c000000004D9A371E00000000000000BC
+t1301952286
+s188
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Support.h
+c000000004D9A371E00000000000000BB
+t1301952286
+s187
+i"Errors.h"
+i"NSDictionary+RKAdditions.h"
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSDictionary+RKRequestSerialization.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSObject+RKJSONSerialization.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKClient.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKJSONSerialization.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNetwork.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNotifications.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParams.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParamsAttachment.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKReachabilityObserver.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequest.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequestQueue.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKResponse.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKURL.m"
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5794d6e9ae60b341^f27a98eaae60b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSDictionary+RKRequestSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSDictionary+RKRequestSerialization.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSDictionary+RKRequestSerialization.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102444.858000
+e325102445.043765
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSDictionary+RKRequestSerialization.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.md5cbdb6cab60b341^cd780b6dab60b341^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m0000000000000000^2138"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSDictionary+RKRequestSerialization.o Code/Network/NSDictionary+RKRequestSerialization.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSDictionary+RKRequestSerialization.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSObject+RKJSONSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSObject+RKJSONSerialization.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSObject+RKJSONSerialization.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102444.947274
+e325102445.133781
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSObject+RKJSONSerialization.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.mdfa3f26cab60b341^5c3e226dab60b341^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m0000000000000000^2110"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSObject+RKJSONSerialization.o Code/Network/NSObject+RKJSONSerialization.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/NSObject+RKJSONSerialization.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKClient.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKClient.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKClient.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102444.989194
+e325102445.268988
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKClient.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.me275fd6cab60b341^48df446dab60b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.m0000000000000000^2030"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKClient.o Code/Network/RKClient.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKClient.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKJSONSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKJSONSerialization.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKJSONSerialization.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102445.043998
+e325102445.237777
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKJSONSerialization.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m1f6a0b6dab60b341^c6e13c6dab60b341^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m0000000000000000^2074"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKJSONSerialization.o Code/Network/RKJSONSerialization.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKJSONSerialization.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNetwork.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNetwork.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNetwork.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102445.607662
+e325102445.779168
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNetwork.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m1ccf9b6dab60b341^8176c76dab60b341^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m0000000000000000^2034"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNetwork.o Code/Network/RKNetwork.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNetwork.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNotifications.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNotifications.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNotifications.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102445.120792
+e325102445.287912
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNotifications.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.md11e1f6dab60b341^7db3496dab60b341^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m0000000000000000^2058"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNotifications.o Code/Network/RKNotifications.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKNotifications.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParams.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParams.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParams.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102445.148820
+e325102445.376107
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParams.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m103c266dab60b341^b153606dab60b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m0000000000000000^2030"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParams.o Code/Network/RKParams.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParams.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParamsAttachment.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParamsAttachment.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParamsAttachment.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102445.269370
+e325102445.525735
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParamsAttachment.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.mf71f456dab60b341^40a1866dab60b341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m0000000000000000^2070"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParamsAttachment.o Code/Network/RKParamsAttachment.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKParamsAttachment.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKReachabilityObserver.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKReachabilityObserver.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKReachabilityObserver.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102445.526412
+e325102445.867724
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKReachabilityObserver.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m6cec866dab60b341^3e22de6dab60b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m0000000000000000^2086"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKReachabilityObserver.o Code/Network/RKReachabilityObserver.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKReachabilityObserver.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequest.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequest.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequest.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102445.288129
+e325102445.699181
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequest.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m68ea496dab60b341^cc08b36dab60b341^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m0000000000000000^2034"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequest.o Code/Network/RKRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequest.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequestQueue.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequestQueue.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequestQueue.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102445.558628
+e325102445.830025
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequestQueue.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m5f258f6dab60b341^ee7bd46dab60b341^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m0000000000000000^2054"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequestQueue.o Code/Network/RKRequestQueue.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKRequestQueue.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKResponse.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKResponse.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKResponse.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102445.311253
+e325102445.598663
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKResponse.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m7dd04f6dab60b341^7441996dab60b341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m0000000000000000^2038"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKResponse.o Code/Network/RKResponse.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKResponse.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKURL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKURL.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKURL.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102445.376673
+e325102445.558402
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKURL.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.ma793606dab60b341^fdf58e6dab60b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m0000000000000000^2018"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKURL.o Code/Network/RKURL.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RKURL.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSDictionary+RKRequestSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSDictionary+RKRequestSerialization.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSDictionary+RKRequestSerialization.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102445.699883
+e325102445.912528
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSDictionary+RKRequestSerialization.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m1152b36dab60b341^639ae96dab60b341^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m0000000000000000^2138"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSDictionary+RKRequestSerialization.o Code/Network/NSDictionary+RKRequestSerialization.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSDictionary+RKRequestSerialization.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSDictionary+RKRequestSerialization.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSObject+RKJSONSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSObject+RKJSONSerialization.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSObject+RKJSONSerialization.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102445.779556
+e325102445.955297
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSObject+RKJSONSerialization.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m88bac76dab60b341^198df46dab60b341^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m0000000000000000^2110"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSObject+RKJSONSerialization.o Code/Network/NSObject+RKJSONSerialization.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/NSObject+RKJSONSerialization.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/NSObject+RKJSONSerialization.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKClient.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKClient.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKClient.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102445.830337
+e325102446.094378
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKClient.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.mfeb5d46dab60b341^5133186eab60b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.m0000000000000000^2030"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKClient.o Code/Network/RKClient.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKClient.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKClient.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKJSONSerialization.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKJSONSerialization.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKJSONSerialization.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102445.867954
+e325102446.042059
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKJSONSerialization.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.mb059de6dab60b341^87c30a6eab60b341^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m0000000000000000^2074"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKJSONSerialization.o Code/Network/RKJSONSerialization.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKJSONSerialization.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKJSONSerialization.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNetwork.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNetwork.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNetwork.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.407383
+e325102446.602729
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNetwork.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m1477686eab60b341^ec4b9a6eab60b341^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m0000000000000000^2034"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNetwork.o Code/Network/RKNetwork.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNetwork.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNetwork.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNotifications.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNotifications.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNotifications.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102445.955705
+e325102446.144193
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNotifications.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m53cdf46dab60b341^73f4246eab60b341^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m0000000000000000^2058"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNotifications.o Code/Network/RKNotifications.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKNotifications.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKNotifications.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParams.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParams.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParams.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102445.973502
+e325102446.195464
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParams.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m465bf96dab60b341^fd11326eab60b341^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m0000000000000000^2030"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParams.o Code/Network/RKParams.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParams.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParams.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParamsAttachment.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParamsAttachment.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParamsAttachment.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.042528
+e325102446.272277
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParamsAttachment.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m9a080b6eab60b341^b6bd456eab60b341^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m0000000000000000^2070"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParamsAttachment.o Code/Network/RKParamsAttachment.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKParamsAttachment.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKParamsAttachment.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKReachabilityObserver.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKReachabilityObserver.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKReachabilityObserver.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.272803
+e325102446.573679
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKReachabilityObserver.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m2ffb456eab60b341^b6db926eab60b341^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m0000000000000000^2086"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKReachabilityObserver.o Code/Network/RKReachabilityObserver.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKReachabilityObserver.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKReachabilityObserver.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequest.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequest.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequest.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.106471
+e325102446.514389
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequest.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.mbe6c1b6eab60b341^fab7836eab60b341^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m0000000000000000^2034"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequest.o Code/Network/RKRequest.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequest.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequest.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequestQueue.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequestQueue.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequestQueue.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.399357
+e325102446.660801
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequestQueue.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m2865666eab60b341^8929a96eab60b341^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m0000000000000000^2054"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequestQueue.o Code/Network/RKRequestQueue.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKRequestQueue.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKRequestQueue.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKResponse.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKResponse.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKResponse.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.144676
+e325102446.406752
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKResponse.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m882d256eab60b341^3929686eab60b341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m0000000000000000^2038"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKResponse.o Code/Network/RKResponse.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKResponse.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKResponse.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKURL.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKURL.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKURL.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.196021
+e325102446.397913
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKURL.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m0d54326eab60b341^1add656eab60b341^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m0000000000000000^2018"CompileC Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKURL.o Code/Network/RKURL.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/RestKitNetwork-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Network/RKURL.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RKURL.o
+
+CCpHeader Code/Network/NSDictionary+RKRequestSerialization.h Build/Debug-iphoneos/include/RestKit/Network/NSDictionary+RKRequestSerialization.h
+s325103338.808261
+e325103338.821060
+r1
+xCpHeader
+xCode/Network/NSDictionary+RKRequestSerialization.h
+xBuild/Debug-iphoneos/include/RestKit/Network/NSDictionary+RKRequestSerialization.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy Build/Debug-iphoneos/include/RestKit/Network/NSDictionary+RKRequestSerialization.h9b04cfeaae60b341^8e93d2eaae60b341^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/NSDictionary+RKRequestSerialization.h000020442305f041^658"CpHeader Code/Network/NSDictionary+RKRequestSerialization.h Build/Debug-iphoneos/include/RestKit/Network/NSDictionary+RKRequestSerialization.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/NSDictionary+RKRequestSerialization.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/Network.h Build/Debug-iphoneos/include/RestKit/Network/Network.h
+s325103338.803656
+e325103338.848989
+r1
+xCpHeader
+xCode/Network/Network.h
+xBuild/Debug-iphoneos/include/RestKit/Network/Network.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy Build/Debug-iphoneos/include/RestKit/Network/Network.hed28ceeaae60b341^616dd8eaae60b341^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/Network.h000020442305f041^574"CpHeader Code/Network/Network.h Build/Debug-iphoneos/include/RestKit/Network/Network.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/Network.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKClient.h Build/Debug-iphoneos/include/RestKit/Network/RKClient.h
+s325103338.821413
+e325103338.824179
+r1
+xCpHeader
+xCode/Network/RKClient.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKClient.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Debug-iphoneos/include/RestKit/Network/RKClient.h355ed2eaae60b341^54fdd2eaae60b341^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKClient.h000020442305f041^577"CpHeader Code/Network/RKClient.h Build/Debug-iphoneos/include/RestKit/Network/RKClient.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKClient.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKJSONSerialization.h Build/Debug-iphoneos/include/RestKit/Network/RKJSONSerialization.h
+s325103338.825571
+e325103338.847177
+r1
+xCpHeader
+xCode/Network/RKJSONSerialization.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKJSONSerialization.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Debug-iphoneos/include/RestKit/Network/RKJSONSerialization.h2b12d7eaae60b341^faf0d8eaae60b341^---0#0#0#-19%DVTDocumentLocation2@147"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKJSONSerialization.h000020442305f041^610"CpHeader Code/Network/RKJSONSerialization.h Build/Debug-iphoneos/include/RestKit/Network/RKJSONSerialization.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKJSONSerialization.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKNetwork.h Build/Debug-iphoneos/include/RestKit/Network/RKNetwork.h
+s325103338.880589
+e325103338.894941
+r1
+xCpHeader
+xCode/Network/RKNetwork.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKNetwork.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy Build/Debug-iphoneos/include/RestKit/Network/RKNetwork.hcf81e1eaae60b341^1421e5eaae60b341^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKNetwork.h000020442305f041^580"CpHeader Code/Network/RKNetwork.h Build/Debug-iphoneos/include/RestKit/Network/RKNetwork.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNetwork.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKNotifications.h Build/Debug-iphoneos/include/RestKit/Network/RKNotifications.h
+s325103338.847321
+e325103338.855291
+r1
+xCpHeader
+xCode/Network/RKNotifications.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKNotifications.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy Build/Debug-iphoneos/include/RestKit/Network/RKNotifications.hac02d9eaae60b341^2600dbeaae60b341^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKNotifications.h000020442305f041^598"CpHeader Code/Network/RKNotifications.h Build/Debug-iphoneos/include/RestKit/Network/RKNotifications.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKNotifications.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKParams.h Build/Debug-iphoneos/include/RestKit/Network/RKParams.h
+s325103338.855869
+e325103338.860549
+r1
+xCpHeader
+xCode/Network/RKParams.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKParams.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Debug-iphoneos/include/RestKit/Network/RKParams.h6e31dbeaae60b341^aa7fdceaae60b341^---0#0#0#-19%DVTDocumentLocation2@136"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKParams.h000020442305f041^577"CpHeader Code/Network/RKParams.h Build/Debug-iphoneos/include/RestKit/Network/RKParams.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParams.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKParamsAttachment.h Build/Debug-iphoneos/include/RestKit/Network/RKParamsAttachment.h
+s325103338.860680
+e325103338.863848
+r1
+xCpHeader
+xCode/Network/RKParamsAttachment.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKParamsAttachment.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Debug-iphoneos/include/RestKit/Network/RKParamsAttachment.h946ddceaae60b341^6f2fddeaae60b341^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKParamsAttachment.h000020442305f041^607"CpHeader Code/Network/RKParamsAttachment.h Build/Debug-iphoneos/include/RestKit/Network/RKParamsAttachment.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKParamsAttachment.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKReachabilityObserver.h Build/Debug-iphoneos/include/RestKit/Network/RKReachabilityObserver.h
+s325103338.880175
+e325103338.899959
+r1
+xCpHeader
+xCode/Network/RKReachabilityObserver.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKReachabilityObserver.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Debug-iphoneos/include/RestKit/Network/RKReachabilityObserver.hd768e1eaae60b341^f850e6eaae60b341^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKReachabilityObserver.h000020442305f041^619"CpHeader Code/Network/RKReachabilityObserver.h Build/Debug-iphoneos/include/RestKit/Network/RKReachabilityObserver.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKReachabilityObserver.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKRequest.h Build/Debug-iphoneos/include/RestKit/Network/RKRequest.h
+s325103338.861589
+e325103338.863854
+r1
+xCpHeader
+xCode/Network/RKRequest.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKRequest.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy Build/Debug-iphoneos/include/RestKit/Network/RKRequest.hcba2dceaae60b341^ed29ddeaae60b341^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKRequest.h000020442305f041^580"CpHeader Code/Network/RKRequest.h Build/Debug-iphoneos/include/RestKit/Network/RKRequest.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequest.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKRequestQueue.h Build/Debug-iphoneos/include/RestKit/Network/RKRequestQueue.h
+s325103338.875485
+e325103338.880435
+r1
+xCpHeader
+xCode/Network/RKRequestQueue.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKRequestQueue.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Debug-iphoneos/include/RestKit/Network/RKRequestQueue.he833e0eaae60b341^ad6ee1eaae60b341^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKRequestQueue.h000020442305f041^595"CpHeader Code/Network/RKRequestQueue.h Build/Debug-iphoneos/include/RestKit/Network/RKRequestQueue.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequestQueue.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKRequestSerializable.h Build/Debug-iphoneos/include/RestKit/Network/RKRequestSerializable.h
+s325103338.864017
+e325103338.872009
+r1
+xCpHeader
+xCode/Network/RKRequestSerializable.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKRequestSerializable.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Debug-iphoneos/include/RestKit/Network/RKRequestSerializable.h7748ddeaae60b341^8029dfeaae60b341^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKRequestSerializable.h000020442305f041^616"CpHeader Code/Network/RKRequestSerializable.h Build/Debug-iphoneos/include/RestKit/Network/RKRequestSerializable.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKRequestSerializable.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCpHeader Code/Network/RKResponse.h Build/Debug-iphoneos/include/RestKit/Network/RKResponse.h
+s325103338.864173
+e325103338.872031
+r1
+xCpHeader
+xCode/Network/RKResponse.h
+xBuild/Debug-iphoneos/include/RestKit/Network/RKResponse.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Debug-iphoneos/include/RestKit/Network/RKResponse.hf14bddeaae60b341^404bdfeaae60b341^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network/RKResponse.h000020442305f041^583"CpHeader Code/Network/RKResponse.h Build/Debug-iphoneos/include/RestKit/Network/RKResponse.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Network/RKResponse.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Network"
+
+CCreateUniversalBinary "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitNetwork.a" normal "armv6 armv7"
+s325103339.588926
+e325103339.966868
+r1
+xCreateUniversalBinary
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitNetwork.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Create universal binary /Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitNetwork.a88d696ebae60b341^b685f7ebae60b341^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitNetwork.a000020442305f041^782"CreateUniversalBinary Build/Debug-iphoneos/libRestKitNetwork.a normal "armv6 armv7"    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a" -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitNetwork.a"
+
+CCreateUniversalBinary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitNetwork.a normal "armv6 armv7"
+s325102446.756645
+e325102446.865551
+r1
+xCreateUniversalBinary
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitNetwork.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Create universal binary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitNetwork.aa7ccc16eab60b341^d89edd6eab60b341^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitNetwork.a000020442305f041^734"CreateUniversalBinary Build/Debug-iphoneos/libRestKitNetwork.a normal "armv6 armv7"    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitNetwork.a
+
+CLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a" normal armv6
+s325103339.354467
+e325103339.554554
+r1
+xLibtool
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a normal armv645d65aebae60b341^899b8febae60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--963"Libtool Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a normal armv6    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -filelist "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RestKitNetwork.LinkFileList" -ObjC -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a"
+
+CLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a" normal armv7
+s325103339.541268
+e325103339.588045
+r1
+xLibtool
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a normal armv78ca38aebae60b341^a98996ebae60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--963"Libtool Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a normal armv7    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -filelist "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RestKitNetwork.LinkFileList" -ObjC -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a"
+
+CLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a normal armv6
+s325102445.912741
+e325102445.973251
+r1
+xLibtool
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a normal armv610cce96dab60b341^a626f96dab60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--915"Libtool Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a normal armv6    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -filelist /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/RestKitNetwork.LinkFileList -ObjC -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv6/libRestKitNetwork.a
+
+CLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a normal armv7
+s325102446.701505
+e325102446.730501
+r1
+xLibtool
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Libtool Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a normal armv703b2b36eab60b341^1d02bb6eab60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--915"Libtool Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a normal armv7    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -filelist /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/RestKitNetwork.LinkFileList -ObjC -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitNetwork.build/Objects-normal/armv7/libRestKitNetwork.a
+

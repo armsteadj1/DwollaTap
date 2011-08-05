@@ -1,0 +1,762 @@
+TRestKitJSONParser+SBJSON
+v3
+r1
+cCheck dependencies
+cCpHeader Vendor/SBJSON/JSON.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/JSON.h
+cCpHeader Vendor/SBJSON/NSObject+SBJSON.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSObject+SBJSON.h
+cCpHeader Vendor/SBJSON/NSString+SBJSON.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSString+SBJSON.h
+cCpHeader Vendor/SBJSON/SBJsonBase.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonBase.h
+cCpHeader Vendor/SBJSON/SBJsonParser.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonParser.h
+cCpHeader Vendor/SBJSON/SBJsonWriter.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonWriter.h
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSObject+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSObject+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSString+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSString+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonBase.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonBase.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonParser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonWriter.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonWriter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RKJSONParser+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSObject+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSObject+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a" normal armv6
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSString+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSString+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonBase.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonBase.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonParser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonWriter.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonWriter.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RKJSONParser+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a" normal armv7
+cCreateUniversalBinary "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a" normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004DAD5B3D0000000000000110
+t1303206717
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/JSON.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSObject+SBJSON.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSString+SBJSON.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonBase.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonParser.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonWriter.h
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a
+t2
+s0
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSObject+SBJSON.o
+t1303409646
+s7548
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSString+SBJSON.o
+t1303409646
+s7452
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RKJSONParser+SBJSON.o
+t1303409646
+s9180
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RestKitJSONParserSBJSON.LinkFileList
+c000000004DB0776A00000000000003DD
+t1303410538
+s989
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonBase.o
+t1303409646
+s12944
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonParser.o
+t1303409646
+s35640
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonWriter.o
+t1303409646
+s25680
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a
+t1303409647
+s99856
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSObject+SBJSON.o
+t1303409647
+s7524
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSString+SBJSON.o
+t1303409647
+s7428
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RKJSONParser+SBJSON.o
+t1303409647
+s9144
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RestKitJSONParserSBJSON.LinkFileList
+c000000004DB0776A00000000000003DD
+t1303410538
+s989
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonBase.o
+t1303409647
+s12820
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonParser.o
+t1303409647
+s33564
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonWriter.o
+t1303409647
+s25176
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a
+t1303409647
+s97072
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m
+c000000004D9A371E00000000000002EB
+t1301952286
+s747
+i"RKJSONParser.h"
+i"SBJsonParser.h"
+i"NSObject+SBJSON.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/RKJSONParser.h
+c000000004D9A371E00000000000000E2
+t1301952286
+s226
+i"RKParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/RKParser.h
+c000000004D9A371E000000000000024A
+t1301952286
+s586
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/RestKit_Prefix.pch
+c000000004D9A371E00000000000000BC
+t1301952286
+s188
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/JSON.h
+c000000004D9A371E0000000000000AC5
+t1301952286
+s2757
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSObject+SBJSON.h
+c000000004D9A371E000000000000085F
+t1301952286
+s2143
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSObject+SBJSON.m
+c000000004D9A371E000000000000077D
+t1301952286
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSString+SBJSON.h
+c000000004D9A371E00000000000007F0
+t1301952286
+s2032
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSString+SBJSON.m
+c000000004D9A371E000000000000075D
+t1301952286
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonBase.h
+c000000004D9A371E0000000000000B82
+t1301952286
+s2946
+i<Foundation/Foundation.h>
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonBase.m
+c000000004D9A371E0000000000000AC1
+t1301952286
+s2753
+i"SBJsonBase.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonParser.h
+c000000004D9A371E0000000000000C8F
+t1301952286
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonParser.m
+c000000004D9A371E0000000000003B7A
+t1301952286
+s15226
+i"SBJsonParser.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonWriter.h
+c000000004D9A371E00000000000011D9
+t1301952286
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonWriter.m
+c000000004D9A371E000000000000206D
+t1301952286
+s8301
+i"SBJsonWriter.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/JSON.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSObject+SBJSON.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSString+SBJSON.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonBase.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonParser.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonWriter.h
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSObject+SBJSON.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSString+SBJSON.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RKJSONParser+SBJSON.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RestKitJSONParserSBJSON.LinkFileList
+c000000004DB073EA00000000000003A1
+t1303409642
+s929
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonBase.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonParser.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonWriter.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSObject+SBJSON.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSString+SBJSON.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RKJSONParser+SBJSON.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RestKitJSONParserSBJSON.LinkFileList
+c000000004DB073EA00000000000003A1
+t1303409642
+s929
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonBase.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonParser.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonWriter.o
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a
+t2
+s0
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m
+c000000004D9A371E00000000000002EB
+t1301952286
+s747
+i"RKJSONParser.h"
+i"SBJsonParser.h"
+i"NSObject+SBJSON.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/RKJSONParser.h
+c000000004D9A371E00000000000000E2
+t1301952286
+s226
+i"RKParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RKParser.h
+c000000004D9A371E000000000000024A
+t1301952286
+s586
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch
+c000000004D9A371E00000000000000BC
+t1301952286
+s188
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/JSON.h
+c000000004D9A371E0000000000000AC5
+t1301952286
+s2757
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.h
+c000000004D9A371E000000000000085F
+t1301952286
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m
+c000000004D9A371E000000000000077D
+t1301952286
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.h
+c000000004D9A371E00000000000007F0
+t1301952286
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m
+c000000004D9A371E000000000000075D
+t1301952286
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.h
+c000000004D9A371E0000000000000B82
+t1301952286
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m
+c000000004D9A371E0000000000000AC1
+t1301952286
+s2753
+i"SBJsonBase.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.h
+c000000004D9A371E0000000000000C8F
+t1301952286
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m
+c000000004D9A371E0000000000003B7A
+t1301952286
+s15226
+i"SBJsonParser.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.h
+c000000004D9A371E00000000000011D9
+t1301952286
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m
+c000000004D9A371E000000000000206D
+t1301952286
+s8301
+i"SBJsonWriter.h"
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSObject+SBJSON.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSString+SBJSON.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonBase.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonParser.m"
+r0
+
+CBuild AST from "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonWriter.m"
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m
+r0
+
+CBuild AST from /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3220d7e9ae60b341^e6c98deaae60b341^---0#1#0#--18"Check dependencies
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSObject+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSObject+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSObject+SBJSON.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102446.514912
+e325102446.701275
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSObject+SBJSON.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m4df6836eab60b341^e885b36eab60b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m0000000000000000^2176"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSObject+SBJSON.o Vendor/SBJSON/NSObject+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSObject+SBJSON.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSString+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSString+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSString+SBJSON.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102446.573999
+e325102446.756314
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSString+SBJSON.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m5d16936eab60b341^d09cc16eab60b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m0000000000000000^2176"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSString+SBJSON.o Vendor/SBJSON/NSString+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/NSString+SBJSON.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RKJSONParser+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RKJSONParser+SBJSON.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102446.788346
+e325102446.974716
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RKJSONParser+SBJSON.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.mac01ca6eab60b341^61defb6eab60b341^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m0000000000000000^2216"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RKJSONParser+SBJSON.o Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RKJSONParser+SBJSON.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonBase.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonBase.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonBase.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102446.602933
+e325102446.788073
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonBase.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.mf1809a6eab60b341^3fc9c96eab60b341^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m0000000000000000^2156"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonBase.o Vendor/SBJSON/SBJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonBase.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonParser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonParser.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonParser.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102446.661094
+e325102446.926639
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonParser.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.mbb63a96eab60b341^3943ed6eab60b341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m0000000000000000^2164"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonParser.o Vendor/SBJSON/SBJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonParser.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonWriter.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonWriter.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonWriter.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s325102446.730745
+e325102446.954674
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonWriter.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.mbc3ebb6eab60b341^bd6ff46eab60b341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m0000000000000000^2164"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonWriter.o Vendor/SBJSON/SBJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv6 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/SBJsonWriter.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSObject+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSObject+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.866125
+e325102447.036687
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.mfcdfdd6eab60b341^d26d096fab60b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m0000000000000000^2176"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSObject+SBJSON.o Vendor/SBJSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSObject+SBJSON.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSObject+SBJSON.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSString+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSString+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSString+SBJSON.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.927041
+e325102447.129222
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.mb075ed6eab60b341^b613216fab60b341^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m0000000000000000^2176"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSString+SBJSON.o Vendor/SBJSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/NSString+SBJSON.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/NSString+SBJSON.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RKJSONParser+SBJSON.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RKJSONParser+SBJSON.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102447.129432
+e325102447.329757
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RKJSONParser+SBJSON.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.md047216fab60b341^226c546fab60b341^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m0000000000000000^2216"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RKJSONParser+SBJSON.o Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/Parsers/JSON/RKJSONParser+SBJSON.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RKJSONParser+SBJSON.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonBase.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonBase.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonBase.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.955143
+e325102447.153088
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m8eacf46eab60b341^cd3a276fab60b341^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m0000000000000000^2156"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonBase.o Vendor/SBJSON/SBJsonBase.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonBase.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonBase.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonParser.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonParser.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonParser.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102446.974911
+e325102447.283071
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m9b56fa6eab60b341^8081486fab60b341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m0000000000000000^2164"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonParser.o Vendor/SBJSON/SBJsonParser.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonParser.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonParser.o
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonWriter.o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonWriter.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonWriter.o /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s325102447.051173
+e325102447.316797
+r1
+xCompileC
+xBuild/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m703e0d6fab60b341^9e24516fab60b341^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m0000000000000000^2164"CompileC Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonWriter.o Vendor/SBJSON/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-generated-files.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-own-target-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-all-target-headers.hmap -iquote /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/RestKitJSONParserSBJSON-project-headers.hmap -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/include -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources/armv7 -I/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/DerivedSources -F/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -include /Users/james/Downloads/twotoasters-RestKit-cc34501/Code/Support/RestKit_Prefix.pch -c /Users/james/Downloads/twotoasters-RestKit-cc34501/Vendor/SBJSON/SBJsonWriter.m -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/SBJsonWriter.o
+
+CCpHeader Vendor/SBJSON/JSON.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/JSON.h
+s325103338.731939
+e325103338.735493
+r1
+xCpHeader
+xVendor/SBJSON/JSON.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/JSON.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/JSON.h2578bbeaae60b341^094fbceaae60b341^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/JSON.h000020442305f041^591"CpHeader Vendor/SBJSON/JSON.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/JSON.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/JSON.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON"
+
+CCpHeader Vendor/SBJSON/NSObject+SBJSON.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSObject+SBJSON.h
+s325103338.737022
+e325103338.741067
+r1
+xCpHeader
+xVendor/SBJSON/NSObject+SBJSON.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSObject+SBJSON.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSObject+SBJSON.hb0c7bceaae60b341^24b4bdeaae60b341^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSObject+SBJSON.h000020442305f041^624"CpHeader Vendor/SBJSON/NSObject+SBJSON.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSObject+SBJSON.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSObject+SBJSON.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON"
+
+CCpHeader Vendor/SBJSON/NSString+SBJSON.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSString+SBJSON.h
+s325103338.741204
+e325103338.744200
+r1
+xCpHeader
+xVendor/SBJSON/NSString+SBJSON.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSString+SBJSON.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSString+SBJSON.h95d4bdeaae60b341^4489beeaae60b341^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSString+SBJSON.h000020442305f041^624"CpHeader Vendor/SBJSON/NSString+SBJSON.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/NSString+SBJSON.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/NSString+SBJSON.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON"
+
+CCpHeader Vendor/SBJSON/SBJsonBase.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonBase.h
+s325103338.747935
+e325103338.751826
+r1
+xCpHeader
+xVendor/SBJSON/SBJsonBase.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonBase.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonBase.h8291bfeaae60b341^e679c0eaae60b341^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonBase.h000020442305f041^609"CpHeader Vendor/SBJSON/SBJsonBase.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonBase.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonBase.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON"
+
+CCpHeader Vendor/SBJSON/SBJsonParser.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonParser.h
+s325103338.752725
+e325103338.789357
+r1
+xCpHeader
+xVendor/SBJSON/SBJsonParser.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonParser.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonParser.h7ac8c0eaae60b341^3275cbeaae60b341^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonParser.h000020442305f041^615"CpHeader Vendor/SBJSON/SBJsonParser.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonParser.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonParser.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON"
+
+CCpHeader Vendor/SBJSON/SBJsonWriter.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonWriter.h
+s325103338.786364
+e325103338.801884
+r1
+xCpHeader
+xVendor/SBJSON/SBJsonWriter.h
+xBuild/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonWriter.h
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonWriter.h056ac9eaae60b341^ce53cdeaae60b341^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonWriter.h000020442305f041^615"CpHeader Vendor/SBJSON/SBJsonWriter.h Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON/SBJsonWriter.h    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Vendor/SBJSON/SBJsonWriter.h" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/include/RestKit/Support/JSON/SBJSON"
+
+CCreateUniversalBinary "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a" normal "armv6 armv7"
+s325103339.342653
+e325103339.536494
+r1
+xCreateUniversalBinary
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Create universal binary /Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a4bcc57ebae60b341^825589ebae60b341^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Projects/dwolla_tap/src/Dwolla%20Tap%20iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a000020442305f041^838"CreateUniversalBinary Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a normal "armv6 armv7"    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a" "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a" -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a"
+
+CCreateUniversalBinary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a normal "armv6 armv7"
+s325102447.576150
+e325102447.643822
+r1
+xCreateUniversalBinary
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Create universal binary /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.ae196936fab60b341^d9d1a46fab60b341^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a000020442305f041^790"CreateUniversalBinary Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a normal "armv6 armv7"    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos/libRestKitJSONParserSBJSON.a
+
+CLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a" normal armv6
+s325103339.234951
+e325103339.290073
+r1
+xLibtool
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a normal armv60d373cebae60b341^70414aebae60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1020"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a normal armv6    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -filelist "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RestKitJSONParserSBJSON.LinkFileList" -ObjC -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a"
+
+CLibtool "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a" normal armv7
+s325103339.293872
+e325103339.339539
+r1
+xLibtool
+x/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a normal armv74d4c4bebae60b341^2e5658ebae60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1020"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a normal armv7    cd "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/Debug-iphoneos" -filelist "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RestKitJSONParserSBJSON.LinkFileList" -ObjC -o "/Projects/dwolla_tap/src/Dwolla Tap iPhone/Libraries/RestKit/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a"
+
+CLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a normal armv6
+s325102447.037047
+e325102447.050842
+r1
+xLibtool
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a
+xnormal
+xarmv6
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a normal armv69e98096fab60b341^711b0d6fab60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--972"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a normal armv6    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -filelist /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/RestKitJSONParserSBJSON.LinkFileList -ObjC -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv6/libRestKitJSONParserSBJSON.a
+
+CLibtool /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a normal armv7
+s325102447.366208
+e325102447.382642
+r1
+xLibtool
+x/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a normal armv723db5d6fab60b341^90f4616fab60b341^-129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--972"Libtool Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a normal armv7    cd /Users/james/Downloads/twotoasters-RestKit-cc34501    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/james/Downloads/twotoasters-RestKit-cc34501/Build/Debug-iphoneos -filelist /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/RestKitJSONParserSBJSON.LinkFileList -ObjC -o /Users/james/Downloads/twotoasters-RestKit-cc34501/Build/RestKit.build/Debug-iphoneos/RestKitJSONParser+SBJSON.build/Objects-normal/armv7/libRestKitJSONParserSBJSON.a
+

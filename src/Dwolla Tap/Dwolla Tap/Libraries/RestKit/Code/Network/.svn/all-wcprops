@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network
+END
+RKParamsAttachment.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKParamsAttachment.h
+END
+Network.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/Network.h
+END
+NSDictionary+RKRequestSerialization.m
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/NSDictionary+RKRequestSerialization.m
+END
+RKRequest.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKRequest.m
+END
+RKRequestQueue.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKRequestQueue.h
+END
+RKNetwork.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKNetwork.m
+END
+RKResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKResponse.h
+END
+RKParamsAttachment.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKParamsAttachment.m
+END
+RKRequestQueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKRequestQueue.m
+END
+RKURL.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKURL.h
+END
+RKResponse.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKResponse.m
+END
+RKJSONSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKJSONSerialization.h
+END
+RKURL.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKURL.m
+END
+RKReachabilityObserver.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKReachabilityObserver.h
+END
+RKNotifications.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKNotifications.h
+END
+RKJSONSerialization.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKJSONSerialization.m
+END
+RKReachabilityObserver.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKReachabilityObserver.m
+END
+RKNotifications.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKNotifications.m
+END
+RKClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKClient.h
+END
+NSObject+RKJSONSerialization.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/NSObject+RKJSONSerialization.m
+END
+RKRequestSerializable.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKRequestSerializable.h
+END
+RKParams.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKParams.h
+END
+RKClient.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKClient.m
+END
+RKParams.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKParams.m
+END
+NSDictionary+RKRequestSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/NSDictionary+RKRequestSerialization.h
+END
+RKRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKRequest.h
+END
+RKNetwork.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap/Dwolla%20Tap/Libraries/RestKit/Code/Network/RKNetwork.h
+END
