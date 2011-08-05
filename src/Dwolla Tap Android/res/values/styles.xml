@@ -1,0 +1,26 @@
+<resources>
+    <style name="WhiteText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">17px</item>
+    </style>
+    <style name="GreyText">
+        <item name="android:textColor">#666666</item>
+    </style>
+    <style name="WhiteMediumText">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="WhiteLargeBoldText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20px</item>
+    </style>
+    <style name="WhiteLargestBoldText">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">40px</item>
+    </style>
+    <style name="GreySmallText">
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">12px</item>
+    </style>
+</resources>

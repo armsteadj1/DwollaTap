@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap%20Android/res/layout
+END
+bump.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/res/layout/bump.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/dwollatap/!svn/ver/3/src/Dwolla%20Tap%20Android/res/layout/main.xml
+END
+bump_confirm_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/res/layout/bump_confirm_view.xml
+END
+bump_start_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/res/layout/bump_start_view.xml
+END
+bump_edit_text.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/res/layout/bump_edit_text.xml
+END
+empty.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/res/layout/empty.xml
+END
+bump_api_popup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/res/layout/bump_api_popup.xml
+END
+bump_waiting_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/res/layout/bump_waiting_view.xml
+END

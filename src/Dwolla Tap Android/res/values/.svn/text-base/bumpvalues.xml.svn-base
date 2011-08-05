@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="bump_no_location">This device\'s location may be unknown. Bump may not work.</string>
+	<string name="bump_default_action">Bump with another phone to share information.</string>
+  
+  <style name="BumpDialog" parent="@android:style/Theme.Dialog">
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  
+</resources>

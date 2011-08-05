@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+        >
+	<TextView android:id="@+id/confirm_prompt"
+		android:text="[confirm_prompt]"
+    android:textSize="16dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="15dp"
+		android:layout_centerHorizontal="true" />
+	<Button android:id="@+id/yes_button"
+		android:text="@string/bump_yes"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/bump_button_blue"
+		android:textColor="@android:color/white" />
+	<Button android:id="@+id/no_button"
+		android:text="@string/bump_no"
+		android:layout_width="100dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/bump_button_dark"
+    android:textColor="@android:color/white" />
+</RelativeLayout>

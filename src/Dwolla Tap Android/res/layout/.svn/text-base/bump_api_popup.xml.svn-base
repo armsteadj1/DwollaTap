@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="280dp"
+  android:layout_height="wrap_content"
+  android:minHeight="240dp"
+  android:id="@+id/api_popup">
+
+  <RelativeLayout android:id="@+id/title_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bump_gradient"
+    android:layout_alignParentTop="true">
+    <ImageView android:id="@+id/bump_logo"
+      android:src="@drawable/bump_white_low"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:onClick="onBumpButton"/>
+    <Button android:id="@+id/close_window"
+      android:background="@drawable/bump_close_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true" />
+  </RelativeLayout>
+
+  <RelativeLayout android:id="@+id/status_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:layout_marginRight="15dp"
+    android:layout_below="@id/title_bar">
+    <ImageView android:id="@+id/bump_hand_left"
+      android:src="@drawable/bump_lefthand"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="15dp"
+      android:layout_alignParentLeft="true" />
+    <ImageView android:id="@+id/bump_hand_right"
+      android:src="@drawable/bump_righthand"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="15dp"
+      android:paddingRight="15dp"
+      android:layout_alignParentLeft="true" />
+    <RelativeLayout android:id="@+id/bump_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="15dp"
+      android:layout_alignParentLeft="true">
+	    <RelativeLayout android:id="@+id/bump_signal"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_alignParentLeft="true">
+		    <ImageView android:id="@+id/bump_signal4"
+		      android:src="@drawable/bump_signal4"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content" />
+	    </RelativeLayout>
+	  </RelativeLayout>
+    <ProgressBar android:id="@+id/progress"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_marginTop="15dp"
+      android:layout_alignParentRight="true" />
+    <TextView android:id="@+id/status"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="[status]"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="15dp"
+      android:paddingLeft="5dp"
+      android:textSize="20dp"
+      android:textColor="@android:color/white"
+      android:layout_toRightOf="@id/bump_icon"
+      android:layout_toLeftOf="@id/progress" />
+  </RelativeLayout>
+
+  <LinearLayout android:id="@+id/content_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="125dp"
+    android:orientation="vertical"
+    android:background="@drawable/bump_gradient_2"
+    android:layout_below="@id/status_bar">
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/status_bar">
+    <LinearLayout android:id="@+id/notify_bar"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/bump_notify"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:visibility="gone">
+      <TextView android:id="@+id/notify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:gravity="center_horizontal"
+        android:padding="5dp" />
+    </LinearLayout>
+  </LinearLayout>
+
+</RelativeLayout>

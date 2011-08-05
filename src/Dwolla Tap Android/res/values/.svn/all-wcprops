@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap%20Android/res/values
+END
+styles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/res/values/styles.xml
+END
+bumpvalues.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/res/values/bumpvalues.xml
+END
+strings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap%20Android/res/values/strings.xml
+END
+bumpstrings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/res/values/bumpstrings.xml
+END

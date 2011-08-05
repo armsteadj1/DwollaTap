@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/dwollatap/!svn/ver/2/src/Dwolla%20Tap%20Android
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap%20Android/default.properties
+END
+proguard.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap%20Android/proguard.cfg
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap%20Android/local.properties
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/AndroidManifest.xml
+END
+Dwolla Tap.iml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap%20Android/Dwolla%20Tap.iml
+END
+Dwolla Tap Android.iml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/dwollatap/!svn/ver/5/src/Dwolla%20Tap%20Android/Dwolla%20Tap%20Android.iml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap%20Android/build.properties
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/dwollatap/!svn/ver/1/src/Dwolla%20Tap%20Android/build.xml
+END
