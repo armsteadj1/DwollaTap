@@ -8,7 +8,6 @@
 
 #import "Dwolla_TapAppDelegate.h"
 #import "RestKit.h"
-#import "Dwolla_TapViewController.h"
 #import "BumpConnector.h"
 
 @implementation Dwolla_TapAppDelegate
