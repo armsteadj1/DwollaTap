@@ -42,47 +42,47 @@
 		1AD4D33613674084002449FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD4D33513674084002449FA /* Default.png */; };
 		1AD4D33813674168002449FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD4D33713674168002449FA /* Default@2x.png */; };
 		1AD4D340136762B4002449FA /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD4D33F136762B4002449FA /* Entitlements.plist */; };
-		1AD7808C13F044030011410F /* DwollaAuthorizationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7803413F044030011410F /* DwollaAuthorizationController.m */; };
-		1AD7808D13F044030011410F /* DwollaConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7803613F044030011410F /* DwollaConsumer.m */; };
-		1AD7808E13F044030011410F /* DwollaDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7803813F044030011410F /* DwollaDataFetcher.m */; };
-		1AD7808F13F044030011410F /* DwollaHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7803A13F044030011410F /* DwollaHTTPURLConnection.m */; };
-		1AD7809013F044030011410F /* DwollaMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7803C13F044030011410F /* DwollaMutableURLRequest.m */; };
-		1AD7809113F044030011410F /* DwollaOAuthEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7803F13F044030011410F /* DwollaOAuthEngine.m */; };
-		1AD7809213F044030011410F /* DwollaToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7804113F044030011410F /* DwollaToken.m */; };
-		1AD7809313F044030011410F /* DwollaXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7804313F044030011410F /* DwollaXMLReader.m */; };
-		1AD7809413F044030011410F /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7804513F044030011410F /* NSString+UUID.m */; };
-		1AD7809513F044030011410F /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7804913F044030011410F /* NSMutableURLRequest+Parameters.m */; };
-		1AD7809613F044030011410F /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7804B13F044030011410F /* NSString+URLEncoding.m */; };
-		1AD7809713F044030011410F /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7804D13F044030011410F /* NSURL+Base.m */; };
-		1AD7809813F044030011410F /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7804F13F044030011410F /* Base64Transcoder.c */; };
-		1AD7809913F044030011410F /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7805113F044030011410F /* hmac.c */; };
-		1AD7809A13F044030011410F /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7805313F044030011410F /* sha1.c */; };
-		1AD7809B13F044030011410F /* OAAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7805613F044030011410F /* OAAttachment.m */; };
-		1AD7809C13F044030011410F /* OACall.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7805813F044030011410F /* OACall.m */; };
-		1AD7809D13F044030011410F /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7805A13F044030011410F /* OAConsumer.m */; };
-		1AD7809E13F044030011410F /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7805C13F044030011410F /* OADataFetcher.m */; };
-		1AD7809F13F044030011410F /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7805E13F044030011410F /* OAHMAC_SHA1SignatureProvider.m */; };
-		1AD780A013F044030011410F /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7806013F044030011410F /* OAMutableURLRequest.m */; };
-		1AD780A113F044030011410F /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7806213F044030011410F /* OAPlaintextSignatureProvider.m */; };
-		1AD780A213F044030011410F /* OAProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7806413F044030011410F /* OAProblem.m */; };
-		1AD780A313F044030011410F /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7806613F044030011410F /* OARequestParameter.m */; };
-		1AD780A413F044030011410F /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7806813F044030011410F /* OAServiceTicket.m */; };
-		1AD780A513F044030011410F /* OATestServer.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7806A13F044030011410F /* OATestServer.rb */; };
-		1AD780A613F044030011410F /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7806C13F044030011410F /* OAToken.m */; };
-		1AD780A713F044030011410F /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7806E13F044030011410F /* OATokenManager.m */; };
-		1AD780A813F044030011410F /* README in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7807013F044030011410F /* README */; };
-		1AD780A913F044030011410F /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7807413F044030011410F /* NSObject+SBJson.m */; };
-		1AD780AA13F044030011410F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7807713F044030011410F /* SBJsonParser.m */; };
-		1AD780AB13F044030011410F /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7807913F044030011410F /* SBJsonStreamParser.m */; };
-		1AD780AC13F044030011410F /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7807B13F044030011410F /* SBJsonStreamParserAccumulator.m */; };
-		1AD780AD13F044030011410F /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7807D13F044030011410F /* SBJsonStreamParserAdapter.m */; };
-		1AD780AE13F044030011410F /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7807F13F044030011410F /* SBJsonStreamParserState.m */; };
-		1AD780AF13F044030011410F /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7808113F044030011410F /* SBJsonStreamWriter.m */; };
-		1AD780B013F044030011410F /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7808313F044030011410F /* SBJsonStreamWriterAccumulator.m */; };
-		1AD780B113F044030011410F /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7808513F044030011410F /* SBJsonStreamWriterState.m */; };
-		1AD780B213F044030011410F /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7808713F044030011410F /* SBJsonTokeniser.m */; };
-		1AD780B313F044030011410F /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7808913F044030011410F /* SBJsonUTF8Stream.m */; };
-		1AD780B413F044030011410F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7808B13F044030011410F /* SBJsonWriter.m */; };
+		1AD7823C13F07EF50011410F /* DwollaAuthorizationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781E413F07EF40011410F /* DwollaAuthorizationController.m */; };
+		1AD7823D13F07EF50011410F /* DwollaConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781E613F07EF40011410F /* DwollaConsumer.m */; };
+		1AD7823E13F07EF50011410F /* DwollaDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781E813F07EF40011410F /* DwollaDataFetcher.m */; };
+		1AD7823F13F07EF50011410F /* DwollaHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781EA13F07EF40011410F /* DwollaHTTPURLConnection.m */; };
+		1AD7824013F07EF50011410F /* DwollaMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781EC13F07EF40011410F /* DwollaMutableURLRequest.m */; };
+		1AD7824113F07EF50011410F /* DwollaOAuthEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781EF13F07EF40011410F /* DwollaOAuthEngine.m */; };
+		1AD7824213F07EF50011410F /* DwollaToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781F113F07EF40011410F /* DwollaToken.m */; };
+		1AD7824313F07EF50011410F /* DwollaXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781F313F07EF40011410F /* DwollaXMLReader.m */; };
+		1AD7824413F07EF50011410F /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781F513F07EF40011410F /* NSString+UUID.m */; };
+		1AD7824513F07EF50011410F /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781F913F07EF40011410F /* NSMutableURLRequest+Parameters.m */; };
+		1AD7824613F07EF50011410F /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781FB13F07EF40011410F /* NSString+URLEncoding.m */; };
+		1AD7824713F07EF50011410F /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781FD13F07EF40011410F /* NSURL+Base.m */; };
+		1AD7824813F07EF50011410F /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AD781FF13F07EF40011410F /* Base64Transcoder.c */; };
+		1AD7824913F07EF50011410F /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7820113F07EF40011410F /* hmac.c */; };
+		1AD7824A13F07EF50011410F /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7820313F07EF40011410F /* sha1.c */; };
+		1AD7824B13F07EF50011410F /* OAAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7820613F07EF40011410F /* OAAttachment.m */; };
+		1AD7824C13F07EF50011410F /* OACall.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7820813F07EF40011410F /* OACall.m */; };
+		1AD7824D13F07EF50011410F /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7820A13F07EF40011410F /* OAConsumer.m */; };
+		1AD7824E13F07EF50011410F /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7820C13F07EF40011410F /* OADataFetcher.m */; };
+		1AD7824F13F07EF50011410F /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7820E13F07EF40011410F /* OAHMAC_SHA1SignatureProvider.m */; };
+		1AD7825013F07EF50011410F /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7821013F07EF40011410F /* OAMutableURLRequest.m */; };
+		1AD7825113F07EF50011410F /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7821213F07EF40011410F /* OAPlaintextSignatureProvider.m */; };
+		1AD7825213F07EF50011410F /* OAProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7821413F07EF40011410F /* OAProblem.m */; };
+		1AD7825313F07EF50011410F /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7821613F07EF40011410F /* OARequestParameter.m */; };
+		1AD7825413F07EF50011410F /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7821813F07EF40011410F /* OAServiceTicket.m */; };
+		1AD7825513F07EF50011410F /* OATestServer.rb in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7821A13F07EF40011410F /* OATestServer.rb */; };
+		1AD7825613F07EF50011410F /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7821C13F07EF40011410F /* OAToken.m */; };
+		1AD7825713F07EF50011410F /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7821E13F07EF40011410F /* OATokenManager.m */; };
+		1AD7825813F07EF50011410F /* README in Resources */ = {isa = PBXBuildFile; fileRef = 1AD7822013F07EF40011410F /* README */; };
+		1AD7825913F07EF50011410F /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7822413F07EF50011410F /* NSObject+SBJson.m */; };
+		1AD7825A13F07EF50011410F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7822713F07EF50011410F /* SBJsonParser.m */; };
+		1AD7825B13F07EF50011410F /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7822913F07EF50011410F /* SBJsonStreamParser.m */; };
+		1AD7825C13F07EF50011410F /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7822B13F07EF50011410F /* SBJsonStreamParserAccumulator.m */; };
+		1AD7825D13F07EF50011410F /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7822D13F07EF50011410F /* SBJsonStreamParserAdapter.m */; };
+		1AD7825E13F07EF50011410F /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7822F13F07EF50011410F /* SBJsonStreamParserState.m */; };
+		1AD7825F13F07EF50011410F /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7823113F07EF50011410F /* SBJsonStreamWriter.m */; };
+		1AD7826013F07EF50011410F /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7823313F07EF50011410F /* SBJsonStreamWriterAccumulator.m */; };
+		1AD7826113F07EF50011410F /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7823513F07EF50011410F /* SBJsonStreamWriterState.m */; };
+		1AD7826213F07EF50011410F /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7823713F07EF50011410F /* SBJsonTokeniser.m */; };
+		1AD7826313F07EF50011410F /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7823913F07EF50011410F /* SBJsonUTF8Stream.m */; };
+		1AD7826413F07EF50011410F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD7823B13F07EF50011410F /* SBJsonWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -151,91 +151,91 @@
 		1AD4D33713674168002449FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1AD4D33F136762B4002449FA /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		1AD4D4D913676A66002449FA /* RestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestKit.h; path = "Dwolla Tap/Libraries/RestKit/Code/RestKit.h"; sourceTree = "<group>"; };
-		1AD7803313F044030011410F /* DwollaAuthorizationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaAuthorizationController.h; sourceTree = "<group>"; };
-		1AD7803413F044030011410F /* DwollaAuthorizationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaAuthorizationController.m; sourceTree = "<group>"; };
-		1AD7803513F044030011410F /* DwollaConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaConsumer.h; sourceTree = "<group>"; };
-		1AD7803613F044030011410F /* DwollaConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaConsumer.m; sourceTree = "<group>"; };
-		1AD7803713F044030011410F /* DwollaDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaDataFetcher.h; sourceTree = "<group>"; };
-		1AD7803813F044030011410F /* DwollaDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaDataFetcher.m; sourceTree = "<group>"; };
-		1AD7803913F044030011410F /* DwollaHTTPURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaHTTPURLConnection.h; sourceTree = "<group>"; };
-		1AD7803A13F044030011410F /* DwollaHTTPURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaHTTPURLConnection.m; sourceTree = "<group>"; };
-		1AD7803B13F044030011410F /* DwollaMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaMutableURLRequest.h; sourceTree = "<group>"; };
-		1AD7803C13F044030011410F /* DwollaMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaMutableURLRequest.m; sourceTree = "<group>"; };
-		1AD7803D13F044030011410F /* DwollaOAuth-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DwollaOAuth-Prefix.pch"; sourceTree = "<group>"; };
-		1AD7803E13F044030011410F /* DwollaOAuthEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaOAuthEngine.h; sourceTree = "<group>"; };
-		1AD7803F13F044030011410F /* DwollaOAuthEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaOAuthEngine.m; sourceTree = "<group>"; };
-		1AD7804013F044030011410F /* DwollaToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaToken.h; sourceTree = "<group>"; };
-		1AD7804113F044030011410F /* DwollaToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaToken.m; sourceTree = "<group>"; };
-		1AD7804213F044030011410F /* DwollaXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaXMLReader.h; sourceTree = "<group>"; };
-		1AD7804313F044030011410F /* DwollaXMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaXMLReader.m; sourceTree = "<group>"; };
-		1AD7804413F044030011410F /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
-		1AD7804513F044030011410F /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
-		1AD7804813F044030011410F /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
-		1AD7804913F044030011410F /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
-		1AD7804A13F044030011410F /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
-		1AD7804B13F044030011410F /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
-		1AD7804C13F044030011410F /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
-		1AD7804D13F044030011410F /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
-		1AD7804F13F044030011410F /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
-		1AD7805013F044030011410F /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
-		1AD7805113F044030011410F /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
-		1AD7805213F044030011410F /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
-		1AD7805313F044030011410F /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
-		1AD7805413F044030011410F /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
-		1AD7805513F044030011410F /* OAAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAttachment.h; sourceTree = "<group>"; };
-		1AD7805613F044030011410F /* OAAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAttachment.m; sourceTree = "<group>"; };
-		1AD7805713F044030011410F /* OACall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OACall.h; sourceTree = "<group>"; };
-		1AD7805813F044030011410F /* OACall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OACall.m; sourceTree = "<group>"; };
-		1AD7805913F044030011410F /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
-		1AD7805A13F044030011410F /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
-		1AD7805B13F044030011410F /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
-		1AD7805C13F044030011410F /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
-		1AD7805D13F044030011410F /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
-		1AD7805E13F044030011410F /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
-		1AD7805F13F044030011410F /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
-		1AD7806013F044030011410F /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
-		1AD7806113F044030011410F /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
-		1AD7806213F044030011410F /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
-		1AD7806313F044030011410F /* OAProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAProblem.h; sourceTree = "<group>"; };
-		1AD7806413F044030011410F /* OAProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAProblem.m; sourceTree = "<group>"; };
-		1AD7806513F044030011410F /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
-		1AD7806613F044030011410F /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
-		1AD7806713F044030011410F /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
-		1AD7806813F044030011410F /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
-		1AD7806913F044030011410F /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
-		1AD7806A13F044030011410F /* OATestServer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = OATestServer.rb; sourceTree = "<group>"; };
-		1AD7806B13F044030011410F /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
-		1AD7806C13F044030011410F /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
-		1AD7806D13F044030011410F /* OATokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATokenManager.h; sourceTree = "<group>"; };
-		1AD7806E13F044030011410F /* OATokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATokenManager.m; sourceTree = "<group>"; };
-		1AD7806F13F044030011410F /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
-		1AD7807013F044030011410F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		1AD7807213F044030011410F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
-		1AD7807313F044030011410F /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
-		1AD7807413F044030011410F /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
-		1AD7807513F044030011410F /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
-		1AD7807613F044030011410F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
-		1AD7807713F044030011410F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
-		1AD7807813F044030011410F /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
-		1AD7807913F044030011410F /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
-		1AD7807A13F044030011410F /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
-		1AD7807B13F044030011410F /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
-		1AD7807C13F044030011410F /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
-		1AD7807D13F044030011410F /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
-		1AD7807E13F044030011410F /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
-		1AD7807F13F044030011410F /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
-		1AD7808013F044030011410F /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
-		1AD7808113F044030011410F /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
-		1AD7808213F044030011410F /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
-		1AD7808313F044030011410F /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
-		1AD7808413F044030011410F /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
-		1AD7808513F044030011410F /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
-		1AD7808613F044030011410F /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
-		1AD7808713F044030011410F /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
-		1AD7808813F044030011410F /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
-		1AD7808913F044030011410F /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
-		1AD7808A13F044030011410F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		1AD7808B13F044030011410F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		1AD781E313F07EF40011410F /* DwollaAuthorizationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaAuthorizationController.h; sourceTree = "<group>"; };
+		1AD781E413F07EF40011410F /* DwollaAuthorizationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaAuthorizationController.m; sourceTree = "<group>"; };
+		1AD781E513F07EF40011410F /* DwollaConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaConsumer.h; sourceTree = "<group>"; };
+		1AD781E613F07EF40011410F /* DwollaConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaConsumer.m; sourceTree = "<group>"; };
+		1AD781E713F07EF40011410F /* DwollaDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaDataFetcher.h; sourceTree = "<group>"; };
+		1AD781E813F07EF40011410F /* DwollaDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaDataFetcher.m; sourceTree = "<group>"; };
+		1AD781E913F07EF40011410F /* DwollaHTTPURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaHTTPURLConnection.h; sourceTree = "<group>"; };
+		1AD781EA13F07EF40011410F /* DwollaHTTPURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaHTTPURLConnection.m; sourceTree = "<group>"; };
+		1AD781EB13F07EF40011410F /* DwollaMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaMutableURLRequest.h; sourceTree = "<group>"; };
+		1AD781EC13F07EF40011410F /* DwollaMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaMutableURLRequest.m; sourceTree = "<group>"; };
+		1AD781ED13F07EF40011410F /* DwollaOAuth-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DwollaOAuth-Prefix.pch"; sourceTree = "<group>"; };
+		1AD781EE13F07EF40011410F /* DwollaOAuthEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaOAuthEngine.h; sourceTree = "<group>"; };
+		1AD781EF13F07EF40011410F /* DwollaOAuthEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaOAuthEngine.m; sourceTree = "<group>"; };
+		1AD781F013F07EF40011410F /* DwollaToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaToken.h; sourceTree = "<group>"; };
+		1AD781F113F07EF40011410F /* DwollaToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaToken.m; sourceTree = "<group>"; };
+		1AD781F213F07EF40011410F /* DwollaXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DwollaXMLReader.h; sourceTree = "<group>"; };
+		1AD781F313F07EF40011410F /* DwollaXMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DwollaXMLReader.m; sourceTree = "<group>"; };
+		1AD781F413F07EF40011410F /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		1AD781F513F07EF40011410F /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		1AD781F813F07EF40011410F /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		1AD781F913F07EF40011410F /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		1AD781FA13F07EF40011410F /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		1AD781FB13F07EF40011410F /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		1AD781FC13F07EF40011410F /* NSURL+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Base.h"; sourceTree = "<group>"; };
+		1AD781FD13F07EF40011410F /* NSURL+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Base.m"; sourceTree = "<group>"; };
+		1AD781FF13F07EF40011410F /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		1AD7820013F07EF40011410F /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		1AD7820113F07EF40011410F /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		1AD7820213F07EF40011410F /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		1AD7820313F07EF40011410F /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		1AD7820413F07EF40011410F /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		1AD7820513F07EF40011410F /* OAAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAAttachment.h; sourceTree = "<group>"; };
+		1AD7820613F07EF40011410F /* OAAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAAttachment.m; sourceTree = "<group>"; };
+		1AD7820713F07EF40011410F /* OACall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OACall.h; sourceTree = "<group>"; };
+		1AD7820813F07EF40011410F /* OACall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OACall.m; sourceTree = "<group>"; };
+		1AD7820913F07EF40011410F /* OAConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAConsumer.h; sourceTree = "<group>"; };
+		1AD7820A13F07EF40011410F /* OAConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAConsumer.m; sourceTree = "<group>"; };
+		1AD7820B13F07EF40011410F /* OADataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OADataFetcher.h; sourceTree = "<group>"; };
+		1AD7820C13F07EF40011410F /* OADataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OADataFetcher.m; sourceTree = "<group>"; };
+		1AD7820D13F07EF40011410F /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		1AD7820E13F07EF40011410F /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		1AD7820F13F07EF40011410F /* OAMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAMutableURLRequest.h; sourceTree = "<group>"; };
+		1AD7821013F07EF40011410F /* OAMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAMutableURLRequest.m; sourceTree = "<group>"; };
+		1AD7821113F07EF40011410F /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		1AD7821213F07EF40011410F /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		1AD7821313F07EF40011410F /* OAProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAProblem.h; sourceTree = "<group>"; };
+		1AD7821413F07EF40011410F /* OAProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAProblem.m; sourceTree = "<group>"; };
+		1AD7821513F07EF40011410F /* OARequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OARequestParameter.h; sourceTree = "<group>"; };
+		1AD7821613F07EF40011410F /* OARequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OARequestParameter.m; sourceTree = "<group>"; };
+		1AD7821713F07EF40011410F /* OAServiceTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAServiceTicket.h; sourceTree = "<group>"; };
+		1AD7821813F07EF40011410F /* OAServiceTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAServiceTicket.m; sourceTree = "<group>"; };
+		1AD7821913F07EF40011410F /* OASignatureProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OASignatureProviding.h; sourceTree = "<group>"; };
+		1AD7821A13F07EF40011410F /* OATestServer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = OATestServer.rb; sourceTree = "<group>"; };
+		1AD7821B13F07EF40011410F /* OAToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAToken.h; sourceTree = "<group>"; };
+		1AD7821C13F07EF40011410F /* OAToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAToken.m; sourceTree = "<group>"; };
+		1AD7821D13F07EF40011410F /* OATokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATokenManager.h; sourceTree = "<group>"; };
+		1AD7821E13F07EF40011410F /* OATokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATokenManager.m; sourceTree = "<group>"; };
+		1AD7821F13F07EF40011410F /* OAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthConsumer.h; sourceTree = "<group>"; };
+		1AD7822013F07EF40011410F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		1AD7822213F07EF50011410F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		1AD7822313F07EF50011410F /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		1AD7822413F07EF50011410F /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		1AD7822513F07EF50011410F /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		1AD7822613F07EF50011410F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		1AD7822713F07EF50011410F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		1AD7822813F07EF50011410F /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		1AD7822913F07EF50011410F /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		1AD7822A13F07EF50011410F /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		1AD7822B13F07EF50011410F /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		1AD7822C13F07EF50011410F /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		1AD7822D13F07EF50011410F /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		1AD7822E13F07EF50011410F /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		1AD7822F13F07EF50011410F /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		1AD7823013F07EF50011410F /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		1AD7823113F07EF50011410F /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		1AD7823213F07EF50011410F /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		1AD7823313F07EF50011410F /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		1AD7823413F07EF50011410F /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		1AD7823513F07EF50011410F /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		1AD7823613F07EF50011410F /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		1AD7823713F07EF50011410F /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		1AD7823813F07EF50011410F /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		1AD7823913F07EF50011410F /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		1AD7823A13F07EF50011410F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		1AD7823B13F07EF50011410F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,9 +309,9 @@
 		1A9BA5C91360DF11003F05BA /* Dwolla Tap */ = {
 			isa = PBXGroup;
 			children = (
-				1AD7803213F044030011410F /* DwollaOAuth */,
-				1AD7804613F044030011410F /* OAuthConsumer */,
-				1AD7807113F044030011410F /* SBJSON */,
+				1AD781E213F07EF40011410F /* DwollaOAuth */,
+				1AD781F613F07EF40011410F /* OAuthConsumer */,
+				1AD7822113F07EF40011410F /* SBJSON */,
 				1A63AE1E13614C71005204A8 /* TapViewController.h */,
 				1A63AE1F13614C71005204A8 /* TapViewController.m */,
 				1A9BA5D21360DF11003F05BA /* Dwolla_TapAppDelegate.h */,
@@ -384,130 +384,130 @@
 			name = Libraries;
 			sourceTree = "<group>";
 		};
-		1AD7803213F044030011410F /* DwollaOAuth */ = {
+		1AD781E213F07EF40011410F /* DwollaOAuth */ = {
 			isa = PBXGroup;
 			children = (
-				1AD7803313F044030011410F /* DwollaAuthorizationController.h */,
-				1AD7803413F044030011410F /* DwollaAuthorizationController.m */,
-				1AD7803513F044030011410F /* DwollaConsumer.h */,
-				1AD7803613F044030011410F /* DwollaConsumer.m */,
-				1AD7803713F044030011410F /* DwollaDataFetcher.h */,
-				1AD7803813F044030011410F /* DwollaDataFetcher.m */,
-				1AD7803913F044030011410F /* DwollaHTTPURLConnection.h */,
-				1AD7803A13F044030011410F /* DwollaHTTPURLConnection.m */,
-				1AD7803B13F044030011410F /* DwollaMutableURLRequest.h */,
-				1AD7803C13F044030011410F /* DwollaMutableURLRequest.m */,
-				1AD7803D13F044030011410F /* DwollaOAuth-Prefix.pch */,
-				1AD7803E13F044030011410F /* DwollaOAuthEngine.h */,
-				1AD7803F13F044030011410F /* DwollaOAuthEngine.m */,
-				1AD7804013F044030011410F /* DwollaToken.h */,
-				1AD7804113F044030011410F /* DwollaToken.m */,
-				1AD7804213F044030011410F /* DwollaXMLReader.h */,
-				1AD7804313F044030011410F /* DwollaXMLReader.m */,
-				1AD7804413F044030011410F /* NSString+UUID.h */,
-				1AD7804513F044030011410F /* NSString+UUID.m */,
+				1AD781E313F07EF40011410F /* DwollaAuthorizationController.h */,
+				1AD781E413F07EF40011410F /* DwollaAuthorizationController.m */,
+				1AD781E513F07EF40011410F /* DwollaConsumer.h */,
+				1AD781E613F07EF40011410F /* DwollaConsumer.m */,
+				1AD781E713F07EF40011410F /* DwollaDataFetcher.h */,
+				1AD781E813F07EF40011410F /* DwollaDataFetcher.m */,
+				1AD781E913F07EF40011410F /* DwollaHTTPURLConnection.h */,
+				1AD781EA13F07EF40011410F /* DwollaHTTPURLConnection.m */,
+				1AD781EB13F07EF40011410F /* DwollaMutableURLRequest.h */,
+				1AD781EC13F07EF40011410F /* DwollaMutableURLRequest.m */,
+				1AD781ED13F07EF40011410F /* DwollaOAuth-Prefix.pch */,
+				1AD781EE13F07EF40011410F /* DwollaOAuthEngine.h */,
+				1AD781EF13F07EF40011410F /* DwollaOAuthEngine.m */,
+				1AD781F013F07EF40011410F /* DwollaToken.h */,
+				1AD781F113F07EF40011410F /* DwollaToken.m */,
+				1AD781F213F07EF40011410F /* DwollaXMLReader.h */,
+				1AD781F313F07EF40011410F /* DwollaXMLReader.m */,
+				1AD781F413F07EF40011410F /* NSString+UUID.h */,
+				1AD781F513F07EF40011410F /* NSString+UUID.m */,
 			);
 			name = DwollaOAuth;
-			path = ../../../../DwollaOAuthDemo/DwollaOAuth/DwollaOAuth;
-			sourceTree = "<group>";
+			path = DwollaOAuth/DwollaOAuth;
+			sourceTree = SOURCE_ROOT;
 		};
-		1AD7804613F044030011410F /* OAuthConsumer */ = {
+		1AD781F613F07EF40011410F /* OAuthConsumer */ = {
 			isa = PBXGroup;
 			children = (
-				1AD7804713F044030011410F /* Categories */,
-				1AD7804E13F044030011410F /* Crypto */,
-				1AD7805513F044030011410F /* OAAttachment.h */,
-				1AD7805613F044030011410F /* OAAttachment.m */,
-				1AD7805713F044030011410F /* OACall.h */,
-				1AD7805813F044030011410F /* OACall.m */,
-				1AD7805913F044030011410F /* OAConsumer.h */,
-				1AD7805A13F044030011410F /* OAConsumer.m */,
-				1AD7805B13F044030011410F /* OADataFetcher.h */,
-				1AD7805C13F044030011410F /* OADataFetcher.m */,
-				1AD7805D13F044030011410F /* OAHMAC_SHA1SignatureProvider.h */,
-				1AD7805E13F044030011410F /* OAHMAC_SHA1SignatureProvider.m */,
-				1AD7805F13F044030011410F /* OAMutableURLRequest.h */,
-				1AD7806013F044030011410F /* OAMutableURLRequest.m */,
-				1AD7806113F044030011410F /* OAPlaintextSignatureProvider.h */,
-				1AD7806213F044030011410F /* OAPlaintextSignatureProvider.m */,
-				1AD7806313F044030011410F /* OAProblem.h */,
-				1AD7806413F044030011410F /* OAProblem.m */,
-				1AD7806513F044030011410F /* OARequestParameter.h */,
-				1AD7806613F044030011410F /* OARequestParameter.m */,
-				1AD7806713F044030011410F /* OAServiceTicket.h */,
-				1AD7806813F044030011410F /* OAServiceTicket.m */,
-				1AD7806913F044030011410F /* OASignatureProviding.h */,
-				1AD7806A13F044030011410F /* OATestServer.rb */,
-				1AD7806B13F044030011410F /* OAToken.h */,
-				1AD7806C13F044030011410F /* OAToken.m */,
-				1AD7806D13F044030011410F /* OATokenManager.h */,
-				1AD7806E13F044030011410F /* OATokenManager.m */,
-				1AD7806F13F044030011410F /* OAuthConsumer.h */,
-				1AD7807013F044030011410F /* README */,
+				1AD781F713F07EF40011410F /* Categories */,
+				1AD781FE13F07EF40011410F /* Crypto */,
+				1AD7820513F07EF40011410F /* OAAttachment.h */,
+				1AD7820613F07EF40011410F /* OAAttachment.m */,
+				1AD7820713F07EF40011410F /* OACall.h */,
+				1AD7820813F07EF40011410F /* OACall.m */,
+				1AD7820913F07EF40011410F /* OAConsumer.h */,
+				1AD7820A13F07EF40011410F /* OAConsumer.m */,
+				1AD7820B13F07EF40011410F /* OADataFetcher.h */,
+				1AD7820C13F07EF40011410F /* OADataFetcher.m */,
+				1AD7820D13F07EF40011410F /* OAHMAC_SHA1SignatureProvider.h */,
+				1AD7820E13F07EF40011410F /* OAHMAC_SHA1SignatureProvider.m */,
+				1AD7820F13F07EF40011410F /* OAMutableURLRequest.h */,
+				1AD7821013F07EF40011410F /* OAMutableURLRequest.m */,
+				1AD7821113F07EF40011410F /* OAPlaintextSignatureProvider.h */,
+				1AD7821213F07EF40011410F /* OAPlaintextSignatureProvider.m */,
+				1AD7821313F07EF40011410F /* OAProblem.h */,
+				1AD7821413F07EF40011410F /* OAProblem.m */,
+				1AD7821513F07EF40011410F /* OARequestParameter.h */,
+				1AD7821613F07EF40011410F /* OARequestParameter.m */,
+				1AD7821713F07EF40011410F /* OAServiceTicket.h */,
+				1AD7821813F07EF40011410F /* OAServiceTicket.m */,
+				1AD7821913F07EF40011410F /* OASignatureProviding.h */,
+				1AD7821A13F07EF40011410F /* OATestServer.rb */,
+				1AD7821B13F07EF40011410F /* OAToken.h */,
+				1AD7821C13F07EF40011410F /* OAToken.m */,
+				1AD7821D13F07EF40011410F /* OATokenManager.h */,
+				1AD7821E13F07EF40011410F /* OATokenManager.m */,
+				1AD7821F13F07EF40011410F /* OAuthConsumer.h */,
+				1AD7822013F07EF40011410F /* README */,
 			);
 			name = OAuthConsumer;
-			path = ../../../../DwollaOAuthDemo/DwollaOAuth/OAuthConsumer;
-			sourceTree = "<group>";
+			path = DwollaOAuth/OAuthConsumer;
+			sourceTree = SOURCE_ROOT;
 		};
-		1AD7804713F044030011410F /* Categories */ = {
+		1AD781F713F07EF40011410F /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				1AD7804813F044030011410F /* NSMutableURLRequest+Parameters.h */,
-				1AD7804913F044030011410F /* NSMutableURLRequest+Parameters.m */,
-				1AD7804A13F044030011410F /* NSString+URLEncoding.h */,
-				1AD7804B13F044030011410F /* NSString+URLEncoding.m */,
-				1AD7804C13F044030011410F /* NSURL+Base.h */,
-				1AD7804D13F044030011410F /* NSURL+Base.m */,
+				1AD781F813F07EF40011410F /* NSMutableURLRequest+Parameters.h */,
+				1AD781F913F07EF40011410F /* NSMutableURLRequest+Parameters.m */,
+				1AD781FA13F07EF40011410F /* NSString+URLEncoding.h */,
+				1AD781FB13F07EF40011410F /* NSString+URLEncoding.m */,
+				1AD781FC13F07EF40011410F /* NSURL+Base.h */,
+				1AD781FD13F07EF40011410F /* NSURL+Base.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		1AD7804E13F044030011410F /* Crypto */ = {
+		1AD781FE13F07EF40011410F /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				1AD7804F13F044030011410F /* Base64Transcoder.c */,
-				1AD7805013F044030011410F /* Base64Transcoder.h */,
-				1AD7805113F044030011410F /* hmac.c */,
-				1AD7805213F044030011410F /* hmac.h */,
-				1AD7805313F044030011410F /* sha1.c */,
-				1AD7805413F044030011410F /* sha1.h */,
+				1AD781FF13F07EF40011410F /* Base64Transcoder.c */,
+				1AD7820013F07EF40011410F /* Base64Transcoder.h */,
+				1AD7820113F07EF40011410F /* hmac.c */,
+				1AD7820213F07EF40011410F /* hmac.h */,
+				1AD7820313F07EF40011410F /* sha1.c */,
+				1AD7820413F07EF40011410F /* sha1.h */,
 			);
 			path = Crypto;
 			sourceTree = "<group>";
 		};
-		1AD7807113F044030011410F /* SBJSON */ = {
+		1AD7822113F07EF40011410F /* SBJSON */ = {
 			isa = PBXGroup;
 			children = (
-				1AD7807213F044030011410F /* JSON.h */,
-				1AD7807313F044030011410F /* NSObject+SBJson.h */,
-				1AD7807413F044030011410F /* NSObject+SBJson.m */,
-				1AD7807513F044030011410F /* SBJson.h */,
-				1AD7807613F044030011410F /* SBJsonParser.h */,
-				1AD7807713F044030011410F /* SBJsonParser.m */,
-				1AD7807813F044030011410F /* SBJsonStreamParser.h */,
-				1AD7807913F044030011410F /* SBJsonStreamParser.m */,
-				1AD7807A13F044030011410F /* SBJsonStreamParserAccumulator.h */,
-				1AD7807B13F044030011410F /* SBJsonStreamParserAccumulator.m */,
-				1AD7807C13F044030011410F /* SBJsonStreamParserAdapter.h */,
-				1AD7807D13F044030011410F /* SBJsonStreamParserAdapter.m */,
-				1AD7807E13F044030011410F /* SBJsonStreamParserState.h */,
-				1AD7807F13F044030011410F /* SBJsonStreamParserState.m */,
-				1AD7808013F044030011410F /* SBJsonStreamWriter.h */,
-				1AD7808113F044030011410F /* SBJsonStreamWriter.m */,
-				1AD7808213F044030011410F /* SBJsonStreamWriterAccumulator.h */,
-				1AD7808313F044030011410F /* SBJsonStreamWriterAccumulator.m */,
-				1AD7808413F044030011410F /* SBJsonStreamWriterState.h */,
-				1AD7808513F044030011410F /* SBJsonStreamWriterState.m */,
-				1AD7808613F044030011410F /* SBJsonTokeniser.h */,
-				1AD7808713F044030011410F /* SBJsonTokeniser.m */,
-				1AD7808813F044030011410F /* SBJsonUTF8Stream.h */,
-				1AD7808913F044030011410F /* SBJsonUTF8Stream.m */,
-				1AD7808A13F044030011410F /* SBJsonWriter.h */,
-				1AD7808B13F044030011410F /* SBJsonWriter.m */,
+				1AD7822213F07EF50011410F /* JSON.h */,
+				1AD7822313F07EF50011410F /* NSObject+SBJson.h */,
+				1AD7822413F07EF50011410F /* NSObject+SBJson.m */,
+				1AD7822513F07EF50011410F /* SBJson.h */,
+				1AD7822613F07EF50011410F /* SBJsonParser.h */,
+				1AD7822713F07EF50011410F /* SBJsonParser.m */,
+				1AD7822813F07EF50011410F /* SBJsonStreamParser.h */,
+				1AD7822913F07EF50011410F /* SBJsonStreamParser.m */,
+				1AD7822A13F07EF50011410F /* SBJsonStreamParserAccumulator.h */,
+				1AD7822B13F07EF50011410F /* SBJsonStreamParserAccumulator.m */,
+				1AD7822C13F07EF50011410F /* SBJsonStreamParserAdapter.h */,
+				1AD7822D13F07EF50011410F /* SBJsonStreamParserAdapter.m */,
+				1AD7822E13F07EF50011410F /* SBJsonStreamParserState.h */,
+				1AD7822F13F07EF50011410F /* SBJsonStreamParserState.m */,
+				1AD7823013F07EF50011410F /* SBJsonStreamWriter.h */,
+				1AD7823113F07EF50011410F /* SBJsonStreamWriter.m */,
+				1AD7823213F07EF50011410F /* SBJsonStreamWriterAccumulator.h */,
+				1AD7823313F07EF50011410F /* SBJsonStreamWriterAccumulator.m */,
+				1AD7823413F07EF50011410F /* SBJsonStreamWriterState.h */,
+				1AD7823513F07EF50011410F /* SBJsonStreamWriterState.m */,
+				1AD7823613F07EF50011410F /* SBJsonTokeniser.h */,
+				1AD7823713F07EF50011410F /* SBJsonTokeniser.m */,
+				1AD7823813F07EF50011410F /* SBJsonUTF8Stream.h */,
+				1AD7823913F07EF50011410F /* SBJsonUTF8Stream.m */,
+				1AD7823A13F07EF50011410F /* SBJsonWriter.h */,
+				1AD7823B13F07EF50011410F /* SBJsonWriter.m */,
 			);
 			name = SBJSON;
-			path = ../../../../DwollaOAuthDemo/DwollaOAuth/SBJSON;
-			sourceTree = "<group>";
+			path = DwollaOAuth/SBJSON;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -594,8 +594,8 @@
 				1AA00DF413686FB00043AFA0 /* icon72.png in Resources */,
 				1AA00DF813686FD00043AFA0 /* Default-Portrait~ipad.png in Resources */,
 				1A9A468F1374703300A5CEC2 /* dwollalogo.png in Resources */,
-				1AD780A513F044030011410F /* OATestServer.rb in Resources */,
-				1AD780A813F044030011410F /* README in Resources */,
+				1AD7825513F07EF50011410F /* OATestServer.rb in Resources */,
+				1AD7825813F07EF50011410F /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,45 +610,45 @@
 				1A9BA5D41360DF11003F05BA /* Dwolla_TapAppDelegate.m in Sources */,
 				1A63AE2113614C71005204A8 /* TapViewController.m in Sources */,
 				1A73640F1367171600A58B6D /* BumpConnector.m in Sources */,
-				1AD7808C13F044030011410F /* DwollaAuthorizationController.m in Sources */,
-				1AD7808D13F044030011410F /* DwollaConsumer.m in Sources */,
-				1AD7808E13F044030011410F /* DwollaDataFetcher.m in Sources */,
-				1AD7808F13F044030011410F /* DwollaHTTPURLConnection.m in Sources */,
-				1AD7809013F044030011410F /* DwollaMutableURLRequest.m in Sources */,
-				1AD7809113F044030011410F /* DwollaOAuthEngine.m in Sources */,
-				1AD7809213F044030011410F /* DwollaToken.m in Sources */,
-				1AD7809313F044030011410F /* DwollaXMLReader.m in Sources */,
-				1AD7809413F044030011410F /* NSString+UUID.m in Sources */,
-				1AD7809513F044030011410F /* NSMutableURLRequest+Parameters.m in Sources */,
-				1AD7809613F044030011410F /* NSString+URLEncoding.m in Sources */,
-				1AD7809713F044030011410F /* NSURL+Base.m in Sources */,
-				1AD7809813F044030011410F /* Base64Transcoder.c in Sources */,
-				1AD7809913F044030011410F /* hmac.c in Sources */,
-				1AD7809A13F044030011410F /* sha1.c in Sources */,
-				1AD7809B13F044030011410F /* OAAttachment.m in Sources */,
-				1AD7809C13F044030011410F /* OACall.m in Sources */,
-				1AD7809D13F044030011410F /* OAConsumer.m in Sources */,
-				1AD7809E13F044030011410F /* OADataFetcher.m in Sources */,
-				1AD7809F13F044030011410F /* OAHMAC_SHA1SignatureProvider.m in Sources */,
-				1AD780A013F044030011410F /* OAMutableURLRequest.m in Sources */,
-				1AD780A113F044030011410F /* OAPlaintextSignatureProvider.m in Sources */,
-				1AD780A213F044030011410F /* OAProblem.m in Sources */,
-				1AD780A313F044030011410F /* OARequestParameter.m in Sources */,
-				1AD780A413F044030011410F /* OAServiceTicket.m in Sources */,
-				1AD780A613F044030011410F /* OAToken.m in Sources */,
-				1AD780A713F044030011410F /* OATokenManager.m in Sources */,
-				1AD780A913F044030011410F /* NSObject+SBJson.m in Sources */,
-				1AD780AA13F044030011410F /* SBJsonParser.m in Sources */,
-				1AD780AB13F044030011410F /* SBJsonStreamParser.m in Sources */,
-				1AD780AC13F044030011410F /* SBJsonStreamParserAccumulator.m in Sources */,
-				1AD780AD13F044030011410F /* SBJsonStreamParserAdapter.m in Sources */,
-				1AD780AE13F044030011410F /* SBJsonStreamParserState.m in Sources */,
-				1AD780AF13F044030011410F /* SBJsonStreamWriter.m in Sources */,
-				1AD780B013F044030011410F /* SBJsonStreamWriterAccumulator.m in Sources */,
-				1AD780B113F044030011410F /* SBJsonStreamWriterState.m in Sources */,
-				1AD780B213F044030011410F /* SBJsonTokeniser.m in Sources */,
-				1AD780B313F044030011410F /* SBJsonUTF8Stream.m in Sources */,
-				1AD780B413F044030011410F /* SBJsonWriter.m in Sources */,
+				1AD7823C13F07EF50011410F /* DwollaAuthorizationController.m in Sources */,
+				1AD7823D13F07EF50011410F /* DwollaConsumer.m in Sources */,
+				1AD7823E13F07EF50011410F /* DwollaDataFetcher.m in Sources */,
+				1AD7823F13F07EF50011410F /* DwollaHTTPURLConnection.m in Sources */,
+				1AD7824013F07EF50011410F /* DwollaMutableURLRequest.m in Sources */,
+				1AD7824113F07EF50011410F /* DwollaOAuthEngine.m in Sources */,
+				1AD7824213F07EF50011410F /* DwollaToken.m in Sources */,
+				1AD7824313F07EF50011410F /* DwollaXMLReader.m in Sources */,
+				1AD7824413F07EF50011410F /* NSString+UUID.m in Sources */,
+				1AD7824513F07EF50011410F /* NSMutableURLRequest+Parameters.m in Sources */,
+				1AD7824613F07EF50011410F /* NSString+URLEncoding.m in Sources */,
+				1AD7824713F07EF50011410F /* NSURL+Base.m in Sources */,
+				1AD7824813F07EF50011410F /* Base64Transcoder.c in Sources */,
+				1AD7824913F07EF50011410F /* hmac.c in Sources */,
+				1AD7824A13F07EF50011410F /* sha1.c in Sources */,
+				1AD7824B13F07EF50011410F /* OAAttachment.m in Sources */,
+				1AD7824C13F07EF50011410F /* OACall.m in Sources */,
+				1AD7824D13F07EF50011410F /* OAConsumer.m in Sources */,
+				1AD7824E13F07EF50011410F /* OADataFetcher.m in Sources */,
+				1AD7824F13F07EF50011410F /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				1AD7825013F07EF50011410F /* OAMutableURLRequest.m in Sources */,
+				1AD7825113F07EF50011410F /* OAPlaintextSignatureProvider.m in Sources */,
+				1AD7825213F07EF50011410F /* OAProblem.m in Sources */,
+				1AD7825313F07EF50011410F /* OARequestParameter.m in Sources */,
+				1AD7825413F07EF50011410F /* OAServiceTicket.m in Sources */,
+				1AD7825613F07EF50011410F /* OAToken.m in Sources */,
+				1AD7825713F07EF50011410F /* OATokenManager.m in Sources */,
+				1AD7825913F07EF50011410F /* NSObject+SBJson.m in Sources */,
+				1AD7825A13F07EF50011410F /* SBJsonParser.m in Sources */,
+				1AD7825B13F07EF50011410F /* SBJsonStreamParser.m in Sources */,
+				1AD7825C13F07EF50011410F /* SBJsonStreamParserAccumulator.m in Sources */,
+				1AD7825D13F07EF50011410F /* SBJsonStreamParserAdapter.m in Sources */,
+				1AD7825E13F07EF50011410F /* SBJsonStreamParserState.m in Sources */,
+				1AD7825F13F07EF50011410F /* SBJsonStreamWriter.m in Sources */,
+				1AD7826013F07EF50011410F /* SBJsonStreamWriterAccumulator.m in Sources */,
+				1AD7826113F07EF50011410F /* SBJsonStreamWriterState.m in Sources */,
+				1AD7826213F07EF50011410F /* SBJsonTokeniser.m in Sources */,
+				1AD7826313F07EF50011410F /* SBJsonUTF8Stream.m in Sources */,
+				1AD7826413F07EF50011410F /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

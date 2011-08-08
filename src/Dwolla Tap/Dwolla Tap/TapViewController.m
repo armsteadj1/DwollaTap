@@ -427,7 +427,7 @@ static NSString *const dwollaPrefixStore = @"Demo";
                          engineWithConsumerKey:kOAuthConsumerKey 
                          consumerSecret:kOAuthConsumerSecret 
                          scope: @"AccountAPI:AccountInfoFull|AccountAPI:Send"
-                         callback: @"http://www.google.com/" //Needs 'http://' and also trailing '/'
+                         callback: @"http://www.kwekenstudios.com/loadingDwolla.html" //Needs 'http://' and also trailing '/'
                          delegate:self] retain];   
     }
 }
