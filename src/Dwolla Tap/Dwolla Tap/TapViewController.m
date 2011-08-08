@@ -9,8 +9,8 @@
 #import "TapViewController.h"
 #import "BumpAPI.h"
 
-static NSString *const kOAuthConsumerKey     = @"NP/pLwL+kF/ExdurVKSiFHNnc5jgtSkGDE3QabUGJoDtPA1VVT";
-static NSString *const kOAuthConsumerSecret  = @"i3cM+0ytZwRSV4e+WHl2O6hlId9blYa/e2QRxfyv8AwLAHjBEq";
+static NSString *const kOAuthConsumerKey     = @"";
+static NSString *const kOAuthConsumerSecret  = @"";
 static NSString *const dwollaProviderStore = @"Dwolla";
 static NSString *const dwollaPrefixStore = @"Demo";
 
@@ -426,7 +426,7 @@ static NSString *const dwollaPrefixStore = @"Demo";
         dwollaEngine = [[DwollaOAuthEngine 
                          engineWithConsumerKey:kOAuthConsumerKey 
                          consumerSecret:kOAuthConsumerSecret 
-                         scope: @"AccountAPI:AccountInfoFull|AccountAPI:Send|AccountAPI:Contacts|AccountAPI:Transactions|AccountAPI:Balance"
+                         scope: @"AccountAPI:AccountInfoFull|AccountAPI:Send"
                          callback: @"http://www.google.com/" //Needs 'http://' and also trailing '/'
                          delegate:self] retain];   
     }
